@@ -1,0 +1,332 @@
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.4.16)  7 DEC 2009 12:36
+entering extended mode
+**PNAS_submission.tex
+(./PNAS_submission.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(./pnastwo.cls
+
+
+ Two Column Journal Style for the
+ Proceedings of the National Academy of Science 
+ Written by Amy Hendrickson, TeXnology, Inc., 9/04
+ 
+ This version is dated April 15, 2008
+
+
+Document Class: pnastwo 
+\affilcount=\count79
+\saveaffilcount=\count80
+\c@fnaffilcount=\count81
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+\bibskip=\skip43
+\footnum=\count90
+\savefootnum=\count91
+\abovefigcaptionskip=\skip44
+\abovetabcaptionskip=\skip45
+\abovetableskip=\skip46
+\belowtabcaptionskip=\dimen103
+\saveparskip=\dimen104
+\captionskip=\dimen105
+\PushOneColTopFig=\dimen106
+\PushOneColBotFig=\dimen107
+\PushOneColTopTab=\dimen108
+\PushOneColBotTab=\dimen109
+\PushTwoColTopFig=\dimen110
+\PushTwoColBotFig=\dimen111
+\PushTwoColTopTab=\dimen112
+\PushTwoColBotTab=\dimen113
+\intextfloatskip=\skip47
+\c@appfigure=\count92
+\c@apptable=\count93
+\c@appplate=\count94
+\checkforspace=\dimen114
+\savetopinsert=\box26
+\savebotinsert=\box27
+\secondsavetopinsert=\box28
+\secondsavebotinsert=\box29
+\firstcolbox=\box30
+\secondcolbox=\box31
+\thefirstbox=\box32
+\thesecondbox=\box33
+\firstcol=\dimen115
+\secondcol=\dimen116
+\checkheight=\dimen117
+\loopnum=\count95
+\firstcolsavefignum=\count96
+\footnotebox=\box34
+\ColUsed=\dimen118
+\FigSpace=\dimen119
+\testdblbotins=\box35
+\pageloopnum=\count97
+\endcolsavetopinsert=\box36
+\endcolsavebotinsert=\box37
+\testpagesize=\box38
+\savelastskip=\dimen120
+\partialpage=\box39
+\figandtabnumber=\count98
+\figandtabbox=\box40
+\pagefloatnumber=\count99
+\sizeoffloat=\box41
+\bogus=\count100
+\figinsert=\insert233
+\herebox=\box42
+\endfigbox=\box43
+\spanbox=\box44
+\dbltopins=\box45
+\dblbotins=\box46
+\dblbotskip=\skip48
+\dblfigandtabnumber=\count101
+\dblfigandtabbox=\box47
+\dblloopnum=\count102
+\savedblfigandtabnumber=\count103
+\dblspanherebox=\box48
+\captionwidth=\dimen121
+\widecaptionwidth=\dimen122
+\tablenoteloopnum=\count104
+\tablenotenum=\count105
+\c@theorem=\count106
+\c@lemma=\count107
+\c@definition=\count108
+\c@claim=\count109
+\c@alemma=\count110
+\c@remark=\count111
+\tablewide=\box49
+) (/opt/local/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/opt/local/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(/opt/local/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/opt/local/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/opt/local/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen123
+))
+(/opt/local/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen124
+)
+(/opt/local/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count112
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count113
+\leftroot@=\count114
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count115
+\DOTSCASE@=\count116
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count117
+\c@MaxMatrixCols=\count118
+\dotsspace@=\muskip10
+\c@parentequation=\count119
+\dspbrk@lvl=\count120
+\tag@help=\toks16
+\row@=\count121
+\column@=\count122
+\maxfields@=\count123
+\andhelp@=\toks17
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/opt/local/share/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks25
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count124
+))
+\Gin@req@height=\dimen132
+\Gin@req@width=\dimen133
+)
+(/opt/local/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks27
+\verbatim@line=\toks28
+\verbatim@in@stream=\read1
+)
+\c@defi=\count125
+\c@thm=\count126
+\c@thex=\count127
+
+(./PNAS_submission.aux)
+\openout1 = `PNAS_submission.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+
+(/opt/local/share/texmf-dist/tex/context/base/supp-pdf.tex
+(/opt/local/share/texmf-dist/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count128
+\scratchcounter=\count129
+\scratchtoks=\toks29
+\scratchdimen=\dimen134
+\scratchskip=\skip55
+\scratchmuskip=\muskip11
+\scratchbox=\box52
+\scratchread=\read2
+\scratchwrite=\write3
+\zeropoint=\dimen135
+\onepoint=\dimen136
+\onebasepoint=\dimen137
+\minusone=\count130
+\thousandpoint=\dimen138
+\onerealpoint=\dimen139
+\emptytoks=\toks30
+\nextbox=\box53
+\nextdepth=\dimen140
+\everyline=\toks31
+\!!counta=\count131
+\!!countb=\count132
+\recursecounter=\count133
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen141
+\MPnumerator=\count137
+\everyMPtoPDFconversion=\toks32
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 148.
+ (/opt/local/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 148.
+
+(/opt/local/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 155.
+
+
+[1
+
+{/opt/local/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Missing character: There is no â in font cmssbx10!
+Missing character: There is no ˆ in font cmssbx10!
+Missing character: There is no š in font cmssbx10!
+Missing character: There is no â in font cmssbx10!
+Missing character: There is no ˆ in font cmssbx10!
+Missing character: There is no ‚ in font cmssbx10!
+ [3]
+<Lhatplot.pdf, id=68, 505.89pt x 505.89pt>
+File: Lhatplot.pdf Graphic file (type pdf)
+ <use Lhatplot.pdf> [4 <./Lhatplot.pdf>] (./PNAS_submission.aux) ) 
+Here is how much of TeX's memory you used:
+ 2392 strings out of 94500
+ 27979 string characters out of 1155413
+ 94140 words of memory out of 1000000
+ 5551 multiletter control sequences out of 10000+50000
+ 17086 words of font info for 64 fonts, out of 500000 for 2000
+ 580 hyphenation exceptions out of 1000
+ 27i,6n,24p,1596b,224s stack positions out of 1500i,500n,5000p,200000b,5000s
+PDF statistics:
+ 94 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 6 words of extra memory for PDF output out of 65536
+</opt/local/s
+hare/texmf-dist/fonts/type1/bluesky/cm/cmsy8.pfb></opt/local/share/texmf-dist/f
+onts/type1/public/tt2001/fmex8.pfb></opt/local/share/texmf-dist/fonts/type1/blu
+esky/cm/cmmi5.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmmi10.pf
+b></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmmi12.pfb></opt/local/sh
+are/texmf-dist/fonts/type1/bluesky/cm/cmssi10.pfb></opt/local/share/texmf-dist/
+fonts/type1/bluesky/cm/cmbx9.pfb></opt/local/share/texmf-dist/fonts/type1/blues
+ky/cm/cmti9.pfb></opt/local/share/texmf-dist/fonts/type1/public/tt2001/fmex9.pf
+b></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmmi6.pfb></opt/local/sha
+re/texmf-dist/fonts/type1/bluesky/cm/cmr6.pfb></opt/local/share/texmf-dist/font
+s/type1/bluesky/cm/cmmi9.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/c
+m/cmr9.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy9.pfb></opt/
+local/share/texmf-dist/fonts/type1/bluesky/cm/cmr8.pfb></opt/local/share/texmf-
+dist/fonts/type1/bluesky/cm/cmssi8.pfb></opt/local/share/texmf-dist/fonts/type1
+/bluesky/cm/cmmi8.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmss1
+0.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy5.pfb></opt/local
+/share/texmf-dist/fonts/type1/bluesky/cm/cmsy6.pfb></opt/local/share/texmf-dist
+/fonts/type1/bluesky/cm/cmssbx10.pfb>
+Output written on PNAS_submission.pdf (4 pages, 150909 bytes).
