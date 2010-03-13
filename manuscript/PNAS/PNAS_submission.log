@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.4.16)  7 DEC 2009 12:36
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.4.16)  16 JAN 2010 17:29
 entering extended mode
 **PNAS_submission.tex
 (./PNAS_submission.tex
@@ -300,10 +300,10 @@ Missing character: There is no ‚ in font cmssbx10!
 File: Lhatplot.pdf Graphic file (type pdf)
  <use Lhatplot.pdf> [4 <./Lhatplot.pdf>] (./PNAS_submission.aux) ) 
 Here is how much of TeX's memory you used:
- 2392 strings out of 94500
- 27979 string characters out of 1155413
- 94140 words of memory out of 1000000
- 5551 multiletter control sequences out of 10000+50000
+ 2394 strings out of 94500
+ 27995 string characters out of 1155413
+ 95140 words of memory out of 1000000
+ 5553 multiletter control sequences out of 10000+50000
  17086 words of font info for 64 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
  27i,6n,24p,1596b,224s stack positions out of 1500i,500n,5000p,200000b,5000s
@@ -329,4 +329,4 @@ dist/fonts/type1/bluesky/cm/cmssi8.pfb></opt/local/share/texmf-dist/fonts/type1
 0.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy5.pfb></opt/local
 /share/texmf-dist/fonts/type1/bluesky/cm/cmsy6.pfb></opt/local/share/texmf-dist
 /fonts/type1/bluesky/cm/cmssbx10.pfb>
-Output written on PNAS_submission.pdf (4 pages, 150909 bytes).
+Output written on PNAS_submission.pdf (4 pages, 153536 bytes).

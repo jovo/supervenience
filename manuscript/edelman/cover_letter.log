@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.4.16)  8 JAN 2010 18:31
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.4.16)  5 DEC 2009 18:44
 entering extended mode
 **cover_letter.tex
 (./cover_letter.tex
@@ -32,18 +32,13 @@ LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
-
-Overfull \hbox (5.37163pt too wide) in paragraph at lines 41--42
-[]\OT1/cmr/m/n/10 In ad-di-tion to the philo-soph-i-cal im-pli-ca-tions, our wo
-rk has sig-nif-i-cant sta-tis-ti-cal im-pli-ca-tions. Whereas
- []
+(Font)              <5> on input line 46.
 
 [1
 
-{/opt/local/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/opt/local/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 (./cover_letter.aux) ) 
 Here is how much of TeX's memory you used:
  141 strings out of 94500
@@ -52,13 +47,13 @@ Here is how much of TeX's memory you used:
  3393 multiletter control sequences out of 10000+50000
  3986 words of font info for 15 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
- 23i,6n,19p,867b,187s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 23i,6n,19p,226b,179s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
- 16 PDF objects out of 300000
+ 19 PDF objects out of 300000
  0 named destinations out of 131072
  1 words of extra memory for PDF output out of 65536
 </opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmmi7
 .pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmmi10.pfb></opt/local
 /share/texmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></opt/local/share/texmf-dis
 t/fonts/type1/bluesky/cm/cmr10.pfb>
-Output written on cover_letter.pdf (1 page, 30735 bytes).
+Output written on cover_letter.pdf (2 pages, 32186 bytes).

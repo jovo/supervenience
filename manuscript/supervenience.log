@@ -1,5 +1,6 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.4.16)  27 DEC 2009 10:24
+This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.4.16)  11 JAN 2010 14:35
 entering extended mode
+ file:line:error style messages enabled.
 **supervenience.tex
 (./supervenience.tex
 LaTeX2e <2003/12/01>
@@ -315,7 +316,7 @@ Here is how much of TeX's memory you used:
  6625 multiletter control sequences out of 10000+50000
  15695 words of font info for 60 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
- 27i,8n,43p,1593b,225s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 27i,8n,43p,1593b,223s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
  192 PDF objects out of 300000
  44 named destinations out of 131072
@@ -338,4 +339,4 @@ uesky/cm/cmr9.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmbx9.pfb
 e/texmf-dist/fonts/type1/bluesky/cm/cmr8.pfb></opt/local/share/texmf-dist/fonts
 /type1/bluesky/cm/cmr12.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm
 /cmr17.pfb>
-Output written on supervenience.pdf (8 pages, 176254 bytes).
+Output written on supervenience.pdf (8 pages, 175954 bytes).
