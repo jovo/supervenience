@@ -1,0 +1,127 @@
+\begin{thebibliography}{10}
+
+\bibitem{Plato97}
+Plato, {\em Plato: complete works}.
+\newblock Hackett Pub Co, 1997.
+
+\bibitem{Descartes1641}
+R.~Descartes, {\em Meditationes de prima philosophia}.
+\newblock 1641.
+
+\bibitem{Davidson70}
+D.~Davidson, {\em Experience and Theory}, ch.~Mental Events.
+\newblock Duckworth, 1970.
+
+\bibitem{SpornsKotter05}
+O.~Sporns, G.~Tononi, and R.~Kotter, ``The human connectome: A structural
+  description of the human brain,'' {\em PLoS Computational Biology}, vol.~1,
+  no.~4, p.~e42, 2005.
+
+\bibitem{LichtmanSanes08}
+J.~W. Lichtman, J.~Livet, and J.~R. Sanes, ``A technicolour approach to the
+  connectome.,'' {\em Nat Rev Neurosci}, vol.~9, pp.~417--422, Jun 2008.
+
+\bibitem{Seung09}
+H.~Seung, ``{Reading the Book of Memory: Sparse Sampling versus Dense Mapping
+  of Connectomes},'' {\em Neuron}, vol.~62, no.~1, pp.~17--29, 2009.
+
+\bibitem{Kim95}
+J.~Kim, {\em Phiilosophy of Mind}.
+\newblock Westview Press, second~ed., 2005.
+
+\bibitem{DGL96}
+L.~Devroye, L.~Gy{\"o}rfi, and G.~Lugosi, {\em {A Probabilistic Theory of
+  Pattern Recognition}}.
+\newblock Springer, 1996.
+
+\bibitem{Devroye83}
+L.~Devroye, ``{On arbitrarily slow rates of global convergence in density
+  estimation},'' {\em Probability Theory and Related Fields}, vol.~62, no.~4,
+  pp.~475--483, 1983.
+
+\bibitem{Popper}
+K.~Popper, ``{The logic of scientific discovery},'' 1959.
+
+\bibitem{WhiteBrenner86}
+J.~White, E.~Southgate, J.~N. Thomson, and S.~Brenner, ``The structure of the
+  nervous system of the nematode caenorhabditis elegans.,'' {\em Philosophical
+  Transactions of Royal Society London. Series B, Biological Sciences},
+  vol.~314, no.~1165, pp.~1--340, 1986.
+
+\bibitem{DenkHorstmann04}
+W.~W.~Denk and H.~Horstmann, ``Serial block-face scanning electron microscopy
+  to reconstruct three-dimensional tissue nanostructure,'' {\em PLOS Biol.},
+  vol.~2, p.~e329, 2004.
+
+\bibitem{BriggmanDenk06}
+K.~Briggman and W.~Denk, ``{Towards neural circuit reconstruction with volume
+  electron microscopy techniques},'' {\em Current opinion in neurobiology},
+  vol.~16, no.~5, pp.~562--570, 2006.
+
+\bibitem{MackeBorst08}
+J.~H. Macke, N.~Maack, R.~Gupta, W.~Denk, B.~Schölkopf, and A.~Borst,
+  ``Contour-propagation algorithms for semi-automated reconstruction of neural
+  processes.,'' {\em J Neurosci Methods}, vol.~167, pp.~349--357, Jan 2008.
+
+\bibitem{Mishchenko09}
+Y.~Mishchenko, ``Automation of 3d reconstruction of neural tissue from large
+  volume of conventional serial section transmission electron micrographs.,''
+  {\em J Neurosci Methods}, vol.~176, pp.~276--289, Jan 2009.
+
+\bibitem{LuLichtman09}
+J.~Lu, J.~C. Fiala, and J.~W. Lichtman, ``Semi-automated reconstruction of
+  neural processes from large numbers of fluorescence images,'' {\em PLoS ONE},
+  vol.~4, p.~e5655, 05 2009.
+
+\bibitem{HornJohnson90}
+R.~Horn and C.~Johnson, {\em {Matrix analysis}}.
+\newblock Cambridge Univ Pr, 1990.
+
+\bibitem{ConroyLouis97}
+J.~M. Conroy, S.~G. Kratzer, and L.~J. Podrazik, ``A continuous method for the
+  quadratic assignment problem,'' in {\em Society for Industrial and Applied
+  Mathematics}, 1997.
+
+\bibitem{ZaslavskiyVert08}
+M.~Zaslavskiy, F.~Bach, and J.~Vert, ``{A path following algorithm for the
+  graph matching problem},'' {\em IEEE Transactions on Pattern Analysis and
+  Machine Intelligence}, vol.~31, pp.~2227--2242, 2008.
+
+\bibitem{Stone77}
+C.~Stone, ``{Consistent nonparametric regression},'' {\em The annals of
+  statistics}, pp.~595--620, 1977.
+
+\bibitem{Durbin87}
+R.~M. Durbin, {\em Studies on the Development and Organisation of the Nervous
+  System of Caenorhabditis elegans}.
+\newblock PhD thesis, University of Cambridge, 1987.
+
+\bibitem{deBonoMaricq05}
+M.~de~Bono and A.~V. Maricq, ``Neuronal substrates of complex behaviors in c.
+  elegans.,'' {\em Annu Rev Neurosci}, vol.~28, pp.~451--501, 2005.
+
+\bibitem{VarshneyChklovskii09}
+L.~Varshney, B.~Chen, E.~Paniagua, D.~Hall, and D.~Chklovskii, ``{Structural
+  Properties of the Caenorhabditis elegans Neuronal Network},'' {\em ArXiv},
+  2009.
+
+\bibitem{ChalasaniBargmann07}
+S.~H. Chalasani, N.~Chronis, M.~Tsunozaki, J.~M. Gray, D.~Ramot, M.~B. Goodman,
+  and C.~I. Bargmann, ``Dissecting a circuit for olfactory behaviour in
+  caenorhabditis elegans.,'' {\em Nature}, vol.~450, pp.~63--70, Nov 2007.
+
+\bibitem{VaziriShank08}
+A.~Vaziri, J.~Tang, H.~Shroff, and C.~V. Shank, ``Multilayer three-dimensional
+  super resolution imaging of thick biological samples.,'' {\em Proc Natl Acad
+  Sci U S A}, vol.~105, pp.~20221--20226, Dec 2008.
+
+\bibitem{HelmstaedterDenk08}
+M.~Helmstaedter, K.~L. Briggman, and W.~Denk, ``3d structural imaging of the
+  brain with photons and electrons.,'' {\em Curr Opin Neurobiol}, vol.~18,
+  pp.~633--641, Dec 2008.
+
+\bibitem{BuckinghamSattelle08}
+S.~D. Buckingham and D.~B. Sattelle, ``Strategies for automated analysis of c.
+  elegans locomotion.,'' {\em Invert Neurosci}, vol.~8, pp.~121--131, Sep 2008.
+
+\end{thebibliography}

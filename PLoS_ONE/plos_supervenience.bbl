@@ -1,0 +1,171 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\bibAnnoteFile}[1]{%
+  \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ \input{#1}\end{quotation}}{}}
+\providecommand{\bibAnnote}[2]{%
+  \begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ #2\end{quotation}}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Plato97}
+Plato (1997) Plato: complete works.
+\newblock Hackett Pub Co.
+\bibAnnoteFile{Plato97}
+
+\bibitem{Descartes1641}
+Descartes R (1641) Meditationes de prima philosophia.
+\bibAnnoteFile{Descartes1641}
+
+\bibitem{Davidson70}
+Davidson D (1970) Experience and Theory, Duckworth, chapter Mental Events.
+\bibAnnoteFile{Davidson70}
+
+\bibitem{SpornsKotter05}
+Sporns O, Tononi G, Kotter R (2005) The human connectome: A structural
+  description of the human brain.
+\newblock PLoS Computational Biology 1: e42.
+\bibAnnoteFile{SpornsKotter05}
+
+\bibitem{LichtmanSanes08}
+Lichtman JW, Livet J, Sanes JR (2008) A technicolour approach to the
+  connectome.
+\newblock Nat Rev Neurosci 9: 417--422.
+\bibAnnoteFile{LichtmanSanes08}
+
+\bibitem{Seung09}
+Seung H (2009) {Reading the Book of Memory: Sparse Sampling versus Dense
+  Mapping of Connectomes}.
+\newblock Neuron 62: 17--29.
+\bibAnnoteFile{Seung09}
+
+\bibitem{Kim95}
+Kim J (2005) Phiilosophy of Mind.
+\newblock Westview Press, second edition, 352 pp.
+\bibAnnoteFile{Kim95}
+
+\bibitem{DGL96}
+Devroye L, Gy{\"o}rfi L, Lugosi G (1996) {A Probabilistic Theory of Pattern
+  Recognition}.
+\newblock Springer.
+\bibAnnoteFile{DGL96}
+
+\bibitem{Devroye83}
+Devroye L (1983) {On arbitrarily slow rates of global convergence in density
+  estimation}.
+\newblock Probability Theory and Related Fields 62: 475--483.
+\bibAnnoteFile{Devroye83}
+
+\bibitem{Popper}
+Popper K (1959) {The logic of scientific discovery} .
+\bibAnnoteFile{Popper}
+
+\bibitem{WhiteBrenner86}
+White J, Southgate E, Thomson JN, Brenner S (1986) The structure of the nervous
+  system of the nematode caenorhabditis elegans.
+\newblock Philosophical Transactions of Royal Society London Series B,
+  Biological Sciences 314: 1-340.
+\bibAnnoteFile{WhiteBrenner86}
+
+\bibitem{DenkHorstmann04}
+W~Denk W, Horstmann H (2004) Serial block-face scanning electron microscopy to
+  reconstruct three-dimensional tissue nanostructure.
+\newblock PLOS Biol 2: e329.
+\bibAnnoteFile{DenkHorstmann04}
+
+\bibitem{BriggmanDenk06}
+Briggman K, Denk W (2006) {Towards neural circuit reconstruction with volume
+  electron microscopy techniques}.
+\newblock Current opinion in neurobiology 16: 562--570.
+\bibAnnoteFile{BriggmanDenk06}
+
+\bibitem{MackeBorst08}
+Macke JH, Maack N, Gupta R, Denk W, Schölkopf B, et~al. (2008)
+  Contour-propagation algorithms for semi-automated reconstruction of neural
+  processes.
+\newblock J Neurosci Methods 167: 349--357.
+\bibAnnoteFile{MackeBorst08}
+
+\bibitem{Mishchenko09}
+Mishchenko Y (2009) Automation of 3d reconstruction of neural tissue from large
+  volume of conventional serial section transmission electron micrographs.
+\newblock J Neurosci Methods 176: 276--289.
+\bibAnnoteFile{Mishchenko09}
+
+\bibitem{LuLichtman09}
+Lu J, Fiala JC, Lichtman JW (2009) Semi-automated reconstruction of neural
+  processes from large numbers of fluorescence images.
+\newblock PLoS ONE 4: e5655.
+\bibAnnoteFile{LuLichtman09}
+
+\bibitem{HornJohnson90}
+Horn R, Johnson C (1990) {Matrix analysis}.
+\newblock Cambridge Univ Pr.
+\bibAnnoteFile{HornJohnson90}
+
+\bibitem{ConroyLouis97}
+Conroy JM, Kratzer SG, Podrazik LJ (1997) A continuous method for the quadratic
+  assignment problem.
+\newblock In: Society for Industrial and Applied Mathematics.
+\bibAnnoteFile{ConroyLouis97}
+
+\bibitem{ZaslavskiyVert08}
+Zaslavskiy M, Bach F, Vert J (2008) {A path following algorithm for the graph
+  matching problem}.
+\newblock IEEE Transactions on Pattern Analysis and Machine Intelligence 31:
+  2227-2242.
+\bibAnnoteFile{ZaslavskiyVert08}
+
+\bibitem{Stone77}
+Stone C (1977) {Consistent nonparametric regression}.
+\newblock The annals of statistics : 595--620.
+\bibAnnoteFile{Stone77}
+
+\bibitem{Durbin87}
+Durbin RM (1987) Studies on the Development and Organisation of the Nervous
+  System of Caenorhabditis elegans.
+\newblock Ph.D. thesis, University of Cambridge.
+\bibAnnoteFile{Durbin87}
+
+\bibitem{deBonoMaricq05}
+de~Bono M, Maricq AV (2005) Neuronal substrates of complex behaviors in c.
+  elegans.
+\newblock Annu Rev Neurosci 28: 451--501.
+\bibAnnoteFile{deBonoMaricq05}
+
+\bibitem{VarshneyChklovskii09}
+Varshney L, Chen B, Paniagua E, Hall D, Chklovskii D (2009) {Structural
+  Properties of the Caenorhabditis elegans Neuronal Network}.
+\newblock ArXiv .
+\bibAnnoteFile{VarshneyChklovskii09}
+
+\bibitem{ChalasaniBargmann07}
+Chalasani SH, Chronis N, Tsunozaki M, Gray JM, Ramot D, et~al. (2007)
+  Dissecting a circuit for olfactory behaviour in caenorhabditis elegans.
+\newblock Nature 450: 63--70.
+\bibAnnoteFile{ChalasaniBargmann07}
+
+\bibitem{VaziriShank08}
+Vaziri A, Tang J, Shroff H, Shank CV (2008) Multilayer three-dimensional super
+  resolution imaging of thick biological samples.
+\newblock Proc Natl Acad Sci U S A 105: 20221--20226.
+\bibAnnoteFile{VaziriShank08}
+
+\bibitem{HelmstaedterDenk08}
+Helmstaedter M, Briggman KL, Denk W (2008) 3d structural imaging of the brain
+  with photons and electrons.
+\newblock Curr Opin Neurobiol 18: 633--641.
+\bibAnnoteFile{HelmstaedterDenk08}
+
+\bibitem{BuckinghamSattelle08}
+Buckingham SD, Sattelle DB (2008) Strategies for automated analysis of c.
+  elegans locomotion.
+\newblock Invert Neurosci 8: 121--131.
+\bibAnnoteFile{BuckinghamSattelle08}
+
+\end{thebibliography}

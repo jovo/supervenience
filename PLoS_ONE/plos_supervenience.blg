@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.4)
+The top-level auxiliary file: plos_supervenience.aux
+The style file: plos2009.bst
+Database file #1: biblist.bib
+Warning--missing publisher in Descartes1641
+Warning--can't use both author and editor fields in Davidson70
+Warning--empty pages in Davidson70
+`journal' is a missing field, not a string, for entry Popper
+while executing---line 3964 of file plos2009.bst
+Warning--empty journal in Popper
+Warning--empty pages in ConroyLouis97
+You've used 27 entries,
+            2441 wiz_defined-function locations,
+            757 strings with 10353 characters,
+and the built_in function-call counts, 18010 in all, are:
+= -- 1617
+> -- 264
+< -- 1
++ -- 132
+- -- 66
+* -- 1470
+:= -- 2150
+add.period$ -- 51
+call.type$ -- 27
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 59
+duplicate$ -- 1834
+empty$ -- 1934
+format.name$ -- 83
+if$ -- 4010
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 261
+newline$ -- 147
+num.names$ -- 27
+pop$ -- 358
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 162
+stack$ -- 0
+substring$ -- 2366
+swap$ -- 477
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 129
+width$ -- 29
+write$ -- 299
+(There was 1 error message)
