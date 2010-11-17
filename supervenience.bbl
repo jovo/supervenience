@@ -12,22 +12,29 @@ R.~Descartes, {\em Meditationes de prima philosophia}.
 D.~Davidson, {\em Experience and Theory}, ch.~Mental Events.
 \newblock Duckworth, 1970.
 
-\bibitem{SpornsKotter05}
-O.~Sporns, G.~Tononi, and R.~Kotter, ``The human connectome: A structural
-  description of the human brain,'' {\em PLoS Computational Biology}, vol.~1,
-  no.~4, p.~e42, 2005.
+\bibitem{Craver07}
+C.~F. Craver, {\em Explaining the brain: mechanisms and the mosaic unity of
+  neuroscience}.
+\newblock Clarendon Press, 2007.
 
-\bibitem{LichtmanSanes08}
-J.~W. Lichtman, J.~Livet, and J.~R. Sanes, ``A technicolour approach to the
-  connectome.,'' {\em Nat Rev Neurosci}, vol.~9, pp.~417--422, Jun 2008.
+\bibitem{Waldeyer-Hartz1891}
+H.~W.~G. von Waldeyer-Hartz, ``Ueber einige neuere forschungen im gebiete der
+  anatomie des centralnervensystems,'' {\em Deutsche medicinische
+  Wochenschrift}, 1891.
 
-\bibitem{Seung09}
-H.~Seung, ``{Reading the Book of Memory: Sparse Sampling versus Dense Mapping
-  of Connectomes},'' {\em Neuron}, vol.~62, no.~1, pp.~17--29, 2009.
+\bibitem{Finger01}
+S.~Finger, {\em {Origins of neuroscience: A history of explorations into brain
+  function}}.
+\newblock Oxford University Press, USA, 2001.
 
-\bibitem{Kim95}
-J.~Kim, {\em Phiilosophy of Mind}.
-\newblock Westview Press, second~ed., 2005.
+\bibitem{Bishop95}
+C.~Bishop, {\em {Neural networks for pattern recognition}}.
+\newblock Oxford University Press, USA, 1995.
+
+\bibitem{McClellandRumelhart86}
+J.~McClelland, D.~Rumelhart, {\em et~al.}, {\em {Parallel distributed
+  processing: Explorations in the microstructure of cognition}}.
+\newblock MIT press Cambridge, MA, 1986.
 
 \bibitem{DGL96}
 L.~Devroye, L.~Gy{\"o}rfi, and G.~Lugosi, {\em {A Probabilistic Theory of
@@ -42,54 +49,133 @@ L.~Devroye, ``{On arbitrarily slow rates of global convergence in density
 \bibitem{Popper}
 K.~Popper, ``{The logic of scientific discovery},'' 1959.
 
-\bibitem{WhiteBrenner86}
-J.~White, E.~Southgate, J.~N. Thomson, and S.~Brenner, ``The structure of the
-  nervous system of the nematode caenorhabditis elegans.,'' {\em Philosophical
-  Transactions of Royal Society London. Series B, Biological Sciences},
-  vol.~314, no.~1165, pp.~1--340, 1986.
+\bibitem{Stone77}
+C.~Stone, ``{Consistent nonparametric regression},'' {\em The annals of
+  statistics}, vol.~5, no.~4, pp.~595--620, 1977.
+
+\bibitem{GareyJohnson79}
+M.~Garey and D.~Johnson, {\em {Computers and intractability. A guide to the
+  theory of NP-completeness. A Series of Books in the Mathematical Sciences}}.
+\newblock WH Freeman and Company, San Francisco, Calif, 1979.
+
+\bibitem{NorthGreenspan07}
+R.~J.~G. Geoffrey~North, ed., {\em Invertebrate neurobiology}.
+\newblock CSHL Press, 2007.
+
+\bibitem{Shepherd04}
+G.~Shepherd, {\em {The synaptic organization of the brain}}.
+\newblock Oxford University Press New York, 2004.
+
+\bibitem{Felleman_VanEssen91}
+D.~Felleman and D.~Van~Essen, ``{Distributed hierarchical processing in the
+  primate cerebral cortex},'' {\em Cerebral cortex}, vol.~1, no.~1, p.~1, 1991.
+
+\bibitem{Mori05}
+P.~v. Z. L. N.-P. S.~Mori, S.~Wakana, {\em MRI Atlas of Human White Matter}.
+\newblock Elsevier Science, 2005.
+
+\bibitem{Abeles91}
+M.~Abeles, {\em Corticonics}.
+\newblock Cambridge University Press, 1991.
+
+\bibitem{Koch_Davis94}
+C.~Koch and J.~Davis, {\em {Large-scale neuronal theories of the brain}}.
+\newblock The MIT Press, 1994.
+
+\bibitem{Rao_Lewicki02}
+R.~Rao, B.~Olshausen, and M.~Lewicki, {\em {Probabilistic models of the brain:
+  Perception and neural function}}.
+\newblock The MIT Press, 2002.
+
+\bibitem{Chow_Dalibard03}
+C.~Chow, B.~Gutkin, D.~Hansel, C.~Meunier, and J.~Dalibard, eds., {\em Methods
+  and Models in Neurophysics}.
+\newblock Elsevier, 2003.
+
+\bibitem{SpornsKotter05}
+O.~Sporns, G.~Tononi, and R.~Kotter, ``The human connectome: A structural
+  description of the human brain,'' {\em PLoS Computational Biology}, vol.~1,
+  no.~4, p.~e42, 2005.
+
+\bibitem{Hagmann05}
+P.~Hagmann, {\em {From diffusion MRI to brain connectomics}}.
+\newblock PhD thesis, Institut de traitement des signaux, 2005.
+
+\bibitem{Jones10}
+D.~K. Jones, ed., {\em Diffusion MRI: Theory, Methods, and Applications}.
+\newblock Oxford University Press, 2010.
+
+\bibitem{Basser94}
+P.~J. Basser, J.~Mattiello, and D.~LeBihan, ``Mr diffusion tensor spectroscopy
+  and imaging.,'' {\em Biophys J}, vol.~66, pp.~259--267, Jan 1994.
+
+\bibitem{ArdekaniSzeszko10}
+B.~A. Ardekani, A.~Tabesh, S.~Sevy, D.~G. Robinson, R.~M. Bilder, and P.~R.
+  Szeszko, ``Diffusion tensor imaging reliably differentiates patients with
+  schizophrenia from healthy volunteers.,'' {\em Hum Brain Mapp}, Mar 2010.
+
+\bibitem{TuchWedeen02}
+D.~Tuch, T.~Reese, M.~Wiegell, N.~Makris, J.~Belliveau, and V.~Wedeen, ``{High
+  angular resolution diffusion imaging reveals intravoxel white matter fiber
+  heterogeneity},'' {\em Magnetic Resonance in Medicine}, vol.~48, no.~4,
+  pp.~577--582, 2002.
+
+\bibitem{Tuch04}
+D.~Tuch, ``{Q-ball imaging},'' {\em Magnetic Resonance in Medicine}, vol.~52,
+  no.~6, pp.~1358--1372, 2004.
+
+\bibitem{WedeenWeisskoff05}
+V.~Wedeen, P.~Hagmann, W.~Tseng, T.~Reese, and R.~Weisskoff, ``{Mapping complex
+  tissue architecture with diffusion spectrum magnetic resonance imaging},''
+  {\em Magnetic Resonance in Medicine}, vol.~54, no.~6, pp.~1377--1386, 2005.
+
+\bibitem{PalmAmunts10}
+C.~Palm, M.~Axer, D.~Gr{\"a}{\ss}el, J.~Dammers, J.~Lindemeyer, K.~Zilles,
+  U.~Pietrzyk, and K.~Amunts, ``{Towards ultra-high resolution fibre tract
+  mapping of the human brain--registration of polarised light images and
+  reorientation of fibre vectors},'' {\em Frontiers in Human Neuroscience},
+  vol.~4, 2010.
 
 \bibitem{DenkHorstmann04}
 W.~W.~Denk and H.~Horstmann, ``Serial block-face scanning electron microscopy
   to reconstruct three-dimensional tissue nanostructure,'' {\em PLOS Biol.},
   vol.~2, p.~e329, 2004.
 
-\bibitem{BriggmanDenk06}
-K.~Briggman and W.~Denk, ``{Towards neural circuit reconstruction with volume
-  electron microscopy techniques},'' {\em Current opinion in neurobiology},
-  vol.~16, no.~5, pp.~562--570, 2006.
+\bibitem{HayworthLichtman06}
+K.~Hayworth, N.~Kasthuri, R.~Schalek, and J.~Lichtman, ``{Automating the
+  collection of ultrathin serial sections for large volume TEM
+  reconstructions},'' {\em Microscopy and Microanalysis}, vol.~12, no.~S02,
+  pp.~86--87, 2006.
 
-\bibitem{MackeBorst08}
-J.~H. Macke, N.~Maack, R.~Gupta, W.~Denk, B.~Schölkopf, and A.~Borst,
-  ``Contour-propagation algorithms for semi-automated reconstruction of neural
-  processes.,'' {\em J Neurosci Methods}, vol.~167, pp.~349--357, Jan 2008.
+\bibitem{NielsenChuang00}
+M.~A. Nielson and I.~L. Chuang, {\em Quantum Computation and Quantum
+  Information}.
+\newblock Cambridge University Press, 2000.
 
-\bibitem{Mishchenko09}
-Y.~Mishchenko, ``Automation of 3d reconstruction of neural tissue from large
-  volume of conventional serial section transmission electron micrographs.,''
-  {\em J Neurosci Methods}, vol.~176, pp.~276--289, Jan 2009.
+\bibitem{Craver09}
+C.~F. Craver, ``Stochastic supervenience,'' 2009.
 
-\bibitem{LuLichtman09}
-J.~Lu, J.~C. Fiala, and J.~W. Lichtman, ``Semi-automated reconstruction of
-  neural processes from large numbers of fluorescence images,'' {\em PLoS ONE},
-  vol.~4, p.~e5655, 05 2009.
+\bibitem{Semon21}
+R.~W. Semon, {\em The Mneme}.
+\newblock G. Allen \& Unwin ltd., 1921.
 
-\bibitem{HornJohnson90}
-R.~Horn and C.~Johnson, {\em {Matrix analysis}}.
-\newblock Cambridge Univ Pr, 1990.
+\bibitem{Lashley50}
+K.~Lashley, ``{In search of the engram},'' {\em Symposia of the society for
+  experimental biology}, vol.~4, no.~454-482, p.~30, 1950.
 
-\bibitem{ConroyLouis97}
-J.~M. Conroy, S.~G. Kratzer, and L.~J. Podrazik, ``A continuous method for the
-  quadratic assignment problem,'' in {\em Society for Industrial and Applied
-  Mathematics}, 1997.
+\bibitem{ZhangLinden03}
+W.~Zhang and D.~Linden, ``{The other side of the engram: experience-driven
+  changes in neuronal intrinsic excitability},'' {\em Nature Reviews
+  Neuroscience}, vol.~4, no.~11, pp.~885--900, 2003.
 
-\bibitem{ZaslavskiyVert08}
-M.~Zaslavskiy, F.~Bach, and J.~Vert, ``{A path following algorithm for the
-  graph matching problem},'' {\em IEEE Transactions on Pattern Analysis and
-  Machine Intelligence}, vol.~31, pp.~2227--2242, 2008.
+\bibitem{ShemaDudai07}
+R.~Shema, T.~Sacktor, and Y.~Dudai, ``{Rapid erasure of long-term memory
+  associations in the cortex by an inhibitor of PKM $\{$zeta$\}$},'' {\em
+  Science}, vol.~317, no.~5840, p.~951, 2007.
 
-\bibitem{Stone77}
-C.~Stone, ``{Consistent nonparametric regression},'' {\em The annals of
-  statistics}, pp.~595--620, 1977.
+\bibitem{BerryDavis08}
+J.~Berry, W.~Krause, and R.~Davis, ``{Olfactory memory traces in Drosophila},''
+  {\em Progress in brain research}, vol.~169, pp.~293--304, 2008.
 
 \bibitem{Durbin87}
 R.~M. Durbin, {\em Studies on the Development and Organisation of the Nervous
@@ -119,6 +205,16 @@ A.~Vaziri, J.~Tang, H.~Shroff, and C.~V. Shank, ``Multilayer three-dimensional
 M.~Helmstaedter, K.~L. Briggman, and W.~Denk, ``3d structural imaging of the
   brain with photons and electrons.,'' {\em Curr Opin Neurobiol}, vol.~18,
   pp.~633--641, Dec 2008.
+
+\bibitem{Mishchenko09}
+Y.~Mishchenko, ``Automation of 3d reconstruction of neural tissue from large
+  volume of conventional serial section transmission electron micrographs.,''
+  {\em J Neurosci Methods}, vol.~176, pp.~276--289, Jan 2009.
+
+\bibitem{LuLichtman09}
+J.~Lu, J.~C. Fiala, and J.~W. Lichtman, ``Semi-automated reconstruction of
+  neural processes from large numbers of fluorescence images,'' {\em PLoS ONE},
+  vol.~4, p.~e5655, 05 2009.
 
 \bibitem{BuckinghamSattelle08}
 S.~D. Buckingham and D.~B. Sattelle, ``Strategies for automated analysis of c.

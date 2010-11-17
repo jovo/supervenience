@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.4)
+The top-level auxiliary file: supervenience.aux
+The style file: ieeetr.bst
+Database file #1: biblist.bib
+Warning--empty publisher in Descartes1641
+Warning--can't use both author and editor fields in Davidson70
+Warning--empty journal in Popper
+You've used 27 entries,
+            1876 wiz_defined-function locations,
+            680 strings with 8826 characters,
+and the built_in function-call counts, 7043 in all, are:
+= -- 723
+> -- 245
+< -- 0
++ -- 94
+- -- 67
+* -- 480
+:= -- 986
+add.period$ -- 34
+call.type$ -- 27
+change.case$ -- 21
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 372
+empty$ -- 662
+format.name$ -- 67
+if$ -- 1731
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 32
+newline$ -- 91
+num.names$ -- 27
+pop$ -- 80
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 257
+stack$ -- 0
+substring$ -- 462
+swap$ -- 161
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 70
+width$ -- 29
+write$ -- 264
+(There were 3 warnings)
