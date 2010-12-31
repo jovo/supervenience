@@ -1,4 +1,4 @@
-This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.4.16)  20 OCT 2010 00:46
+This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2009.4.16)  30 DEC 2010 16:51
 entering extended mode
  file:line:error style messages enabled.
 **supervenience.tex
@@ -342,69 +342,65 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
  [1
 
 {/opt/local/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 148.
  [2]
-<supervenience_relations.pdf, id=145, 794.97pt x 212.795pt>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 303.
+ [3] [4] [5]
+<supervenience_relations.pdf, id=227, 794.97pt x 212.795pt>
 File: supervenience_relations.pdf Graphic file (type pdf)
 
 <use supervenience_relations.pdf>
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 169.
- [3 <./supervenience_relations.pdf
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 411.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 411.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 411.
+
+[6
+
+ <./supervenience_relations.pdf
 Warning: pdflatex (file ./supervenience_relations.pdf): pdf inclusion: Page Gro
 up detected which pdfTeX can't handle. Ignoring it.
->]
-Overfull \hbox (64.91821pt too wide) in paragraph at lines 213--214
-[]\OT1/ptm/m/n/10 This re-la-tion-ship be-tween sta-tis-ti-cal su-per-ve-nience
- and Bayes er-ror can there-fore be de-scribed con-cisely: [].
- []
-
-[4] [5] [6] [7]
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 384.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `subscript' on input line 384.
-
-
-Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
-(hyperref)                removing `math shift' on input line 384.
-
-[8] <Lhatplot.pdf, id=287, 505.89pt x 505.89pt>
+>] <Lhatplot.pdf, id=247, 505.89pt x 505.89pt>
 File: Lhatplot.pdf Graphic file (type pdf)
- <use Lhatplot.pdf>
-(./supervenience.bbl [9] [10 <./Lhatplot.pdf>] [11]) [12] (./supervenience.aux)
- ) 
+ <use Lhatplot.pdf> [7] [8 <./Lhatplot.pdf>] (./supervenience.bbl [9
+
+]) [10] (./supervenience.aux) ) 
 Here is how much of TeX's memory you used:
- 4269 strings out of 94500
- 55292 string characters out of 1155413
- 113027 words of memory out of 1000000
- 7250 multiletter control sequences out of 10000+50000
- 32727 words of font info for 81 fonts, out of 500000 for 2000
+ 4232 strings out of 94500
+ 54738 string characters out of 1155413
+ 112841 words of memory out of 1000000
+ 7233 multiletter control sequences out of 10000+50000
+ 31515 words of font info for 77 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
- 27i,12n,43p,1712b,327s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 27i,11n,43p,1770b,321s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
- 345 PDF objects out of 300000
- 95 named destinations out of 131072
- 195 words of extra memory for PDF output out of 65536
-</opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmmi12.pfb></opt/local/sh
-are/texmf-dist/fonts/type1/bluesky/cm/cmss8.pfb></opt/local/share/texmf-dist/fo
-nts/type1/bluesky/cm/cmmi5.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky
-/cm/cmsy5.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/ams/msam10.pfb><
-/opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr7.pfb></opt/local/share/t
-exmf-dist/fonts/type1/bluesky/cm/cmex10.pfb></opt/local/share/texmf-dist/fonts/
-type1/bluesky/ams/msbm10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/a
-ms/msbm7.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmmi7.pfb></op
-t/local/share/texmf-dist/fonts/type1/bluesky/cm/cmsy7.pfb></opt/local/share/tex
-mf-dist/fonts/type1/bluesky/cm/cmr10.pfb></opt/local/share/texmf-dist/fonts/typ
-e1/bluesky/cm/cmsy10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cm
-mi10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr9.pfb>{/opt/loc
-al/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</opt/local/share/texmf-dist/fo
-nts/type1/urw/times/utmri8a.pfb></opt/local/share/texmf-dist/fonts/type1/bluesk
-y/cm/cmmi9.pfb></opt/local/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
-opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr8.pfb></opt/local/share/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on supervenience.pdf (12 pages, 231032 bytes).
+ 309 PDF objects out of 300000
+ 78 named destinations out of 131072
+ 163 words of extra memory for PDF output out of 65536
+</opt/local/share/texmf-dist/fonts/type1/bluesky
+/cm/cmmi5.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmmi12.pfb></
+opt/local/share/texmf-dist/fonts/type1/public/cmex/fmex7.pfb></opt/local/share/
+texmf-dist/fonts/type1/bluesky/cm/cmsy5.pfb></opt/local/share/texmf-dist/fonts/
+type1/bluesky/cm/cmr7.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/ams/
+msam10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmex10.pfb></opt
+/local/share/texmf-dist/fonts/type1/bluesky/ams/msbm7.pfb></opt/local/share/tex
+mf-dist/fonts/type1/bluesky/cm/cmmi7.pfb></opt/local/share/texmf-dist/fonts/typ
+e1/bluesky/ams/msbm10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/c
+msy7.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm/cmr10.pfb></opt/lo
+cal/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></opt/local/share/texmf-
+dist/fonts/type1/bluesky/cm/cmmi10.pfb></opt/local/share/texmf-dist/fonts/type1
+/bluesky/cm/cmr9.pfb>{/opt/local/share/texmf-dist/fonts/enc/dvips/base/8r.enc}<
+/opt/local/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></opt/local/share
+/texmf-dist/fonts/type1/bluesky/cm/cmmi9.pfb></opt/local/share/texmf-dist/fonts
+/type1/urw/times/utmb8a.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/cm
+/cmr8.pfb></opt/local/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on supervenience.pdf (10 pages, 207349 bytes).

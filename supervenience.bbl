@@ -12,30 +12,6 @@ R.~Descartes, {\em Meditationes de prima philosophia}.
 D.~Davidson, {\em Experience and Theory}, ch.~Mental Events.
 \newblock Duckworth, 1970.
 
-\bibitem{Craver07}
-C.~F. Craver, {\em Explaining the brain: mechanisms and the mosaic unity of
-  neuroscience}.
-\newblock Clarendon Press, 2007.
-
-\bibitem{Waldeyer-Hartz1891}
-H.~W.~G. von Waldeyer-Hartz, ``Ueber einige neuere forschungen im gebiete der
-  anatomie des centralnervensystems,'' {\em Deutsche medicinische
-  Wochenschrift}, 1891.
-
-\bibitem{Finger01}
-S.~Finger, {\em {Origins of neuroscience: A history of explorations into brain
-  function}}.
-\newblock Oxford University Press, USA, 2001.
-
-\bibitem{Bishop95}
-C.~Bishop, {\em {Neural networks for pattern recognition}}.
-\newblock Oxford University Press, USA, 1995.
-
-\bibitem{McClellandRumelhart86}
-J.~McClelland, D.~Rumelhart, {\em et~al.}, {\em {Parallel distributed
-  processing: Explorations in the microstructure of cognition}}.
-\newblock MIT press Cambridge, MA, 1986.
-
 \bibitem{DGL96}
 L.~Devroye, L.~Gy{\"o}rfi, and G.~Lugosi, {\em {A Probabilistic Theory of
   Pattern Recognition}}.
@@ -48,15 +24,6 @@ L.~Devroye, ``{On arbitrarily slow rates of global convergence in density
 
 \bibitem{Popper}
 K.~Popper, ``{The logic of scientific discovery},'' 1959.
-
-\bibitem{Stone77}
-C.~Stone, ``{Consistent nonparametric regression},'' {\em The annals of
-  statistics}, vol.~5, no.~4, pp.~595--620, 1977.
-
-\bibitem{GareyJohnson79}
-M.~Garey and D.~Johnson, {\em {Computers and intractability. A guide to the
-  theory of NP-completeness. A Series of Books in the Mathematical Sciences}}.
-\newblock WH Freeman and Company, San Francisco, Calif, 1979.
 
 \bibitem{NorthGreenspan07}
 R.~J.~G. Geoffrey~North, ed., {\em Invertebrate neurobiology}.
@@ -101,10 +68,6 @@ O.~Sporns, G.~Tononi, and R.~Kotter, ``The human connectome: A structural
 P.~Hagmann, {\em {From diffusion MRI to brain connectomics}}.
 \newblock PhD thesis, Institut de traitement des signaux, 2005.
 
-\bibitem{Jones10}
-D.~K. Jones, ed., {\em Diffusion MRI: Theory, Methods, and Applications}.
-\newblock Oxford University Press, 2010.
-
 \bibitem{Basser94}
 P.~J. Basser, J.~Mattiello, and D.~LeBihan, ``Mr diffusion tensor spectroscopy
   and imaging.,'' {\em Biophys J}, vol.~66, pp.~259--267, Jan 1994.
@@ -146,6 +109,16 @@ K.~Hayworth, N.~Kasthuri, R.~Schalek, and J.~Lichtman, ``{Automating the
   collection of ultrathin serial sections for large volume TEM
   reconstructions},'' {\em Microscopy and Microanalysis}, vol.~12, no.~S02,
   pp.~86--87, 2006.
+
+\bibitem{Penrose99}
+R.~Penrose and M.~Gardner, {\em {The emperor's new mind: concerning computers,
+  minds, and the laws of physics}}.
+\newblock Oxford University Press, USA, 1999.
+
+\bibitem{Satinover02}
+J.~Satinover, {\em {The quantum brain: the search for freedom and the next
+  generation of man}}.
+\newblock Wiley, 2002.
 
 \bibitem{NielsenChuang00}
 M.~A. Nielson and I.~L. Chuang, {\em Quantum Computation and Quantum

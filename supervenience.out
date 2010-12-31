@@ -1,21 +1,17 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}
-\BOOKMARK [1][-]{section.2}{Preliminaries}{}
-\BOOKMARK [2][-]{subsection.2.1}{Supervenience}{section.2}
-\BOOKMARK [2][-]{subsection.2.2}{Brain-graphs}{section.2}
-\BOOKMARK [1][-]{section.3}{Results}{}
-\BOOKMARK [2][-]{subsection.3.1}{Theoretical results}{section.3}
-\BOOKMARK [2][-]{subsection.3.2}{Hypothesis testing}{section.3}
-\BOOKMARK [2][-]{subsection.3.3}{Power and consistency}{section.3}
-\BOOKMARK [2][-]{subsection.3.4}{Universal consistency for brain-graphs}{section.3}
-\BOOKMARK [2][-]{subsection.3.5}{Theoretical implications}{section.3}
-\BOOKMARK [1][-]{section.4}{Discussion}{}
-\BOOKMARK [2][-]{subsection.4.1}{Summary}{section.4}
-\BOOKMARK [2][-]{subsection.4.2}{Practical issues}{section.4}
-\BOOKMARK [2][-]{subsection.4.3}{A unified quest}{section.4}
-\BOOKMARK [2][-]{subsection.4.4}{Human applications}{section.4}
-\BOOKMARK [2][-]{subsection.4.5}{Quantum networks}{section.4}
-\BOOKMARK [2][-]{subsection.4.6}{Stochastic Supervenience}{section.4}
-\BOOKMARK [2][-]{subsection.4.7}{Dynamics vs. statics}{section.4}
-\BOOKMARK [2][-]{subsection.4.8}{Concluding thoughts}{section.4}
-\BOOKMARK [1][-]{section.A}{kn nearest neighbor algorithm}{}
-\BOOKMARK [1][-]{section.B}{Simulation}{}
+\BOOKMARK [1][-]{section.2}{Statistical supervenience}{}
+\BOOKMARK [1][-]{section.3}{Statistical supervenience is equivalent to perfect classification accuracy}{}
+\BOOKMARK [1][-]{section.4}{A hypothesis test for supervenience}{}
+\BOOKMARK [1][-]{section.5}{A thought experiment demonstrating unity power}{}
+\BOOKMARK [1][-]{section.6}{Discussion}{}
+\BOOKMARK [2][-]{subsection.6.1}{Summary}{section.6}
+\BOOKMARK [2][-]{subsection.6.2}{Practical issues}{section.6}
+\BOOKMARK [2][-]{subsection.6.3}{A unified quest}{section.6}
+\BOOKMARK [2][-]{subsection.6.4}{Human applications}{section.6}
+\BOOKMARK [2][-]{subsection.6.5}{Quantum networks}{section.6}
+\BOOKMARK [2][-]{subsection.6.6}{Stochastic Supervenience}{section.6}
+\BOOKMARK [2][-]{subsection.6.7}{Dynamics vs. statics}{section.6}
+\BOOKMARK [2][-]{subsection.6.8}{Concluding thoughts}{section.6}
+\BOOKMARK [1][-]{section.A}{Relations between sets}{}
+\BOOKMARK [1][-]{section.B}{kn nearest neighbor algorithm}{}
+\BOOKMARK [1][-]{section.C}{Simulation}{}

@@ -1,52 +1,52 @@
 This is BibTeX, Version 0.99c (Web2C 7.5.4)
 The top-level auxiliary file: supervenience.aux
 The style file: ieeetr.bst
-Database file #1: /Users/jovo/Research/papers/meta/biblist.bib
+Database file #1: /Users/jovo/Research/latex/biblist.bib
 Warning--empty publisher in Descartes1641
 Warning--can't use both author and editor fields in Davidson70
 Warning--empty journal in Popper
 Too many commas in name 1 of "S. Mori, S. Wakana, P.C.M. van Zijl, L.M. Nagae-Poetscher" for entry Mori05
 while executing---line 963 of file ieeetr.bst
 Warning--empty journal in Craver09
-You've used 48 entries,
+You've used 42 entries,
             1876 wiz_defined-function locations,
-            801 strings with 11855 characters,
-and the built_in function-call counts, 10866 in all, are:
-= -- 1080
-> -- 422
+            766 strings with 10959 characters,
+and the built_in function-call counts, 9804 in all, are:
+= -- 975
+> -- 390
 < -- 0
-+ -- 163
-- -- 115
-* -- 704
-:= -- 1570
-add.period$ -- 69
-call.type$ -- 48
-change.case$ -- 27
++ -- 149
+- -- 107
+* -- 651
+:= -- 1417
+add.period$ -- 59
+call.type$ -- 42
+change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 52
-duplicate$ -- 584
-empty$ -- 1074
-format.name$ -- 115
-if$ -- 2668
+cite$ -- 46
+duplicate$ -- 521
+empty$ -- 947
+format.name$ -- 107
+if$ -- 2400
 int.to.chr$ -- 0
-int.to.str$ -- 48
-missing$ -- 62
-newline$ -- 168
-num.names$ -- 51
-pop$ -- 171
+int.to.str$ -- 42
+missing$ -- 53
+newline$ -- 146
+num.names$ -- 44
+pop$ -- 143
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 321
+skip$ -- 302
 stack$ -- 0
-substring$ -- 532
-swap$ -- 207
+substring$ -- 500
+swap$ -- 193
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 99
-width$ -- 50
-write$ -- 461
+while$ -- 90
+width$ -- 44
+write$ -- 406
 (There was 1 error message)
