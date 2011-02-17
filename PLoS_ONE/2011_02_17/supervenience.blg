@@ -1,4 +1,5 @@
-This is BibTeX, Version 0.99c (Web2C 7.5.4)
+This is BibTeX, Version 0.99d (TeX Live 2010)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: supervenience.aux
 The style file: ieeetr.bst
 Database file #1: /Users/jovo/Research/latex/biblist.bib
@@ -8,45 +9,45 @@ Warning--empty journal in Popper
 Too many commas in name 1 of "S. Mori, S. Wakana, P.C.M. van Zijl, L.M. Nagae-Poetscher" for entry Mori05
 while executing---line 963 of file ieeetr.bst
 Warning--empty journal in Craver09
-You've used 42 entries,
+You've used 44 entries,
             1876 wiz_defined-function locations,
-            766 strings with 10959 characters,
-and the built_in function-call counts, 9804 in all, are:
-= -- 975
-> -- 390
+            777 strings with 11241 characters,
+and the built_in function-call counts, 10114 in all, are:
+= -- 1004
+> -- 402
 < -- 0
-+ -- 149
-- -- 107
-* -- 651
-:= -- 1417
-add.period$ -- 59
-call.type$ -- 42
++ -- 154
+- -- 110
+* -- 663
+:= -- 1462
+add.period$ -- 63
+call.type$ -- 44
 change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 46
-duplicate$ -- 521
-empty$ -- 947
-format.name$ -- 107
-if$ -- 2400
+cite$ -- 48
+duplicate$ -- 539
+empty$ -- 987
+format.name$ -- 110
+if$ -- 2480
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 53
-newline$ -- 146
-num.names$ -- 44
-pop$ -- 143
+int.to.str$ -- 44
+missing$ -- 57
+newline$ -- 154
+num.names$ -- 46
+pop$ -- 155
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 302
+skip$ -- 305
 stack$ -- 0
 substring$ -- 500
-swap$ -- 193
+swap$ -- 195
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 90
-width$ -- 44
-write$ -- 406
+while$ -- 92
+width$ -- 46
+write$ -- 424
 (There was 1 error message)

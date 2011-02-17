@@ -68,6 +68,10 @@ O.~Sporns, G.~Tononi, and R.~Kotter, ``The human connectome: A structural
 P.~Hagmann, {\em {From diffusion MRI to brain connectomics}}.
 \newblock PhD thesis, Institut de traitement des signaux, 2005.
 
+\bibitem{Sporns10}
+O.~Sporns, {\em Networks of the Brain}.
+\newblock MIT Press, 2010.
+
 \bibitem{Basser94}
 P.~J. Basser, J.~Mattiello, and D.~LeBihan, ``Mr diffusion tensor spectroscopy
   and imaging.,'' {\em Biophys J}, vol.~66, pp.~259--267, Jan 1994.
@@ -149,6 +153,11 @@ R.~Shema, T.~Sacktor, and Y.~Dudai, ``{Rapid erasure of long-term memory
 \bibitem{BerryDavis08}
 J.~Berry, W.~Krause, and R.~Davis, ``{Olfactory memory traces in Drosophila},''
   {\em Progress in brain research}, vol.~169, pp.~293--304, 2008.
+
+\bibitem{GareyJohnson79}
+M.~Garey and D.~Johnson, {\em {Computers and intractability. A guide to the
+  theory of NP-completeness. A Series of Books in the Mathematical Sciences}}.
+\newblock WH Freeman and Company, San Francisco, Calif, 1979.
 
 \bibitem{Durbin87}
 R.~M. Durbin, {\em Studies on the Development and Organisation of the Nervous
