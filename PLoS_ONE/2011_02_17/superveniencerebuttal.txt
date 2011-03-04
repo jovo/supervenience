@@ -1,0 +1,22 @@
+﻿Dear Prof Sporns and two helpful reviewers,
+ 
+Thank you for your insightful comments.  Based on your input, we have significantly revised the text of our manuscript entitled "Are Mental Properties Supervenient on Brain Properties?"  Specifically, the manuscript is now re-organized to emphasize the flow of our thesis.  Moreover, we have clarified the notion of supervenience with an appendix, and expanded upon the relationship of this work to both previous and future work in the discussion.  We hope that you will find that our revisions adequate address your concerns.  Below we provide detailed responses to specific comments:
+ 
+Reviewer #1:
+ 
+Thank you for your helpful comments.  We agree that the original presentation of these ideas lacked some organization and clarity.  The main theorem is that supervenience, which is currently known mostly by philosophers, actually makes a very strong claim about statistical classification accuracy.  Only upon realizing this connection can hypothesis tests be created for supervenience.  Given the possibility of such a test, we show that not only do such tests exist, but also that a quite general model of minds and brains admits a universally consistent classifier with power converging to unity.  We believe that this idea is quite deep and interesting.  In particular, the manuscript explains how many previously conducted investigations can be framed as epsilon-supervenience hypothesis tests, unifying previously disparate work.  Moreover, these ideas further motivate the now burgeoning field of connectomics, which seems to operate on the assumption that a certain epsilon-supervenience holds for many mind-brain property pairs.  Thus, it is our belief that this manuscript formally ties together many contemporary and future neurocognitive investigations in previously unrecognized ways.
+ 
+ 
+Reviewer #2:
+ 
+Thank you for your helpful comments.  We address each separately.
+ 
+First, regarding the very compact mathematical style, we have expanded to exposition of mathematical details in the main text with the intention that it will be more accessible to many interested philosophers and scientists, while recognizing that a certain level of proficiency with statistical inference and/or pattern recognition will likely be necessary to understand the mathematical details.   
+ 
+Second,  regarding the definition of supervenience, we have expanded the text in the main document and added an appendix (Appendix A) to further expand upon the nature of supervenience relations, as well as compare and contrast it with other relations by providing examples, as you suggested. We have also now provided more description (final paragraph of Appendix B) and a reference to further expound upon the notion of isomorphism that we are employing in this manuscript.
+ 
+Third, regarding the proof of universal consistency, we have modified the text to demonstrate that our "proof" is merely a realization that the composition of (i) representing a graph by its adjacency matrix  such that it lives in finite dimensional Euclidean space and (ii) a isomorphism-matching operator extends Stone's original proof to this domain.  Therefore, we feel as though Stone's original proof is truly the workhorse here.  Appendix B merely explains how one can extend the proof to this domain.   Part of the beauty of this proof is that the the classifier works regardless of the structure of the brain-graph.
+ 
+Finally, we fixed all the minor English flaws that you pointed out to us. 
+ 
+Please note that due to the significant restructuring of this manuscript, a red-lined version seemed inappropriate (in fact, upon making a red-lined version, essentially every line was either red or blue, which was effectively useless).  As described above, in addition to re-organizing, Appendix A is wholly novel, and the discussion section has been greatly expanded. We hope the reviewers will be easily able to find these modifications.
