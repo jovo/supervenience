@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2010)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: supp.aux
+The style file: ieeetr.bst
+Database file #1: /Users/jovo/Research/latex/biblist.bib
+You've used 11 entries,
+            1876 wiz_defined-function locations,
+            567 strings with 6365 characters,
+and the built_in function-call counts, 3026 in all, are:
+= -- 312
+> -- 119
+< -- 0
++ -- 44
+- -- 33
+* -- 213
+:= -- 434
+add.period$ -- 14
+call.type$ -- 11
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 151
+empty$ -- 263
+format.name$ -- 33
+if$ -- 731
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 12
+newline$ -- 39
+num.names$ -- 11
+pop$ -- 27
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 116
+stack$ -- 0
+substring$ -- 210
+swap$ -- 71
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 30
+width$ -- 13
+write$ -- 108

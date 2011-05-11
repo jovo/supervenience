@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2010)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: supervenience.aux
+The style file: naturemag.bst
+Database file #1: /Users/jovo/Research/latex/biblist.bib
+Warning--missing publisher in Descartes1641
+Warning--can't use both author and editor fields in Davidson70
+Warning--empty journal in Popper
+Too many commas in name 1 of "S. Mori, S. Wakana, P.C.M. van Zijl, L.M. Nagae-Poetscher" for entry Mori05
+while executing---line 1516 of file naturemag.bst
+Warning--empty journal in Craver09
+You've used 34 entries,
+            2348 wiz_defined-function locations,
+            1199 strings with 13835 characters,
+and the built_in function-call counts, 10773 in all, are:
+= -- 677
+> -- 266
+< -- 1
++ -- 132
+- -- 66
+* -- 1267
+:= -- 1176
+add.period$ -- 84
+call.type$ -- 34
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 994
+empty$ -- 1154
+format.name$ -- 84
+if$ -- 2227
+int.to.chr$ -- 0
+int.to.str$ -- 34
+missing$ -- 245
+newline$ -- 160
+num.names$ -- 36
+pop$ -- 283
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 218
+stack$ -- 0
+substring$ -- 245
+swap$ -- 909
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 55
+width$ -- 36
+write$ -- 329
+(There was 1 error message)

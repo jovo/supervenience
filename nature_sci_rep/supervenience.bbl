@@ -1,0 +1,230 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Plato97}
+\bibinfo{author}{Plato}.
+\newblock \emph{\bibinfo{title}{Plato: complete works}}
+  (\bibinfo{publisher}{Hackett Pub Co}, \bibinfo{year}{1997}).
+
+\bibitem{Descartes1641}
+\bibinfo{author}{Descartes, R.}
+\newblock \emph{\bibinfo{title}{Meditationes de prima philosophia}}
+  (\bibinfo{year}{1641}).
+
+\bibitem{Davidson70}
+\bibinfo{author}{Davidson, D.}
+\newblock \emph{\bibinfo{title}{Experience and Theory}}, chap.
+  \bibinfo{chapter}{Mental Events} (\bibinfo{publisher}{Duckworth},
+  \bibinfo{year}{1970}).
+
+\bibitem{DGL96}
+\bibinfo{author}{Devroye, L.}, \bibinfo{author}{Gy{\"o}rfi, L.} \&
+  \bibinfo{author}{Lugosi, G.}
+\newblock \emph{\bibinfo{title}{{A Probabilistic Theory of Pattern
+  Recognition}}} (\bibinfo{publisher}{Springer}, \bibinfo{year}{1996}).
+
+\bibitem{Devroye83}
+\bibinfo{author}{Devroye, L.}
+\newblock \bibinfo{title}{{On arbitrarily slow rates of global convergence in
+  density estimation}}.
+\newblock \emph{\bibinfo{journal}{Probability Theory and Related Fields}}
+  \textbf{\bibinfo{volume}{62}}, \bibinfo{pages}{475--483}
+  (\bibinfo{year}{1983}).
+
+\bibitem{Popper}
+\bibinfo{author}{Popper, K.}
+\newblock \bibinfo{title}{{The logic of scientific discovery}}
+  (\bibinfo{year}{1959}).
+
+\bibitem{NorthGreenspan07}
+\bibinfo{editor}{Geoffrey~North, R. J.~G.} (ed.)
+  \emph{\bibinfo{title}{Invertebrate neurobiology}} (\bibinfo{publisher}{CSHL
+  Press}, \bibinfo{year}{2007}).
+
+\bibitem{Shepherd04}
+\bibinfo{author}{Shepherd, G.}
+\newblock \emph{\bibinfo{title}{{The synaptic organization of the brain}}}
+  (\bibinfo{publisher}{Oxford University Press New York},
+  \bibinfo{year}{2004}).
+
+\bibitem{Felleman_VanEssen91}
+\bibinfo{author}{Felleman, D.} \& \bibinfo{author}{Van~Essen, D.}
+\newblock \bibinfo{title}{{Distributed hierarchical processing in the primate
+  cerebral cortex}}.
+\newblock \emph{\bibinfo{journal}{Cerebral cortex}}
+  \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{1} (\bibinfo{year}{1991}).
+
+\bibitem{Mori05}
+\bibinfo{author}{S.~Mori, P. v. Z. L. N.-P., S.~Wakana}.
+\newblock \emph{\bibinfo{title}{MRI Atlas of Human White Matter}}
+  (\bibinfo{publisher}{Elsevier Science}, \bibinfo{year}{2005}).
+
+\bibitem{Abeles91}
+\bibinfo{author}{Abeles, M.}
+\newblock \emph{\bibinfo{title}{Corticonics}} (\bibinfo{publisher}{Cambridge
+  University Press}, \bibinfo{year}{1991}).
+
+\bibitem{Koch_Davis94}
+\bibinfo{author}{Koch, C.} \& \bibinfo{author}{Davis, J.}
+\newblock \emph{\bibinfo{title}{{Large-scale neuronal theories of the brain}}}
+  (\bibinfo{publisher}{The MIT Press}, \bibinfo{year}{1994}).
+
+\bibitem{Rao_Lewicki02}
+\bibinfo{author}{Rao, R.}, \bibinfo{author}{Olshausen, B.} \&
+  \bibinfo{author}{Lewicki, M.}
+\newblock \emph{\bibinfo{title}{{Probabilistic models of the brain: Perception
+  and neural function}}} (\bibinfo{publisher}{The MIT Press},
+  \bibinfo{year}{2002}).
+
+\bibitem{Chow_Dalibard03}
+\bibinfo{editor}{Chow, C.}, \bibinfo{editor}{Gutkin, B.},
+  \bibinfo{editor}{Hansel, D.}, \bibinfo{editor}{Meunier, C.} \&
+  \bibinfo{editor}{Dalibard, J.} (eds.) \emph{\bibinfo{title}{Methods and
+  Models in Neurophysics}} (\bibinfo{publisher}{Elsevier},
+  \bibinfo{year}{2003}).
+
+\bibitem{SpornsKotter05}
+\bibinfo{author}{Sporns, O.}, \bibinfo{author}{Tononi, G.} \&
+  \bibinfo{author}{Kotter, R.}
+\newblock \bibinfo{title}{The human connectome: A structural description of the
+  human brain}.
+\newblock \emph{\bibinfo{journal}{PLoS Computational Biology}}
+  \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{e42} (\bibinfo{year}{2005}).
+
+\bibitem{Hagmann05}
+\bibinfo{author}{Hagmann, P.}
+\newblock \emph{\bibinfo{title}{{From diffusion MRI to brain connectomics}}}.
+\newblock Ph.D. thesis, \bibinfo{school}{Institut de traitement des signaux}
+  (\bibinfo{year}{2005}).
+
+\bibitem{Sporns10}
+\bibinfo{author}{Sporns, O.}
+\newblock \emph{\bibinfo{title}{Networks of the Brain}}
+  (\bibinfo{publisher}{MIT Press}, \bibinfo{year}{2010}).
+
+\bibitem{Basser94}
+\bibinfo{author}{Basser, P.~J.}, \bibinfo{author}{Mattiello, J.} \&
+  \bibinfo{author}{LeBihan, D.}
+\newblock \bibinfo{title}{Mr diffusion tensor spectroscopy and imaging.}
+\newblock \emph{\bibinfo{journal}{Biophys J}} \textbf{\bibinfo{volume}{66}},
+  \bibinfo{pages}{259--267} (\bibinfo{year}{1994}).
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/S0006-3495(94)80775-1}.
+
+\bibitem{ArdekaniSzeszko10}
+\bibinfo{author}{Ardekani, B.~A.} \emph{et~al.}
+\newblock \bibinfo{title}{Diffusion tensor imaging reliably differentiates
+  patients with schizophrenia from healthy volunteers.}
+\newblock \emph{\bibinfo{journal}{Hum Brain Mapp}}  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{http://dx.doi.org/10.1002/hbm.20995}.
+
+\bibitem{TuchWedeen02}
+\bibinfo{author}{Tuch, D.} \emph{et~al.}
+\newblock \bibinfo{title}{{High angular resolution diffusion imaging reveals
+  intravoxel white matter fiber heterogeneity}}.
+\newblock \emph{\bibinfo{journal}{Magnetic Resonance in Medicine}}
+  \textbf{\bibinfo{volume}{48}}, \bibinfo{pages}{577--582}
+  (\bibinfo{year}{2002}).
+
+\bibitem{Tuch04}
+\bibinfo{author}{Tuch, D.}
+\newblock \bibinfo{title}{{Q-ball imaging}}.
+\newblock \emph{\bibinfo{journal}{Magnetic Resonance in Medicine}}
+  \textbf{\bibinfo{volume}{52}}, \bibinfo{pages}{1358--1372}
+  (\bibinfo{year}{2004}).
+
+\bibitem{WedeenWeisskoff05}
+\bibinfo{author}{Wedeen, V.}, \bibinfo{author}{Hagmann, P.},
+  \bibinfo{author}{Tseng, W.}, \bibinfo{author}{Reese, T.} \&
+  \bibinfo{author}{Weisskoff, R.}
+\newblock \bibinfo{title}{{Mapping complex tissue architecture with diffusion
+  spectrum magnetic resonance imaging}}.
+\newblock \emph{\bibinfo{journal}{Magnetic Resonance in Medicine}}
+  \textbf{\bibinfo{volume}{54}}, \bibinfo{pages}{1377--1386}
+  (\bibinfo{year}{2005}).
+
+\bibitem{PalmAmunts10}
+\bibinfo{author}{Palm, C.} \emph{et~al.}
+\newblock \bibinfo{title}{{Towards ultra-high resolution fibre tract mapping of
+  the human brain--registration of polarised light images and reorientation of
+  fibre vectors}}.
+\newblock \emph{\bibinfo{journal}{Frontiers in Human Neuroscience}}
+  \textbf{\bibinfo{volume}{4}} (\bibinfo{year}{2010}).
+
+\bibitem{DenkHorstmann04}
+\bibinfo{author}{W.~Denk, W.} \& \bibinfo{author}{Horstmann, H.}
+\newblock \bibinfo{title}{Serial block-face scanning electron microscopy to
+  reconstruct three-dimensional tissue nanostructure}.
+\newblock \emph{\bibinfo{journal}{PLOS Biol.}} \textbf{\bibinfo{volume}{2}},
+  \bibinfo{pages}{e329} (\bibinfo{year}{2004}).
+
+\bibitem{HayworthLichtman06}
+\bibinfo{author}{Hayworth, K.}, \bibinfo{author}{Kasthuri, N.},
+  \bibinfo{author}{Schalek, R.} \& \bibinfo{author}{Lichtman, J.}
+\newblock \bibinfo{title}{{Automating the collection of ultrathin serial
+  sections for large volume TEM reconstructions}}.
+\newblock \emph{\bibinfo{journal}{Microscopy and Microanalysis}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{86--87}
+  (\bibinfo{year}{2006}).
+
+\bibitem{Penrose99}
+\bibinfo{author}{Penrose, R.} \& \bibinfo{author}{Gardner, M.}
+\newblock \emph{\bibinfo{title}{{The emperor's new mind: concerning computers,
+  minds, and the laws of physics}}} (\bibinfo{publisher}{Oxford University
+  Press, USA}, \bibinfo{year}{1999}).
+
+\bibitem{Satinover02}
+\bibinfo{author}{Satinover, J.}
+\newblock \emph{\bibinfo{title}{{The quantum brain: the search for freedom and
+  the next generation of man}}} (\bibinfo{publisher}{Wiley},
+  \bibinfo{year}{2002}).
+
+\bibitem{NielsenChuang00}
+\bibinfo{author}{Nielson, M.~A.} \& \bibinfo{author}{Chuang, I.~L.}
+\newblock \emph{\bibinfo{title}{Quantum Computation and Quantum Information}}
+  (\bibinfo{publisher}{Cambridge University Press}, \bibinfo{year}{2000}).
+
+\bibitem{Craver09}
+\bibinfo{author}{Craver, C.~F.}
+\newblock \bibinfo{title}{Stochastic supervenience}  (\bibinfo{year}{2009}).
+
+\bibitem{Semon21}
+\bibinfo{author}{Semon, R.~W.}
+\newblock \emph{\bibinfo{title}{The Mneme}} (\bibinfo{publisher}{G. Allen \&
+  Unwin ltd.}, \bibinfo{year}{1921}).
+
+\bibitem{Lashley50}
+\bibinfo{author}{Lashley, K.}
+\newblock \bibinfo{title}{{In search of the engram}}.
+\newblock \emph{\bibinfo{journal}{Symposia of the society for experimental
+  biology}} \textbf{\bibinfo{volume}{4}}, \bibinfo{pages}{30}
+  (\bibinfo{year}{1950}).
+
+\bibitem{ZhangLinden03}
+\bibinfo{author}{Zhang, W.} \& \bibinfo{author}{Linden, D.}
+\newblock \bibinfo{title}{{The other side of the engram: experience-driven
+  changes in neuronal intrinsic excitability}}.
+\newblock \emph{\bibinfo{journal}{Nature Reviews Neuroscience}}
+  \textbf{\bibinfo{volume}{4}}, \bibinfo{pages}{885--900}
+  (\bibinfo{year}{2003}).
+
+\bibitem{ShemaDudai07}
+\bibinfo{author}{Shema, R.}, \bibinfo{author}{Sacktor, T.} \&
+  \bibinfo{author}{Dudai, Y.}
+\newblock \bibinfo{title}{{Rapid erasure of long-term memory associations in
+  the cortex by an inhibitor of PKM $\{$zeta$\}$}}.
+\newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{317}},
+  \bibinfo{pages}{951} (\bibinfo{year}{2007}).
+
+\bibitem{BerryDavis08}
+\bibinfo{author}{Berry, J.}, \bibinfo{author}{Krause, W.} \&
+  \bibinfo{author}{Davis, R.}
+\newblock \bibinfo{title}{{Olfactory memory traces in Drosophila}}.
+\newblock \emph{\bibinfo{journal}{Progress in brain research}}
+  \textbf{\bibinfo{volume}{169}}, \bibinfo{pages}{293--304}
+  (\bibinfo{year}{2008}).
+
+\end{thebibliography}

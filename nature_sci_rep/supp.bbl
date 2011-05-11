@@ -1,0 +1,56 @@
+\begin{thebibliography}{10}
+
+\bibitem{DGL96}
+L.~Devroye, L.~Gy{\"o}rfi, and G.~Lugosi, {\em {A Probabilistic Theory of
+  Pattern Recognition}}.
+\newblock Springer, 1996.
+
+\bibitem{GareyJohnson79}
+M.~Garey and D.~Johnson, {\em {Computers and intractability. A guide to the
+  theory of NP-completeness. A Series of Books in the Mathematical Sciences}}.
+\newblock WH Freeman and Company, San Francisco, Calif, 1979.
+
+\bibitem{Durbin87}
+R.~M. Durbin, {\em Studies on the Development and Organisation of the Nervous
+  System of Caenorhabditis elegans}.
+\newblock PhD thesis, University of Cambridge, 1987.
+
+\bibitem{deBonoMaricq05}
+M.~de~Bono and A.~V. Maricq, ``Neuronal substrates of complex behaviors in c.
+  elegans.,'' {\em Annu Rev Neurosci}, vol.~28, pp.~451--501, 2005.
+
+\bibitem{VarshneyChklovskii09}
+L.~Varshney, B.~Chen, E.~Paniagua, D.~Hall, and D.~Chklovskii, ``{Structural
+  Properties of the Caenorhabditis elegans Neuronal Network},'' {\em ArXiv},
+  2009.
+
+\bibitem{ChalasaniBargmann07}
+S.~H. Chalasani, N.~Chronis, M.~Tsunozaki, J.~M. Gray, D.~Ramot, M.~B. Goodman,
+  and C.~I. Bargmann, ``Dissecting a circuit for olfactory behaviour in
+  caenorhabditis elegans.,'' {\em Nature}, vol.~450, pp.~63--70, Nov 2007.
+
+\bibitem{VaziriShank08}
+A.~Vaziri, J.~Tang, H.~Shroff, and C.~V. Shank, ``Multilayer three-dimensional
+  super resolution imaging of thick biological samples.,'' {\em Proc Natl Acad
+  Sci U S A}, vol.~105, pp.~20221--20226, Dec 2008.
+
+\bibitem{HelmstaedterDenk08}
+M.~Helmstaedter, K.~L. Briggman, and W.~Denk, ``3d structural imaging of the
+  brain with photons and electrons.,'' {\em Curr Opin Neurobiol}, vol.~18,
+  pp.~633--641, Dec 2008.
+
+\bibitem{Mishchenko09}
+Y.~Mishchenko, ``Automation of 3d reconstruction of neural tissue from large
+  volume of conventional serial section transmission electron micrographs.,''
+  {\em J Neurosci Methods}, vol.~176, pp.~276--289, Jan 2009.
+
+\bibitem{LuLichtman09}
+J.~Lu, J.~C. Fiala, and J.~W. Lichtman, ``Semi-automated reconstruction of
+  neural processes from large numbers of fluorescence images,'' {\em PLoS ONE},
+  vol.~4, p.~e5655, 05 2009.
+
+\bibitem{BuckinghamSattelle08}
+S.~D. Buckingham and D.~B. Sattelle, ``Strategies for automated analysis of c.
+  elegans locomotion.,'' {\em Invert Neurosci}, vol.~8, pp.~121--131, Sep 2008.
+
+\end{thebibliography}
