@@ -1,73 +1,45 @@
 \begin{thebibliography}{10}
 
-\bibitem{Plato97}
-Plato.
-\newblock {\em Plato: complete works}.
-\newblock Hackett Pub Co,  (1997).
-
-\bibitem{Descartes1641}
-Descartes, R.
-\newblock {\em Meditationes de prima philosophia}.
-\newblock  (1641).
-
 \bibitem{Davidson70}
 Davidson, D.
-\newblock {\em Experience and Theory}, chapter Mental Events.
+\newblock {\em {Experience and Theory}}, chapter Mental Eve.
 \newblock Duckworth (1970).
 
+\bibitem{Haykin2008}
+Haykin, S.
+\newblock {\em {Neural Networks and Learning Machines}}.
+\newblock Prentice Hall, 3rd edition,  (2008).
+
+\bibitem{Fodor1998}
+Fodor, J.~A.
+\newblock {\em {Concepts: Where Cognitive Science Went Wrong (Oxford Cognitive
+  Science)}}.
+\newblock Oxford University Press, USA,  (1998).
+
+\bibitem{Gazzaniga2008}
+Gazzaniga, M.~S., Ivry, R.~B., and Mangun, G.~R.
+\newblock {\em {Cognitive Neuroscience: The Biology of the Mind (Third
+  Edition)}}.
+\newblock W. W. Norton \& Company,  (2008).
+
+\bibitem{Kim2007}
+Kim, J.
+\newblock {\em {Physicalism, or Something Near Enough (Princeton Monographs in
+  Philosophy)}}.
+\newblock Princeton University Press,  (2007).
+
 \bibitem{DGL96}
-Devroye, L., Gy{\"o}rfi, L., and Lugosi, G.
+Devroye, L., Gy\"{o}rfi, L., and Lugosi, G.
 \newblock {\em {A Probabilistic Theory of Pattern Recognition}}.
 \newblock Springer,  (1996).
 
 \bibitem{Devroye83}
 Devroye, L.
-\newblock {\em Probability Theory and Related Fields}{ \bf 62}(4), 475--483
-  (1983).
+\newblock {\em Utilitas Mathematica}{ \bf 483}, 475--483 (1983).
 
 \bibitem{Popper}
-Popper, K.
+Popper, K.~R.
 \newblock { \bf } (1959).
-
-\bibitem{NorthGreenspan07}
-Geoffrey~North, R. J.~G., editor.
-\newblock {\em Invertebrate neurobiology}.
-\newblock CSHL Press,  (2007).
-
-\bibitem{Shepherd04}
-Shepherd, G.
-\newblock {\em {The synaptic organization of the brain}}.
-\newblock Oxford University Press New York,  (2004).
-
-\bibitem{Felleman_VanEssen91}
-Felleman, D. and Van~Essen, D.
-\newblock {\em Cerebral cortex}{ \bf 1}(1), 1 (1991).
-
-\bibitem{Mori05}
-S.~Mori, S.~Wakana, P. v. Z. L. N.-P.
-\newblock {\em MRI Atlas of Human White Matter}.
-\newblock Elsevier Science,  (2005).
-
-\bibitem{Abeles91}
-Abeles, M.
-\newblock {\em Corticonics}.
-\newblock Cambridge University Press,  (1991).
-
-\bibitem{Koch_Davis94}
-Koch, C. and Davis, J.
-\newblock {\em {Large-scale neuronal theories of the brain}}.
-\newblock The MIT Press,  (1994).
-
-\bibitem{Rao_Lewicki02}
-Rao, R., Olshausen, B., and Lewicki, M.
-\newblock {\em {Probabilistic models of the brain: Perception and neural
-  function}}.
-\newblock The MIT Press,  (2002).
-
-\bibitem{Chow_Dalibard03}
-Chow, C., Gutkin, B., Hansel, D., Meunier, C., and Dalibard, J., editors.
-\newblock {\em Methods and Models in Neurophysics}.
-\newblock Elsevier,  (2003).
 
 \bibitem{SpornsKotter05}
 Sporns, O., Tononi, G., and Kotter, R.
@@ -78,86 +50,25 @@ Hagmann, P.
 \newblock {\em {From diffusion MRI to brain connectomics}}.
 \newblock PhD thesis, Institut de traitement des signaux,  (2005).
 
-\bibitem{Sporns10}
-Sporns, O.
-\newblock {\em Networks of the Brain}.
-\newblock MIT Press,  (2010).
+\bibitem{HayworthLichtman06}
+Hayworth, K.~J., Kasthuri, N., Schalek, R., Lichtman, J.~W., Program, N.,
+  Angeles, L., and Biology, C.
+\newblock {\em World}{ \bf 12}(Supp 2), 86--87 (2006).
 
-\bibitem{Basser94}
-Basser, P.~J., Mattiello, J., and LeBihan, D.
-\newblock {\em Biophys J}{ \bf 66}(1), 259--267 Jan  (1994).
-
-\bibitem{ArdekaniSzeszko10}
-Ardekani, B.~A., Tabesh, A., Sevy, S., Robinson, D.~G., Bilder, R.~M., and
-  Szeszko, P.~R.
-\newblock {\em Hum Brain Mapp}{ \bf } Mar  (2010).
-
-\bibitem{TuchWedeen02}
-Tuch, D., Reese, T., Wiegell, M., Makris, N., Belliveau, J., and Wedeen, V.
-\newblock {\em Magnetic Resonance in Medicine}{ \bf 48}(4), 577--582 (2002).
-
-\bibitem{Tuch04}
-Tuch, D.
-\newblock {\em Magnetic Resonance in Medicine}{ \bf 52}(6), 1358--1372 (2004).
-
-\bibitem{WedeenWeisskoff05}
-Wedeen, V., Hagmann, P., Tseng, W., Reese, T., and Weisskoff, R.
-\newblock {\em Magnetic Resonance in Medicine}{ \bf 54}(6), 1377--1386 (2005).
+\bibitem{Bock2011}
+Bock, D.~D., Lee, W.-C.~A., Kerlin, A.~M., Andermann, M.~L., Hood, G., Wetzel,
+  A.~W., Yurgenson, S., Soucy, E.~R., Kim, H.~S., and Reid, R.~C.
+\newblock {\em Nature}{ \bf 471}(7337), 177--182 March  (2011).
 
 \bibitem{PalmAmunts10}
-Palm, C., Axer, M., Gr{\"a}{\ss}el, D., Dammers, J., Lindemeyer, J., Zilles,
-  K., Pietrzyk, U., and Amunts, K.
+Palm, C., Axer, M., Gr\"{a}\ss~el, D., Dammers, J., Lindemeyer, J., Zilles, K.,
+  Pietrzyk, U., and Amunts, K.
 \newblock {\em Frontiers in Human Neuroscience}{ \bf 4} (2010).
 
-\bibitem{DenkHorstmann04}
-W.~Denk, W. and Horstmann, H.
-\newblock {\em PLOS Biol.}{ \bf 2}, e329 (2004).
-
-\bibitem{HayworthLichtman06}
-Hayworth, K., Kasthuri, N., Schalek, R., and Lichtman, J.
-\newblock {\em Microscopy and Microanalysis}{ \bf 12}(S02), 86--87 (2006).
-
-\bibitem{Penrose99}
-Penrose, R. and Gardner, M.
-\newblock {\em {The emperor's new mind: concerning computers, minds, and the
-  laws of physics}}.
-\newblock Oxford University Press, USA,  (1999).
-
-\bibitem{Satinover02}
-Satinover, J.
-\newblock {\em {The quantum brain: the search for freedom and the next
-  generation of man}}.
-\newblock Wiley,  (2002).
-
-\bibitem{NielsenChuang00}
-Nielson, M.~A. and Chuang, I.~L.
-\newblock {\em Quantum Computation and Quantum Information}.
-\newblock Cambridge University Press,  (2000).
-
-\bibitem{Craver09}
-Craver, C.~F.
-\newblock { \bf } (2009).
-
-\bibitem{Semon21}
-Semon, R.~W.
-\newblock {\em The Mneme}.
-\newblock G. Allen \& Unwin ltd.,  (1921).
-
-\bibitem{Lashley50}
-Lashley, K.
-\newblock {\em Symposia of the society for experimental biology}{ \bf
-  4}(454-482), 30 (1950).
-
-\bibitem{ZhangLinden03}
-Zhang, W. and Linden, D.
-\newblock {\em Nature Reviews Neuroscience}{ \bf 4}(11), 885--900 (2003).
-
-\bibitem{ShemaDudai07}
-Shema, R., Sacktor, T., and Dudai, Y.
-\newblock {\em Science}{ \bf 317}(5840), 951 (2007).
-
-\bibitem{BerryDavis08}
-Berry, J., Krause, W., and Davis, R.
-\newblock {\em Progress in brain research}{ \bf 169}, 293--304 (2008).
+\bibitem{Johansen-Berg2009}
+Johansen-Berg, H. and Behrens, T.~E.
+\newblock {\em {Diffusion MRI: From quantitative measurement to in-vivo
+  neuroanatomy}}.
+\newblock Academic Press,  (2009).
 
 \end{thebibliography}

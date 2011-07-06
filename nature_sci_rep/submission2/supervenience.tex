@@ -116,11 +116,11 @@ Joshua T. Vogelstein$^{1*}$, R. Jacob Vogelstein$^2$, Carey E. Priebe$^1$\\
 \newpage
 % \section*{Introduction}
 
-\noindent Donald Davidson canonized the mind-brain supervenience relation in 1970 with the following quote: \cite{Davidson70}
+\noindent The mind-brain supervenience notion was canonized in 1970 with the following quote from Donald Davidson: \cite{Davidson70}
 \begin{quotation}
-\noindent supervenience might be taken to mean that there cannot be two events alike in all physical respects but differing in some mental respect, or that an object cannot alter in some mental respect without altering in some physical respect.
+\noindent [mind-brain] supervenience might be taken to mean that there cannot be two events alike in all physical respects but differing in some mental respect, or that an object cannot alter in some mental respect without altering in some physical respect.
 \end{quotation}
-While supervenience can be a very general claim about arbitrary sets of objects, we consider a special case of considerable interest.  Specifically, this work addresses a novel version of a local supervenience between mental properties and brain properties.  The determination of supervenience (or lack thereof) of a mental property on a brain property has potentially important implications in a number of fields of inquiry.  Neural network theory and artificial intelligence often implicitly take a generalized notion of local mind-brain supervenience as an assumption; which, if falsified, might drastically change modern approaches to learning \cite{Haykin2008}. Cognitive neuroscience similarly seems to operate under such assumptions, which if false, could cause a revolution \cite{Fodor1992, Gazzaniga2008}.  And the question of mind-brain supervenience continues to be debated amongst philosophers \cite{Kim2007}.
+While supervenience can be a very general claim about arbitrary sets of objects, we consider a special case of considerable interest.  Specifically, this work addresses a novel version of a local supervenience between mental properties and brain properties, with particular emphasize on brain-graphs (i.e., connectivity structure).  The determination of supervenience (or lack thereof) of a mental property on a brain property has potentially important implications in a number of fields of inquiry.  Neural network theory and artificial intelligence often implicitly take a generalized notion of local mind-brain supervenience as an assumption; which if falsified, might change modern approaches to learning \cite{Haykin2008}. Cognitive neuroscience similarly seems to operate under such assumptions, which if falsified, might result in novel perspectives and theories \cite{Fodor1998, Gazzaniga2008}.  And the question of mind-brain supervenience continues to be debated amongst philosophers \cite{Kim2007}.
 
 This work does not attempt to resolve any mind-brain supervenience debates.  Rather, we propose a statistical approach for framing mind-brain supervenience questions.  This approach depends on defining the space of mental and brain properties under investigation and a statistical model characterizing the possible distributions governing their relationship.  Such definitions transform supervenience from a conjecture or an assumption, into a hypothesis which can be tested.
 
@@ -139,7 +139,7 @@ This work does not attempt to resolve any mind-brain supervenience debates.  Rat
 
 \subsection*{Statistical supervenience} % (fold)
 
-\noindent The $\mc{M}=\{m_1, m_2, \ldots\}$ be a set of possible mental properties. For example, $m$ might therefore indicate a person's intelligence, psychological state, current thought, gender identity, etc.   Similarly, let $\mc{B}=\{b_1,b_2,\ldots\}$ be a set of possible brain properties.  For example, $b$ might denote the number of cells in a person's brain at some time $t$, or the spike train of all neurons in the brain during some time period $t$ to $t'$. Given these definitions, Davidson's conjecture may be concisely and formally stated thusly:  $m \neq m' \implies b \neq b'$, where $(m,b), (m',b') \in \mc{M} \times \mc{B}$ are mind-brain pairs.  This mind-brain supervenience relation does not imply an injective relation, a causal relation, or an identity relation (see Appendix 1 for more details and some examples).  To facilitate both statistical analysis and empirical investigation, we convert this supervenience relation from a logical to a probabilistic relation.  
+\noindent Let $\mc{M}=\{m_1, m_2, \ldots\}$ be a set of possible mental properties. For example, $m$ might indicate a person's intelligence, psychological state, current thought, gender identity, etc.   Similarly, let $\mc{B}=\{b_1,b_2,\ldots\}$ be a set of possible brain properties.  For example, $b$ might denote the number of cells in a person's brain at some time $t$, or the spike train of all neurons in the brain during some time period $t$ to $t'$. Given these definitions, Davidson's conjecture may be concisely and formally stated thusly:  $m \neq m' \implies b \neq b'$, where $(m,b), (m',b') \in \mc{M} \times \mc{B}$ are mind-brain pairs.  This mind-brain supervenience relation does not imply an injective relation, a causal relation, or an identity relation (see Appendix 1 for more details and some examples).  To facilitate both statistical analysis and empirical investigation, we convert this supervenience relation from a logical to a probabilistic relation.  
 
 % Let $b$ correspond to an agent's brain, which is a particular element from the set of all possible brains, $\mB$. Similarly, let $m$ correspond to an agent's mind, which is a particular element from the set of all possible minds, $\mM$.  
 Let $F_{M,B}$ indicate a joint distribution of minds and brains. Statistical supervenience can thusly be defined:
@@ -154,9 +154,9 @@ $\mM$ is said to \textit{statistically supervene} on $\mB$ for distribution $F=F
 \subsection*{Statistical supervenience is equivalent to perfect classification accuracy} % (fold)
 \label{sub:theoretical_results}
 
-If minds statistically supervene on brains, $\MsB$, then if two minds differ, there must be some brain-based difference to account for the mental difference.  This means that there exists a deterministic function mapping each brain to its supervening mind, $g: \mB \mapsto \mM$; therefore, one could in principle construct this function. The optimal such classifier, $g^*$, has the smallest expected misclassification rate, $L_{F}(g^*)$, under distribuion $F$.  The minimum misclassification rate is called Bayes error (see Methods for details). 
+If minds statistically supervene on brains, $\MsB$, then if two minds differ, there must be some brain-based difference to account for the mental difference.  This means that there exists a deterministic function mapping each brain to its supervening mind, $g: \mB \mapsto \mM$. One could therefore, in principle, construct this function. The optimal such classifier, $g^*$, has the smallest expected misclassification rate, $L_{F}(g^*)$, under distribuion $F$.  The minimum misclassification rate is called Bayes error (see Methods for details). 
 % It may be the case that subsets of brains form equivalence classes, such that any brain in that subset is mapped to the same mind.  
-The primary result of casting supervenience as a statistical framework is the following theorem: 
+The primary result of casting supervenience in a statistical framework is the following theorem: 
 \begin{thm}
 \label{thm1} 
 $\mM$ is said to \textit{statistically supervene} on $\mB$ for distribution $F=F_{M,B}$, denoted $\mM \overset{S}{\sim}_{F} \mB$, if and only if $L_{F}(g^*) = 0$. Formally, \mbox{$\MsB \Leftrightarrow L_{F}(g^*)=0$}.  
@@ -169,8 +169,7 @@ The above argument shows (for the first time to our knowledge) that statistical 
 \subsection*{$\eps$-supervenience admits hypothesis testing} % (fold)
 \label{sub:hypothesis_testing}
 
-Although the above theorem is of potential theoretical interest, the arguments rely on knowing the typically unknown $F_{M,B}$ and $g^*$, rendering them useless pragmatically.  However, both $F_{M,B}$ and $g^*$ could be estimated from data.  
-Before explicitly considering the problem of testing for statistical supervenience, we define a relaxed notion of supervenience:
+Although the above theorem is of potential theoretical interest, the argument relies on knowing the typically unknown $F_{M,B}$, rendering it useless pragmatically.  However, either $F_{M,B}$ or $g^*$ could be estimated from data.  Before explicitly considering the problem of testing for statistical supervenience, we define a relaxed notion of supervenience:
 \begin{defi}
 \label{def2}
 Given $\varepsilon > 0$, $\mM$ is said to $\varepsilon$-\textit{supervene} on $\mB$ for distribution $F=F_{M,B}$, denoted $\MeB$, if and only if $L_{F}(g^*) < \varepsilon$.
@@ -190,8 +189,8 @@ Unfortunately, the rate of convergence of $L_{F}(g_n)$ to $L_{F}(g^*)$ depends o
 To ensure consistency and therefore unity power, the classifier $g_n$ must be able to converge to the truth, regardless of the true distribution, $F$.  We therefore make explicit a model for brains, and show that under this very general model, universally consistent classifiers are available.
 
 \begin{thex}
-Let the physical property under consideration be brain connectivity structure (``connectome''), so $b$ is a brain-graph \tr{(or, network)} with vertices representing neurons (or neuroanatomical regions) and edges representing synapses (or white matter tracts). Further let $\mB$, the brain observation space, be the collection of all graphs on a finite number of vertices, and $\mc{M}$, the mental property observation space, be finite. Now, imagine collecting very large amounts of very accurate independent and identically distributed brain-graph data and the associated mental property indicators. A $k_n$-nearest neighbor classifier using an isomorphism-matching Frobenius norm is universally consistent (see Appendix 2 for proof). Therefore, %Theorem \ref{thm1} applies and 
-the existence of a universally consistent classifier guarantees that eventually (in $n,n'$) we will be able to conclude $\MeB$ for this mind/brain property pair, if indeed $\varepsilon$-supervenience holds. This logic holds for directed graphs or multigraphs or hypergraphs with discrete edge weights and vertex attributes. Furthermore, Appendix 2 also extends the proof to deal with other matrix norms (which might speed up convergence), and the regression scenario, where $|\mM|$ is infinite.  
+Let the physical property under consideration be brain connectivity structure (``connectome''), so $b$ is a brain-graph \tr{(or, network)} with vertices representing neurons (or neuroanatomical regions) and edges representing synapses (or white matter tracts). Further let $\mB$, the brain observation space, be the collection of all graphs on a finite number of vertices, and $\mc{M}$, the mental property observation space, be finite. Now, imagine collecting very large amounts of very accurate exchangeable  brain-graph data and the associated mental property indicators. A $k_n$-nearest neighbor classifier using an isomorphism-matching Frobenius norm is universally consistent (see Appendix 2 for proof). Therefore, %Theorem \ref{thm1} applies and 
+the existence of a universally consistent classifier guarantees that eventually (in $n,n'$) we will be able to conclude $\MeB$ for this mind-brain property pair, if indeed $\varepsilon$-supervenience holds. This logic holds for directed graphs or multigraphs or hypergraphs with discrete edge weights and vertex attributes. Furthermore, Appendix 2 also extends the proof to deal with other matrix norms (which might speed up convergence), and the regression scenario, where $|\mM|$ is infinite.  
 \end{thex}
 
 
@@ -200,62 +199,24 @@ the existence of a universally consistent classifier guarantees that eventually 
 % \paragraph{Summary} % (fold)
 % \label{par:summary}
 
-We have introduced the notion of $\eps$-supervenience, which states that the Bayes optimal misclassification rate for any mind/brain property pair is less than $\eps$.  Furthermore, when we restrict the space of minds and brains to the setting of \emph{Gedankenexperiment}  1, we have shown that $k_n$-NN classifiers are universally consistent, such that one can derive a hypothesis test, with confidence level $\alpha$, that is guaranteed to converge to the Bayes optimal misclassification rate, given sufficient data, no matter the true (but unknown) distribution of mind/brain pair properties.  Alas, this is a one-sided test, so although power converges to unity, one can never determine whether (i) more data is necessary to get a lower p-value, or (ii) that the particular $\eps$-supervenience does not hold.  
+We have introduced the notion of $\eps$-supervenience, which states that the Bayes optimal misclassification rate for any mind-brain property pair is less than $\eps$.  Furthermore, when we restrict the space of minds and brains to the setting of \emph{Gedankenexperiment}  1, we have shown that $k_n$-NN classifiers are universally consistent, such that one can derive a hypothesis test, with confidence level $\alpha$, that is guaranteed to converge to the Bayes optimal misclassification rate, given sufficient data, no matter the true (but unknown) distribution of mind-brain pair properties.  
 
-A failure to reject the null therefore has many possible explanations.  First, the amount of data might be insufficient given the particular distance implemented; collecting more data or utilizing a more informative distance might resolve this difficulty.  Second, $\eps$-supervenience is defined between a mental property and a brain property.  Thus, a failure to reject supervenience on a particular brain property does not entail non-supervenience on any other brain property.  Third, in general, neither mental properties nor brain properties are directly measurable; rather, one typically measures a function of such properties.  For instance, instead of measuring intelligence, one considers the results of an IQ test as a proxy for intelligence.  Similarly, instead of measuring neural spike trains, one estimates spike trains from some measurable neural signal, like voltage.  While one could conceivably ask questions such as: ``is IQ score at some time supervenient on the the output of a voltage measuring device?'', these are less elegant and general than their non-observable analogs, such as: ``is intelligence supervenient on spike trains?''
+Alas, this is a one-sided test, so although power converges to unity, %one can never determine the reason for a failure to reject. %one can never determine whether (i) more data is necessary to get a lower p-value, or (ii) that the particular $\eps$-supervenience does not hold.  
+a failure to reject the null has many possible explanations.  First, the amount of data might be insufficient given the particular distance implemented; collecting more data or utilizing a more informative distance might resolve this difficulty.  Second, $\eps$-supervenience is defined between a mental property and a brain property.  Thus, a failure to reject supervenience on a particular brain property does not entail non-supervenience on any other brain property.  Third, in general, neither mental properties nor brain properties are directly measurable; rather, one typically measures a function of such properties.  For instance, instead of measuring intelligence, one considers the results of an IQ test as a proxy for intelligence.  Similarly, instead of measuring neural spike trains, one estimates spike trains from some measurable neural signal, like voltage.  While one could conceivably ask questions such as: ``is IQ score at some time supervenient on the the output of a voltage measuring device?'', these are less elegant and general than their non-observable analogs, such as: ``is intelligence supervenient on spike trains?''
 
 Thus, given measurement of mental and brain properties that we believe reflect the properties of interest, and a sufficient amount data satisfying the exchangeability assumption, a rejection entails that we are $100(1-a)\%$ confident that the mental property under investigation does not supervene on the brain property under investigation.  Unfortunately, failure to reject is more ambiguous. $\eps-$supervenience tests can therefore be thought of as constraining the space of possible brain properties upon which a mental property supervenes.  Determining that a mental property does not supervene on \emph{any} brain property is beyond the capacities of this formalism.
 
+Interestingly, much of contemporary research in neuroscience and cognitive science could be cast as mind-brain supervenience investigations.  Specifically, any investigation that aims to ``explain'' some behavioral or psychological phenomenon by reference to neural (or other brain) activity or structure, could be thought of as mind-brain supervenience investigations.  Thus, the proposed $\eps$-supervenience framework is perhaps a useful unifying perspective for these fields.  Perhaps this is especially true in light of the advent of ``connectomics'' \cite{SpornsKotter05,Hagmann05}, a field devoted to estimating whole organism brain-graphs, and relating them to function.  Testing supervenience of various mental properties on these brain-graphs will likely therefore become increasingly compelling; so the framework developed herein could be fundamental to these investigations.  Note that these connectomics investigations might lack any dynamics; rather, they effectively assume that structure determines the relevant dynamics.  Assuming that dynamics are a function of either vertex or edge attributes, whether any particular mental property is supervenient to ``only'' connectivity structure, or also some attributes, is merely another $\eps$-supervenience hypothesis. Appendix 3 presents an illustrative simulated example using the only currently known connectome---that of a Caenorhabditis elegans---demonstrating that $\eps$-supervenience can be rejected at some critical value $c_\alpha$ with only a reasonably small number of samples. Similar supervenience tests on larger animals will require either higher-throughput imaging modalities \cite{HayworthLichtman06, Bock2011} or more coarse brain-graphs \cite{PalmAmunts10,Johansen-Berg2009}, or both.
 
-% \paragraph{Practical issues} % (fold)
-% \label{par:practical_issues}
-
-% Importantly, we are \emph{not} claiming that actually determining $\eps$-supervenience in humans is practically possible for any particular mental property at this time (at least when the vertices represent individual neurons).  Rather, the claim is that \emph{if} one had sufficient data (a very large number of exchangeable mind/brain property pairs), then \emph{in theory}, some level $\eps$-supervenience hypothesis test could be performed.  Even in such a scenario, a universally consistent classifier is just one of many possible kinds of classifiers, and not necessarily the best one (in terms of $\mh{L}$) for any particular dataset.  Further, even if a universally consistent classifier is used, a more informative and tractable distance on $\mB$ may be desired, as the $k_n$-nearest neighbor classifier under a Frobenius norm may have a rate of convergence so slow and a computational demand so high as to be impractical (but see Appendix 3 for a simulated example in which convergence is relatively fast).  Whichever classifier is used, it is likely to benefit from a large amount of domain-specific knowledge, which the proposed classifier completely neglects. 
-
-
-
-
-% \paragraph{A unified quest} % (fold)
-% \label{sub:practical_applications}
-
-A central (perhaps \emph{the} central) quest in much of neuroscience, psychology, and cognitive science is to discover the brain properties that subvene under various mental properties, although questions are rarely cast within a  supervenience formalism.  Moreover, the particular brain properties that are often believed to subvene under these mental properties are neural circuits, or brain-subgraphs.  To this end, many investigations in these fields include schematic diagrams showing a particular brain-subgraph subvening under a particular mental phenotype. This practice transcends the evolutionary hierarchy of neuroscientific research.  For instance, in the invertebrate literature, vertices correspond to particular labeled neurons, and edges correspond to synapses \cite{NorthGreenspan07}.  In the vertebrate literature, vertices often correspond to types of neurons in particular regions, and edges correspond to tendencies of connections \cite{Shepherd04}.  For primates \cite{Felleman_VanEssen91} and humans \cite{Mori05} vertices frequently represent functionally distinct neuroanatomical regions, and edges represent regional interconnectivity. Furthermore, this practice also transcends analytical background, including anatomists \cite{Abeles91}, philosophers \cite{Koch_Davis94}, statisticians \cite{Rao_Lewicki02}, and physicists \cite{Chow_Dalibard03}.  The near ubiquity of this practice suggests that a fundamental quest is to determine which brain-subgraphs subvene under which mental properties (although perhaps causality, not supervenience, is the true desideratum).  Perhaps supervenience is therefore a framework that can fruitfully be applied to myriad and varied neurocognitive investigations.
 
 
 
 % \paragraph{Human applications} % (fold)
-% \label{par:human_applications}
-
-In recent years, with the advent of the field of ``connectomics'' \cite{SpornsKotter05,Hagmann05}, neuroimaging has driven an explosion of studies investigating the human connectome and relating connectomes to cognitive properties \cite{Sporns10}. % \cite{Jones10}.  
-Many of these studies can be framed as $\eps$-supervenience hypothesis tests.  For instance, a recent study showed that using data from diffusion tensor imaging \cite{Basser94}, one can nearly perfectly differentiate between schizophrenic individuals and normal (control) individuals \cite{ArdekaniSzeszko10}.  As the resolution and signal-to-noise ratio of magnetic resonance imaging continue to improve, especially with more advanced techniques such as High Angular Diffusion Imaging \cite{TuchWedeen02}, Q-Ball Imaging \cite{Tuch04}, and diffusion spectrum imaging \cite{WedeenWeisskoff05}, similar results could be obtained with other, more subtle cognitive properties.  Furthermore, the utilization of other imaging technologies, such as polarized light imaging \cite{PalmAmunts10} and high-throughput electron microscopy \cite{DenkHorstmann04,HayworthLichtman06}, will continue to improve the effective resolution of these inferred connectomes from human brains. While determining from a brain scan whether a particular individual knows calculus might be quite distant, many other cognitive and psychological supervenience hypotheses have already been tested, and the gap between testing for calculus and testing for schizophrenia seems to be diminishing.
-
-
-
-% % \paragraph{Alternative explanations} % (fold)
-% 
-% Although hypothesis testing for a particular $\epsilon$-supervenience appears to be possible based on the \emph{Gedankenexperiment} in Results, a natural question to raise is: what are the conceivable alternative hypotheses?  We consider three such alternatives.  
-% 
-% First, perhaps brains are more accurately characterized as quantum networks over classical networks.  Several authors have suggested that brains have certain hypercomputational properties that classical computers could not achieve \cite{Penrose99,Satinover02}. However, assuming that the computer can be represented as a network, the above results hold regardless of whether computations in the brain are quantum or classical.  This follows because quantum networks merely speed up computation for certain classes of problems; they cannot, however, solve problems that classical computers cannot \cite{Nielsen2004}.  This means that if the above analysis failed to reject the null hypothesis at level $\alpha$, it will fail regardless of whether one assumes quantum or classical computations.
-% 
-% Second, perhaps minds stochastically supervene on brains \cite{Craver09}. While perhaps difficult to imagine, 
-% much like a non-deterministic world was difficult to imagine prior to modern physics, it is not inconceivable that mental properties are only stochastically determined by physical ones.
-% 
-% A third alternative hypothesis is supernatural causal effects.  The above analysis could be considered an empirical test for whether we have souls, or, perhaps whether souls play a causal role in our mental properties over and above the physical role played by the brain, or whether the data we have suggests that the probability that our souls play a measurable causal role over and above the physical is less than $\eps$.
-% 
-% It therefore seems that failing to reject the null hypothesis that a particular mental property $\eps$-supervenes on a particular brain property could potentially be explained by stochastic or supernatural forces, but not a quantum network brain model.
-
-
-
 % \paragraph{Dynamics vs. statics} % (fold)
-% \label{par:dynamics_vs_statics}
-
-The \emph{Gedankenexperiment} in Section \ref{sub:uc} did not require simulating any dynamics; rather, the dynamics are necessarily a function of the model parameters (statics).  Similarly, for the question of mind-brain supervenience in humans, one need not ever observe any activity of the brain, one must merely observe the model that determines the activity (in a potentially stochastic process). Thus, this approach to understanding the relationship between mind and brain is distinct from the standard systems neuroscience paradigm, in which the goal is typically to understand the neural activity ``code.''  In contrast, if mind-brain supervenience holds, it motivates a search for the neural \emph{connectivity} ``code,'' a so-called ``engram''  for memories \cite{Semon21, Lashley50, ZhangLinden03, ShemaDudai07, BerryDavis08}, or more generally a \emph{mengram}, the neural signature of any mental property, be it cognitive, psychological, or otherwise (note that supervenience allows for the particular mengram of a mental property to vary both across individuals and time).  
-
-
 % \paragraph{Concluding thoughts} % (fold)
 % \label{par:concluding_thoughts}
 
-
-This \emph{Gedankenexperiment}, together with (i) the formal definition of $\varepsilon$-supervenience as a constraint on distributions, (ii) the brain-graph model, and (iii) the universal consistency proof on graphs, is the first demonstration (to our knowledge) that empirically investigating supervenience is at least theoretically possible. The above discussion suggests that many previously conducted investigations either assume supervenience, or test it.  Further, new technologies facilitate testing supervenience of mental properties on brain-graphs more easily.
+In conclusion, this \emph{Gedankenexperiment}, together with (i) the formal definition of $\varepsilon$-supervenience as a constraint on distributions, (ii) the brain-graph model, and (iii) the universal consistency proof on graphs, is the first demonstration (to our knowledge) that empirically investigating supervenience is at least theoretically possible. The above discussion suggests that many previously conducted investigations either assume supervenience, or try to test it.  Further, new technologies facilitate testing supervenience of mental properties on brain-graphs more easily.
 
 
 \section*{Methods}
@@ -274,258 +235,21 @@ This \emph{Gedankenexperiment}, together with (i) the formal definition of $\var
 % \subsection*{Statistical Setting} % (fold)
 
 
-Assuming for the moment that the space of all possible minds is finite, that is, $|\mM| < \infty$, then we call any such function a \emph{classifier} (this assumption will later be relaxed).  Let $\mh{m}$ denote the output of a classifier, $g(b)=\mh{m}$.  Define misclassification rate as $L_{F}(g) = \PP[g(B) \neq M]$ which denotes the probability that $g$ misclassifies $b$. The Bayes optimal classifier $g^*$ minimizes $L_{F}(g)$ over all classifiers, that is:	
+Assuming for the moment that the space of all possible minds is finite, that is, $|\mM| < \infty$, then we call any function, $g: \mc{B} \mapsto \mc{M}$, a \emph{classifier} (this assumption will later be relaxed).  Let $\mh{m}$ denote the output of a classifier, $g(b)=\mh{m}$.  Define misclassification rate as $L_{F}(g) = \PP[g(B) \neq M]$ which denotes the probability that $g$ misclassifies $b$ under distribution $F$. The Bayes optimal classifier $g^*$ minimizes $L_{F}(g)$ over all classifiers, that is:	
 $g^* = \argmin_{g} L_{F}(g)$.
-Thus, the \emph{Bayes error}, or Bayes risk, $L_{F}(g^*)$ is the minimum possible misclassification rate.
+Thus, the \emph{Bayes error}, or Bayes risk, $L_{F}(g^*)$, is the minimum possible misclassification rate.
 
-Let $\mc{T}_n=\{(m_1,b_1), (m_2,b_2), \ldots, (m_n,b_n)\}$ be a set of random samples taking their values in $\mc{M} \times \mc{B}$, each independently and identically distributed according to $F_{M,B}$.  Generalizing the concept of a classifier $g$ to allow incorporation of training data, consider $g_n:\mB \times (\mc{M} \times \mc{B})^n \mapsto \mM$ which takes as input an observed brain  $b$ and training data $\mc{T}_n$, and produces a classification: $g_n(b;\tr{\mc{T}_n})=\mh{m}$.  Misclassification rate for this classifier will be a random variable, because the training data $\mc{T}_n$ are random samples.  The expected misclassification rate for this classifier is therefore approximated by ``hold-out'' error:
-$\hL^{n'}_{F}(g_{\mt{n}}) = F[g_{\mt{n}}(B)=M | \mc{T}_{\mt{n}}]$,
-where $\mt{n}=n-n'$, and $n'<n$ is the number of held-out training samples (samples not used to obtain $g_{\mt{n}}(\cdot)$).
-The approximate  number of misclassified minds therefore has a binomial distribution:  $n' \hL^{n'}_{F}(g_{\mt{n}}) \sim \text{Binomial}(n',L_{F}(g_{\mt{n}}))$.
+Let $\mc{T}_n=\{(m_1,b_1), (m_2,b_2), \ldots, (m_n,b_n)\}$ be a set of random samples taking their values in $\mc{M} \times \mc{B}$, each independently and identically distributed according to $F_{M,B}$.  An \emph{induced} classifier, $g_n:\mB \times (\mc{M} \times \mc{B})^n \mapsto \mM$, takes as input an observed brain $b$ and training data $\mc{T}_n$, and classifies: $g_n(b;\tr{\mc{T}_n})=\mh{m}$.  Misclassification rate for this classifier will be a random variable, because the training data $\mc{T}_n$ are random samples.  The expected misclassification rate for this classifier is therefore approximated by ``hold-out'' error:
+$\hL^{n'}_{F}(g_{\mt{n}}) = \PP[g_{\mt{n}}(B)=M | \mc{T}_{\mt{n}}]$,
+where $\mt{n}=n-n'$, and $n'<n$ is the number of held-out training samples (samples not used to obtain $g_{\mt{n}}$).
+% The approximate  number of misclassified minds therefore has a binomial distribution:  $n' \hL^{n'}_{F}(g_{\mt{n}}) \sim \text{Binomial}(n',L_{F}(g_{\mt{n}}))$.
 
 
 
 
 \clearpage
-
-% subsection simulation (end)
-
 \bibliography{/Users/jovo/Research/latex/library}
 \bibliographystyle{nature}
-
-% \begin{thebibliography}{10}
-% \expandafter\ifx\csname url\endcsname\relax
-%   \def\url#1{\texttt{#1}}\fi
-% \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-% \providecommand{\bibinfo}[2]{#2}
-% \providecommand{\eprint}[2][]{\url{#2}}
-% 
-% \bibitem{Plato97}
-% \bibinfo{author}{Plato}.
-% \newblock \emph{\bibinfo{title}{Plato: complete works}}
-%   (\bibinfo{publisher}{Hackett Pub Co}, \bibinfo{year}{1997}).
-% 
-% \bibitem{Descartes1641}
-% \bibinfo{author}{Descartes, R.}
-% \newblock \emph{\bibinfo{title}{Meditationes de prima philosophia}}
-%   (\bibinfo{year}{1641}).
-% 
-% \bibitem{Davidson70}
-% \bibinfo{author}{Davidson, D.}
-% \newblock \emph{\bibinfo{title}{Experience and Theory}}, chap.
-%   \bibinfo{chapter}{Mental Events} (\bibinfo{publisher}{Duckworth},
-%   \bibinfo{year}{1970}).
-% 
-% \bibitem{DGL96}
-% \bibinfo{author}{Devroye, L.}, \bibinfo{author}{Gy{\"o}rfi, L.} \&
-%   \bibinfo{author}{Lugosi, G.}
-% \newblock \emph{\bibinfo{title}{{A Probabilistic Theory of Pattern
-%   Recognition}}} (\bibinfo{publisher}{Springer}, \bibinfo{year}{1996}).
-% 
-% \bibitem{Devroye83}
-% \bibinfo{author}{Devroye, L.}
-% \newblock \bibinfo{title}{{On arbitrarily slow rates of global convergence in
-%   density estimation}}.
-% \newblock \emph{\bibinfo{journal}{Probability Theory and Related Fields}}
-%   \textbf{\bibinfo{volume}{62}}, \bibinfo{pages}{475--483}
-%   (\bibinfo{year}{1983}).
-% 
-% \bibitem{Popper}
-% \bibinfo{author}{Popper, K.}
-% \newblock \bibinfo{title}{{The logic of scientific discovery}}
-%   (\bibinfo{year}{1959}).
-% 
-% \bibitem{NorthGreenspan07}
-% \bibinfo{editor}{Geoffrey~North, R. J.~G.} (ed.)
-%   \emph{\bibinfo{title}{Invertebrate neurobiology}} (\bibinfo{publisher}{CSHL
-%   Press}, \bibinfo{year}{2007}).
-% 
-% \bibitem{Shepherd04}
-% \bibinfo{author}{Shepherd, G.}
-% \newblock \emph{\bibinfo{title}{{The synaptic organization of the brain}}}
-%   (\bibinfo{publisher}{Oxford University Press New York},
-%   \bibinfo{year}{2004}).
-% 
-% \bibitem{Felleman_VanEssen91}
-% \bibinfo{author}{Felleman, D.} \& \bibinfo{author}{Van~Essen, D.}
-% \newblock \bibinfo{title}{{Distributed hierarchical processing in the primate
-%   cerebral cortex}}.
-% \newblock \emph{\bibinfo{journal}{Cerebral cortex}}
-%   \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{1} (\bibinfo{year}{1991}).
-% 
-% \bibitem{Mori05}
-% \bibinfo{author}{S.~Mori, P. v. Z. L. N.-P., S.~Wakana}.
-% \newblock \emph{\bibinfo{title}{MRI Atlas of Human White Matter}}
-%   (\bibinfo{publisher}{Elsevier Science}, \bibinfo{year}{2005}).
-% 
-% \bibitem{Abeles91}
-% \bibinfo{author}{Abeles, M.}
-% \newblock \emph{\bibinfo{title}{Corticonics}} (\bibinfo{publisher}{Cambridge
-%   University Press}, \bibinfo{year}{1991}).
-% 
-% \bibitem{Koch_Davis94}
-% \bibinfo{author}{Koch, C.} \& \bibinfo{author}{Davis, J.}
-% \newblock \emph{\bibinfo{title}{{Large-scale neuronal theories of the brain}}}
-%   (\bibinfo{publisher}{The MIT Press}, \bibinfo{year}{1994}).
-% 
-% \bibitem{Rao_Lewicki02}
-% \bibinfo{author}{Rao, R.}, \bibinfo{author}{Olshausen, B.} \&
-%   \bibinfo{author}{Lewicki, M.}
-% \newblock \emph{\bibinfo{title}{{Probabilistic models of the brain: Perception
-%   and neural function}}} (\bibinfo{publisher}{The MIT Press},
-%   \bibinfo{year}{2002}).
-% 
-% \bibitem{Chow_Dalibard03}
-% \bibinfo{editor}{Chow, C.}, \bibinfo{editor}{Gutkin, B.},
-%   \bibinfo{editor}{Hansel, D.}, \bibinfo{editor}{Meunier, C.} \&
-%   \bibinfo{editor}{Dalibard, J.} (eds.) \emph{\bibinfo{title}{Methods and
-%   Models in Neurophysics}} (\bibinfo{publisher}{Elsevier},
-%   \bibinfo{year}{2003}).
-% 
-% \bibitem{SpornsKotter05}
-% \bibinfo{author}{Sporns, O.}, \bibinfo{author}{Tononi, G.} \&
-%   \bibinfo{author}{Kotter, R.}
-% \newblock \bibinfo{title}{The human connectome: A structural description of the
-%   human brain}.
-% \newblock \emph{\bibinfo{journal}{PLoS Computational Biology}}
-%   \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{e42} (\bibinfo{year}{2005}).
-% 
-% \bibitem{Hagmann05}
-% \bibinfo{author}{Hagmann, P.}
-% \newblock \emph{\bibinfo{title}{{From diffusion MRI to brain connectomics}}}.
-% \newblock Ph.D. thesis, \bibinfo{school}{Institut de traitement des signaux}
-%   (\bibinfo{year}{2005}).
-% 
-% \bibitem{Sporns10}
-% \bibinfo{author}{Sporns, O.}
-% \newblock \emph{\bibinfo{title}{Networks of the Brain}}
-%   (\bibinfo{publisher}{MIT Press}, \bibinfo{year}{2010}).
-% 
-% \bibitem{Basser94}
-% \bibinfo{author}{Basser, P.~J.}, \bibinfo{author}{Mattiello, J.} \&
-%   \bibinfo{author}{LeBihan, D.}
-% \newblock \bibinfo{title}{Mr diffusion tensor spectroscopy and imaging.}
-% \newblock \emph{\bibinfo{journal}{Biophys J}} \textbf{\bibinfo{volume}{66}},
-%   \bibinfo{pages}{259--267} (\bibinfo{year}{1994}).
-% \newblock \urlprefix\url{http://dx.doi.org/10.1016/S0006-3495(94)80775-1}.
-% 
-% \bibitem{ArdekaniSzeszko10}
-% \bibinfo{author}{Ardekani, B.~A.} \emph{et~al.}
-% \newblock \bibinfo{title}{Diffusion tensor imaging reliably differentiates
-%   patients with schizophrenia from healthy volunteers.}
-% \newblock \emph{\bibinfo{journal}{Hum Brain Mapp}}  (\bibinfo{year}{2010}).
-% \newblock \urlprefix\url{http://dx.doi.org/10.1002/hbm.20995}.
-% 
-% \bibitem{TuchWedeen02}
-% \bibinfo{author}{Tuch, D.} \emph{et~al.}
-% \newblock \bibinfo{title}{{High angular resolution diffusion imaging reveals
-%   intravoxel white matter fiber heterogeneity}}.
-% \newblock \emph{\bibinfo{journal}{Magnetic Resonance in Medicine}}
-%   \textbf{\bibinfo{volume}{48}}, \bibinfo{pages}{577--582}
-%   (\bibinfo{year}{2002}).
-% 
-% \bibitem{Tuch04}
-% \bibinfo{author}{Tuch, D.}
-% \newblock \bibinfo{title}{{Q-ball imaging}}.
-% \newblock \emph{\bibinfo{journal}{Magnetic Resonance in Medicine}}
-%   \textbf{\bibinfo{volume}{52}}, \bibinfo{pages}{1358--1372}
-%   (\bibinfo{year}{2004}).
-% 
-% \bibitem{WedeenWeisskoff05}
-% \bibinfo{author}{Wedeen, V.}, \bibinfo{author}{Hagmann, P.},
-%   \bibinfo{author}{Tseng, W.}, \bibinfo{author}{Reese, T.} \&
-%   \bibinfo{author}{Weisskoff, R.}
-% \newblock \bibinfo{title}{{Mapping complex tissue architecture with diffusion
-%   spectrum magnetic resonance imaging}}.
-% \newblock \emph{\bibinfo{journal}{Magnetic Resonance in Medicine}}
-%   \textbf{\bibinfo{volume}{54}}, \bibinfo{pages}{1377--1386}
-%   (\bibinfo{year}{2005}).
-% 
-% \bibitem{PalmAmunts10}
-% \bibinfo{author}{Palm, C.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Towards ultra-high resolution fibre tract mapping of
-%   the human brain--registration of polarised light images and reorientation of
-%   fibre vectors}}.
-% \newblock \emph{\bibinfo{journal}{Frontiers in Human Neuroscience}}
-%   \textbf{\bibinfo{volume}{4}} (\bibinfo{year}{2010}).
-% 
-% \bibitem{DenkHorstmann04}
-% \bibinfo{author}{W.~Denk, W.} \& \bibinfo{author}{Horstmann, H.}
-% \newblock \bibinfo{title}{Serial block-face scanning electron microscopy to
-%   reconstruct three-dimensional tissue nanostructure}.
-% \newblock \emph{\bibinfo{journal}{PLOS Biol.}} \textbf{\bibinfo{volume}{2}},
-%   \bibinfo{pages}{e329} (\bibinfo{year}{2004}).
-% 
-% \bibitem{HayworthLichtman06}
-% \bibinfo{author}{Hayworth, K.}, \bibinfo{author}{Kasthuri, N.},
-%   \bibinfo{author}{Schalek, R.} \& \bibinfo{author}{Lichtman, J.}
-% \newblock \bibinfo{title}{{Automating the collection of ultrathin serial
-%   sections for large volume TEM reconstructions}}.
-% \newblock \emph{\bibinfo{journal}{Microscopy and Microanalysis}}
-%   \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{86--87}
-%   (\bibinfo{year}{2006}).
-% 
-% \bibitem{Penrose99}
-% \bibinfo{author}{Penrose, R.} \& \bibinfo{author}{Gardner, M.}
-% \newblock \emph{\bibinfo{title}{{The emperor's new mind: concerning computers,
-%   minds, and the laws of physics}}} (\bibinfo{publisher}{Oxford University
-%   Press, USA}, \bibinfo{year}{1999}).
-% 
-% \bibitem{Satinover02}
-% \bibinfo{author}{Satinover, J.}
-% \newblock \emph{\bibinfo{title}{{The quantum brain: the search for freedom and
-%   the next generation of man}}} (\bibinfo{publisher}{Wiley},
-%   \bibinfo{year}{2002}).
-% 
-% \bibitem{NielsenChuang00}
-% \bibinfo{author}{Nielson, M.~A.} \& \bibinfo{author}{Chuang, I.~L.}
-% \newblock \emph{\bibinfo{title}{Quantum Computation and Quantum Information}}
-%   (\bibinfo{publisher}{Cambridge University Press}, \bibinfo{year}{2000}).
-% 
-% \bibitem{Craver09}
-% \bibinfo{author}{Craver, C.~F.}
-% \newblock \bibinfo{title}{Stochastic supervenience}  (\bibinfo{year}{2009}).
-% 
-% \bibitem{Semon21}
-% \bibinfo{author}{Semon, R.~W.}
-% \newblock \emph{\bibinfo{title}{The Mneme}} (\bibinfo{publisher}{G. Allen \&
-%   Unwin ltd.}, \bibinfo{year}{1921}).
-% 
-% \bibitem{Lashley50}
-% \bibinfo{author}{Lashley, K.}
-% \newblock \bibinfo{title}{{In search of the engram}}.
-% \newblock \emph{\bibinfo{journal}{Symposia of the society for experimental
-%   biology}} \textbf{\bibinfo{volume}{4}}, \bibinfo{pages}{30}
-%   (\bibinfo{year}{1950}).
-% 
-% \bibitem{ZhangLinden03}
-% \bibinfo{author}{Zhang, W.} \& \bibinfo{author}{Linden, D.}
-% \newblock \bibinfo{title}{{The other side of the engram: experience-driven
-%   changes in neuronal intrinsic excitability}}.
-% \newblock \emph{\bibinfo{journal}{Nature Reviews Neuroscience}}
-%   \textbf{\bibinfo{volume}{4}}, \bibinfo{pages}{885--900}
-%   (\bibinfo{year}{2003}).
-% 
-% \bibitem{ShemaDudai07}
-% \bibinfo{author}{Shema, R.}, \bibinfo{author}{Sacktor, T.} \&
-%   \bibinfo{author}{Dudai, Y.}
-% \newblock \bibinfo{title}{{Rapid erasure of long-term memory associations in
-%   the cortex by an inhibitor of PKM $\{$zeta$\}$}}.
-% \newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{317}},
-%   \bibinfo{pages}{951} (\bibinfo{year}{2007}).
-% 
-% \bibitem{BerryDavis08}
-% \bibinfo{author}{Berry, J.}, \bibinfo{author}{Krause, W.} \&
-%   \bibinfo{author}{Davis, R.}
-% \newblock \bibinfo{title}{{Olfactory memory traces in Drosophila}}.
-% \newblock \emph{\bibinfo{journal}{Progress in brain research}}
-%   \textbf{\bibinfo{volume}{169}}, \bibinfo{pages}{293--304}
-%   (\bibinfo{year}{2008}).
-% 
-% \end{thebibliography}
-
-
-
 
 \section*{Acknowledgments}
 

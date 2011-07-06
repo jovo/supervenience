@@ -2,69 +2,54 @@ This is BibTeX, Version 0.99d (TeX Live 2010)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: supervenience.aux
 The style file: nature.bst
-Database file #1: /Users/jovo/Research/latex/biblist.bib
-Warning--empty publisher in Descartes1641
+Database file #1: /Users/jovo/Research/latex/library.bib
 Warning--can't use both author and editor fields in Davidson70
 Warning--empty title in Devroye83
 Warning--empty title in Popper
 Warning--empty journal in Popper
-Warning--empty title in Felleman_VanEssen91
-Too many commas in name 1 of "S. Mori, S. Wakana, P.C.M. van Zijl, L.M. Nagae-Poetscher" for entry Mori05
-while executing---line 1005 of file nature.bst
 Warning--empty title in SpornsKotter05
-Warning--empty title in Basser94
-Warning--empty title in ArdekaniSzeszko10
-Warning--empty title in TuchWedeen02
-Warning--empty title in Tuch04
-Warning--empty title in WedeenWeisskoff05
-Warning--empty title in PalmAmunts10
-Warning--empty title in DenkHorstmann04
 Warning--empty title in HayworthLichtman06
-Warning--empty title in Craver09
-Warning--empty journal in Craver09
-Warning--empty title in Lashley50
-Warning--empty title in ZhangLinden03
-Warning--empty title in ShemaDudai07
-Warning--empty title in BerryDavis08
-You've used 34 entries,
+Warning--empty title in Bock2011
+Warning--empty title in PalmAmunts10
+You've used 14 entries,
             1856 wiz_defined-function locations,
-            672 strings with 8575 characters,
-and the built_in function-call counts, 6524 in all, are:
-= -- 543
-> -- 294
+            550 strings with 6015 characters,
+and the built_in function-call counts, 2767 in all, are:
+= -- 221
+> -- 150
 < -- 1
-+ -- 114
-- -- 80
-* -- 533
-:= -- 1063
-add.period$ -- 85
-call.type$ -- 34
-change.case$ -- 0
++ -- 57
+- -- 43
+* -- 226
+:= -- 468
+add.period$ -- 36
+call.type$ -- 14
+change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 55
-duplicate$ -- 320
-empty$ -- 666
-format.name$ -- 80
-if$ -- 1421
+cite$ -- 22
+duplicate$ -- 131
+empty$ -- 266
+format.name$ -- 43
+if$ -- 595
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 47
-newline$ -- 156
-num.names$ -- 36
-pop$ -- 153
+int.to.str$ -- 14
+missing$ -- 20
+newline$ -- 67
+num.names$ -- 14
+pop$ -- 64
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 92
+skip$ -- 36
 stack$ -- 0
-substring$ -- 245
-swap$ -- 34
+substring$ -- 78
+swap$ -- 15
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 21
-while$ -- 55
-width$ -- 36
-write$ -- 324
-(There was 1 error message)
+warning$ -- 8
+while$ -- 21
+width$ -- 16
+write$ -- 138
+(There were 8 warnings)
