@@ -120,76 +120,126 @@ Joshua T. Vogelstein$^{1*}$, R. Jacob Vogelstein$^2$, Carey E. Priebe$^1$\\
 \begin{quotation}
 \noindent [mind-brain] supervenience might be taken to mean that there cannot be two events alike in all physical respects but differing in some mental respect, or that an object cannot alter in some mental respect without altering in some physical respect.
 \end{quotation}
-While supervenience can be a very general claim about arbitrary sets of objects, we consider a special case of considerable interest.  Specifically, this work addresses a novel version of a local supervenience between mental properties and brain properties, with particular emphasize on brain-graphs (i.e., connectivity structure).  The determination of supervenience (or lack thereof) of a mental property on a brain property has potentially important implications in a number of fields of inquiry.  Neural network theory and artificial intelligence often implicitly take a generalized notion of local mind-brain supervenience as an assumption; which if falsified, might change modern approaches to learning \cite{Haykin2008}. Cognitive neuroscience similarly seems to operate under such assumptions, which if falsified, might result in novel perspectives and theories \cite{Fodor1998, Gazzaniga2008}.  And the question of mind-brain supervenience continues to be debated amongst philosophers \cite{Kim2007}.
+We consider a special case of supervenience of considerable interest.  Specifically, this work addresses a novel version of a local supervenience between mental properties and brain properties, with particular emphasize on brain-graphs (i.e., connectivity structure).  The determination of supervenience (or lack thereof) of a mental property on a brain property has potentially important implications in a number of fields of inquiry.  Neural network theory and artificial intelligence often implicitly take a generalized notion of local mind-brain supervenience as an assumption; which if falsified, might change modern approaches to learning \cite{Haykin2008,Ripley2008}. Cognitive neuroscience similarly seems to operate under such assumptions, which if falsified, might result in novel perspectives and theories \cite{Fodor1998, Gazzaniga2008}.  And the question of mind-brain supervenience continues to be debated amongst philosophers \cite{Kim2007}.
 
-This work does not attempt to resolve any mind-brain supervenience debates.  Rather, we propose a statistical approach for framing mind-brain supervenience questions.  This approach depends on defining the space of mental and brain properties under investigation and a statistical model characterizing the possible distributions governing their relationship.  Such definitions transform supervenience from a conjecture or an assumption, into a hypothesis which can be tested.
+This work does not attempt to resolve any particular mind-brain supervenience debates.  Rather, we propose a statistical approach for framing mind-brain supervenience questions.  This approach depends on defining the space of mental and brain properties under investigation and a statistical model characterizing the possible distributions governing their relationship.  Such definitions transform supervenience from a conjecture or an assumption, into a hypothesis which can be tested.
 
-
-
-
-% Questioning the relationship between the mind (our thoughts, beliefs, preferences, emotions, intelligences, etc.) and the brain (the physical structure inside our skulls) dates back at least as far as 400~BCE, when Plato wrote the dialogues, in which he posited immateriality of the soul \cite{Plato97}. Approximately two millennia passed before these ideas reached their canonical form through Descartes's discussion of mind-body dualism \cite{Descartes1641}. Then, in the 20th century, Donald Davidson stated and popularized the mind-brain supervenience \tr{conjecture}, which claims that an agent cannot alter in some mental property without altering in some physical property \cite{Davidson70}. Contemporary fields of neural network theory and neuroscientific inquiry often assume mind-brain supervenience, or an even stronger assumption about mind-brain causality, but no previously proposed notion of supervenience seems amenable to empirical investigation. This work is an attempt to bridge the gap between these philosophical conjectures and experimentally testable hypotheses. % Here we define new versions of supervenience that formulate the \tr{conjecture} in rigorous mathematical terms, and that can be experimentally tested \tr{as a hypothesis}.
-
-% The primary contributions of this work flow from our introduction of a notion of supervenience amenable to empirical investigation.  This renders supervenience as a hypothesis, rather than a conjecture or an assumption,  both expanding the space of questions amenable to hypothesis testing, and placing limits on this space.  Because hypothesis tests (implicitly sometimes) depend on a model, a very general model of brains and their associated mental properties is proposed.  Fortunately, this formulation admits universally consistent classifiers, that is, classifiers guaranteed to find the relationship between minds and brains, if one exists, given sufficient data.  Many previous investigations relating brains and mental properties can therefore be considered $\eps$-supervenience hypothesis tests.  This paradigm, therefore, generalizes previous approaches, embedding them in a rigorous statistical framework, and suggests avenues for future research.
-
-
- % we demonstrate through simulation that the proposed universally consistent classifier has reasonable convergence properties on simulated brain-graph data. Finally, we discuss both contemporary and future applications of this framework to neurobiological studies in humans.
 
 
 \section*{Results}
 
-\subsection*{Statistical supervenience} % (fold)
+\subsection*{Statistical supervenience; a definition} % (fold)
 
-\noindent Let $\mc{M}=\{m_1, m_2, \ldots\}$ be a set of possible mental properties. For example, $m$ might indicate a person's intelligence, psychological state, current thought, gender identity, etc.   Similarly, let $\mc{B}=\{b_1,b_2,\ldots\}$ be a set of possible brain properties.  For example, $b$ might denote the number of cells in a person's brain at some time $t$, or the spike train of all neurons in the brain during some time period $t$ to $t'$. Given these definitions, Davidson's conjecture may be concisely and formally stated thusly:  $m \neq m' \implies b \neq b'$, where $(m,b), (m',b') \in \mc{M} \times \mc{B}$ are mind-brain pairs.  This mind-brain supervenience relation does not imply an injective relation, a causal relation, or an identity relation (see Appendix 1 for more details and some examples).  To facilitate both statistical analysis and empirical investigation, we convert this supervenience relation from a logical to a probabilistic relation.  
+\noindent Let $\mc{M}=\{m_1, m_2, \ldots\}$ be a set of possible mental properties. For example, $m$ might indicate a person's intelligence, psychological state, current thought, gender identity, etc.   Similarly, let $\mc{B}=\{b_1,b_2,\ldots\}$ be a set of possible brain properties.  For example, $b$ might denote the number of cells in a person's brain at some time $t$, or the collection of spike trains of all neurons in the brain during some time period $t$ to $t'$. Given these definitions, Davidson's conjecture may be concisely and formally stated thusly:  $m \neq m' \implies b \neq b'$, where $(m,b), (m',b') \in \mc{M} \times \mc{B}$ are mind-brain pairs.  This mind-brain supervenience relation does not imply an injective relation, a causal relation, or an identity relation (see Appendix 1 for more details and some examples).  To facilitate both statistical analysis and empirical investigation, we convert this supervenience relation from a logical to a probabilistic relation.  
 
 % Let $b$ correspond to an agent's brain, which is a particular element from the set of all possible brains, $\mB$. Similarly, let $m$ correspond to an agent's mind, which is a particular element from the set of all possible minds, $\mM$.  
-Let $F_{M,B}$ indicate a joint distribution of minds and brains. Statistical supervenience can thusly be defined:
+Let $F_{MB}$ indicate a joint distribution of minds and brains. Statistical supervenience can thusly be defined:
 \begin{defi}
 \label{def1} 
-$\mM$ is said to \textit{statistically supervene} on $\mB$ for distribution $F=F_{M,B}$, denoted $\mM \overset{S}{\sim}_F \mB$, if and only if $\PP[m \neq m' | b=b']=0$, or equivalently $\PP[m = m' | b = b']=1$. 
+$\mM$ is said to \textit{statistically supervene} on $\mB$ for distribution $F=F_{MB}$, denoted $\mM \overset{S}{\sim}_F \mB$, if and only if $\PP[m \neq m' | b=b']=0$, or equivalently $\PP[m = m' | b = b']=1$. 
 \end{defi}
-\noindent Statistical supervenience is therefore a probabilistic relation on sets (related to, but distinct from correlation; see Appendix 1 for details).  
+\noindent Statistical supervenience is therefore a probabilistic relation on sets (which could be considered a generalization of correlation; see Appendix 1 for details).  
 
 
 
 \subsection*{Statistical supervenience is equivalent to perfect classification accuracy} % (fold)
 \label{sub:theoretical_results}
 
-If minds statistically supervene on brains, $\MsB$, then if two minds differ, there must be some brain-based difference to account for the mental difference.  This means that there exists a deterministic function mapping each brain to its supervening mind, $g: \mB \mapsto \mM$. One could therefore, in principle, construct this function. The optimal such classifier, $g^*$, has the smallest expected misclassification rate, $L_{F}(g^*)$, under distribuion $F$.  The minimum misclassification rate is called Bayes error (see Methods for details). 
-% It may be the case that subsets of brains form equivalence classes, such that any brain in that subset is mapped to the same mind.  
+If minds statistically supervene on brains, $\MsB$, then if two minds differ, there must be some brain-based difference to account for the mental difference.  This means that there exists a deterministic function mapping each brain to its supervening mind, $g: \mB \mapsto \mM$. One could therefore, in principle, construct this function. When the space of all possible minds is finite; that is, $|\mM| < \infty$, $g$ is called a \emph{classifier}.  
+% Let $\mh{m}$ denote the output of a classifier, $g(b)=\mh{m}$.  
+Define misclassification rate, the probability that $g$ misclassifies $b$ under distribution $F=F_{MB}$,  as
+\begin{align}
+L_{F}(g) = \PP[g(B) \neq M] = \frac{1}{|\mc{M} \times \mc{B}|} \sum_{(m,b) \in \mc{M} \times \mc{B}} \II\{g(b) \neq m\} \PP[B=b, M=m]	
+\end{align}
+where $\II$ denotes the indicator function taking value unity whenever its argument is true, and zero otherwise.  The Bayes optimal classifier $g^*$ minimizes $L_{F}(g)$ over all classifiers, that is:	
+$g^* = \argmin_{g} L_{F}(g)$.
+The \emph{Bayes error}, or Bayes risk, $L^*=L_{F}(g^*)$, is the minimum possible misclassification rate.
+
+% The optimal such classifier, $g^*$, has the smallest expected misclassification rate, $L^*=L_{F}(g^*)$, under distribuion $F$.  The minimum misclassification rate is called Bayes error (see Methods for details). 
 The primary result of casting supervenience in a statistical framework is the following theorem: 
 \begin{thm}
 \label{thm1} 
-$\mM$ is said to \textit{statistically supervene} on $\mB$ for distribution $F=F_{M,B}$, denoted $\mM \overset{S}{\sim}_{F} \mB$, if and only if $L_{F}(g^*) = 0$. Formally, \mbox{$\MsB \Leftrightarrow L_{F}(g^*)=0$}.  
+$\mM$ is said to \textit{statistically supervene} on $\mB$ for distribution $F=F_{MB}$, denoted $\mM \overset{S}{\sim}_{F} \mB$, if and only if $L^*= 0$. Formally, \mbox{$\MsB \Leftrightarrow L^*=0$}.  
 \end{thm}
-\noindent If minds supervene on brains, then, by the definition of supervenience, there exists a function that maps each brain deterministically to a particular mind.  This means that one could draw a decision boundary between all equivalence classes of brains, each class corresponding to a different mind, and no mind will reside within two different equivalence classes.  Thus, the optimal classifier would correctly find these decision boundaries, and therefore have no opportunity to err. $\square$
+\begin{proof}
+Let $\mc{M}_b=\{m: \PP[B=b | M=m] >0\}$.  
+$$L^*=0 \Leftrightarrow |\mc{M}_b|=1 \, \forall \, b \in \mc{B}.$$
+In words, for $L^*$ to equal 0, it must be the case that there exists only a single $m$ for each $b$.
+\end{proof}
 
-The above argument shows (for the first time to our knowledge) that statistical supervenience and zero Bayes error are equivalent. Statistical supervenience can therefore be thought of as a constraint on the possible distributions on minds and brains.  Specifically, let $\mc{F}$ indicate the set of all possible joint distributions on minds and brains, and let $\mc{F}_s$ be subset of distributions for which supervenience holds. Theorem \ref{thm1} implies that $\mc{F}_s = \{F_{M,B} : L_{F}(g^*)=0\} \subseteq \mc{F}$.
+% \noindent If minds supervene on brains, then, by the definition of supervenience, there exists a function that maps each brain deterministically to a particular mind.  This means that one could draw a decision boundary between all equivalence classes of brains, each class corresponding to a different mind, and no mind will reside within two different equivalence classes.  Thus, the optimal classifier would correctly find these decision boundaries, and therefore have no opportunity to err. $\square$
+
+The above argument shows (for the first time to our knowledge) that statistical supervenience and zero Bayes error are equivalent. Statistical supervenience can therefore be thought of as a constraint on the possible distributions on minds and brains.  Specifically, let $\mc{F}$ indicate the set of all possible joint distributions on minds and brains, and let $\mc{F}_s$ be subset of distributions for which supervenience holds. Theorem \ref{thm1} implies that $\mc{F}_s = \{F_{MB} : L^*=0\} \subseteq \mc{F}$.
+
+
+\subsection*{The intractability of testing for statistical supervenience} % (fold)
+\label{sub:subsection_name}
+
+% subsection subsection_name (end)
+
+Although the above theorem is of potential theoretical interest, the argument relies on knowing the typically unavailable $L^*$, rendering it useless pragmatically.  However,  $g^*$ could be estimated from data, and its estimate could be utilized to conduct the following statistical test of supervenience:
+% Let $g_n$ be a classifier induced from some training data, $\mc{T}_n$, 
+\begin{align*} 
+	H_0:& L^* > 0 \\
+	H_A:& L^*=0
+\end{align*}
+A statistical test proceeds by calculating a test statistic and a critical value $c_\alpha$.  We reject if the test statistic is more extreme than the critical value, or equivalently, if the $p$-value is less than $\alpha$.   The $p$-value, the probability of rejecting a true null hypothesis, is a function of the distribution of the test statistic.  
+
+Let $g_n$ be a classifier induced by the data, $g_n:\mB \times (\mc{M} \times \mc{B})^n \mapsto \mM$.   Assume that training data $\mc{T}_n=\{(M_{1},B_{1}), \ldots, (M_{n},B_{n})\}$ are each sampled identically and independently (iid) from the true (but unknown) joint distribution, $F_{MB}$.  The misclassification rate of a classifier will therefore be a random variable. The expected misclassification rate is given by 
+\begin{align}
+\EE[L_F(g_n)]=\sum_{(m,b)  \in \mc{M}\times \mc{B}} \II\{g_n(b; \mc{T}_n) \neq m\} \PP[B=b,M=m].
+\end{align}
+Because calculating the expected misclassification rate requires a sum over all possible mind/brain property pairs, calculating $\EE[L_F(g_n)]$ will often be intractable in practice.  Instead, expected misclassification rate is approximated by ``hold-out'' error.  Let $\mc{H}_{n'}=\{(M_{n+1},B_{n+1}), \ldots, (M_{n+n'},B_{n+n'})\}$ be a set of $n'$ hold-out samples, each sampled iid from $F_{MB}$.  The hold-out approximation to misclassification rate is given by
+\begin{align}
+\hL^{n'}_{F}(g_{n}) = \sum_{(m,b) \in \mc{H}_{n'}}\II \{g_{n}(b; \mc{T}_{n})\neq m] \PP[B=b,M=m].	
+\end{align}
+Under the above assumptions, $\hL^{n'}_F(g_n)$ can be used as a surrogate for $L^*$.  By definition of $g^*$, we expect $\hL^{n'}_F(g_n) \geq g^*$ for any $g_n$ and all $n$.   We therefore let $\mh{n}= \lfloor n' \hL^{n'}_{F}(g_n) \rfloor$ be the test statistic, where $\lfloor \cdot \rfloor$ is the floor operator.  The distribution of $\mh{n}$ is available under the least favorable distribution of the alternate hypothesis.  Specifically,  the $p$-value is given by the binomial cumulative distribution function, $\mathbb{B}(\mh{n}; n', p_{H_A})= \sum_{k \in [\mh{n}]}$Binomial$(k; n'; p_{H_A})$, where $p_{H_A}$ is Bernoulli probability under least favorable distribution of the alternate hypothesis and $[\mh{n}]=\{1,\ldots, \mh{n}\}$.  In this simple alternate hypothesis, $p_{H_A}=0$. Because Binomial$(k; n', 0)=1$ for all $n'$, the $p$-value is always equal to unity.    Thus, we can \emph{never} reject the above null hypothesis, no matter how much data we obtain.
+
+
+
 
 
 \subsection*{$\eps$-supervenience admits hypothesis testing} % (fold)
 \label{sub:hypothesis_testing}
 
-Although the above theorem is of potential theoretical interest, the argument relies on knowing the typically unknown $F_{M,B}$, rendering it useless pragmatically.  However, either $F_{M,B}$ or $g^*$ could be estimated from data.  Before explicitly considering the problem of testing for statistical supervenience, we define a relaxed notion of supervenience:
+We therefore consider a relaxed notion of supervenience:
 \begin{defi}
 \label{def2}
-Given $\varepsilon > 0$, $\mM$ is said to $\varepsilon$-\textit{supervene} on $\mB$ for distribution $F=F_{M,B}$, denoted $\MeB$, if and only if $L_{F}(g^*) < \varepsilon$.
+Given $\varepsilon > 0$, $\mM$ is said to $\varepsilon$-\textit{supervene} on $\mB$ for distribution $F=F_{MB}$, denoted $\MeB$, if and only if $L_{F}(g^*) < \varepsilon$.
 \end{defi}
-\noindent Given this relaxation, consider the problem of testing for $\eps$-supervenience. Let the null hypothesis be $H_0$: $L_{F}(g_n) \geq \eps$, and the alternative hypothesis be $H_A$: $L_{F}(g_n) < \eps$. Hold-out error, $\hL^{n'}_{F}(g_{\mt{n}})$, as defined in Methods, is a test statistic for this hypothesis.  We reject for values of the test statistic lower than the critical value, that is, we reject if and only if $\hL^{n'}_{F}(g_{\mt{n}}) <c_{\alpha}(n',\varepsilon)$.  The critical value is available under the least favorable distribution $n' \hL^{n'}_{F}(g_{\mt{n}}) \sim \text{Binomial}(n',\varepsilon)$.  Thus, rejection implies that we are $100(1-\alpha$)\% confident that $\MeB$.  The definition of $\eps$-supervenience therefore admits, for the first time to our knowledge, a statistical test of supervenience, given a specified $\eps$ and $\alpha$. 
+\noindent Given this relaxation, consider the problem of testing for $\eps$-supervenience:
+\begin{align*}
+	H_0^{\eps}: L^* \geq \eps \\
+	H_A^{\eps}: L^* < \eps
+\end{align*}
+The $p$-value of the above composite alternate hypothesis is given by the binomial distribution under the least favorable distribution, $\mathbb{B}(\mh{n}; n', p_{H_A}=\eps)<1$.  We therefore reject whenever this $p$-value is less than $\alpha$; rejection implies that we are $100(1-\alpha$)\% confident that $\MeB$.   The definition of $\eps$-supervenience therefore admits, for the first time to our knowledge, a viable statistical test of supervenience, given a specified $\eps$ and $\alpha$. 
 
-	
-	
-Importantly, the utility of any statistical test depends both on the p-value, the probability of obtaining a test statistic at least as extreme as the observed value (under the assumed model), and its power, the probability that the test will reject a false null hypothesis.  Ideally, the power of this test would go to unity, as $n,n' \rightarrow \infty$.  A sufficient condition for power to approach unity is that $g_n$ is a \emph{consistent} classifier.  A classifier is consistent if and only if its expected misclassification rate converges to the Bayes optimal limit with sufficient data, that is $\EE[L_{F}(g_n)] \conv L_{F}(g^*)$ as $n\conv \infty$.  Below, we show that under a very general mind-brain model, one can construct a consistent classifier whose power approaches unity with sufficient data.
-
-Unfortunately, the rate of convergence of $L_{F}(g_n)$ to $L_{F}(g^*)$ depends on the (unknown) distribution $F=F_{M,B}$ \cite{DGL96}. Furthermore, arbitrarily slow convergence theorems regarding the rate of convergence of $L_{F}(g_n)$ to $L_{F}(g^*)$ demonstrate that there is no universal $n,n'$ which will guarantee that the test has power greater than any specified target $\beta > \alpha$ \cite{Devroye83}. For this reason, the test outlined above can provide only a one-sided conclusion: if we reject we can be $100(1-\alpha)$\% confident that $\MeB$ holds, but we can never be confident in its negation; rather, it may be the case that the evidence in favor of $\MeB$ is insufficient for any number of reasons, including that we simply have not yet collected enough data. Thus, without restrictions on $F_{M,B}$, arbitrarily slow convergence theorems imply that our theorem of $\varepsilon$-supervenience does not \tr{strictly} satisfy Popper's {\it falsifiability} requirement \cite{Popper}.
-
-
-\subsection*{A \emph{Gedankenexperiment} demonstrating consistency and unity power} % (fold)
+\subsection*{A \emph{Gedankenexperiment} demonstrating an ideal test} % (fold)
 \label{sub:uc}
 
-To ensure consistency and therefore unity power, the classifier $g_n$ must be able to converge to the truth, regardless of the true distribution, $F$.  We therefore make explicit a model for brains, and show that under this very general model, universally consistent classifiers are available.
+Ideally, as $n$ increases, the probability of both a Type I error (rejection of a true null hypothesis) and a Type II error (failure to reject a false null hypothesis) goes to zero.  
+
+%For the above described hypothesis of $\eps$-supervenience, both the $p$-value (probability of a type I error)  and power (probability of not making a type II error), will depend on the distribution  of $g_n$.  We therefore consider the properties of $g_n$, and the implications of those properties with regard to the probability of a Type I or Type II error.
+
+The $p$-value 
+(probability of a type I error)
+of the test statistic for any classifier $g_n$ converges to zero, because $\mathbb{B}(\mh{n}; n', \hL^{n'}_F(g_n))) \conv 0$ as $n,n' \conv \infty$. The power of the test (probability of not making a type II error), however, only converges to unity under certain conditions.  Specifically, let a  \emph{consistent} classifier be any classifier with expected misclassification rate converging to the Bayes optimal limit; that is, $\EE[L_{F}(g_n)] \conv L_{F}(g^*)$ as $n\conv \infty$. The power of the test can be written as: $\PP[\mathbb{B}(\mh{n}; n', \hL^{n'}_F(g_n)) < \mathbb{B}(\mh{n}; n', \eps)]$.  As $n,n' \conv \infty$, $\mathbb{B}(\mh{n}; n', \hL^{n'}_F(g_n)) \conv \mathbb{B}(\mh{n}; n', L^*)$.  And if $L^* < \eps$, then $\mathbb{B}(\mh{n}; n', L^*) < \mathbb{B}(\mh{n}; n', \eps)$.  So, the probability of a Type II error also goes to zero as $n,n' \conv \infty$.
+
+
+
+% Importantly, the utility of any statistical test depends both on the p-value, the probability of obtaining a test statistic at least as extreme as the observed value (under the assumed model), and its power, the probability that the test will reject a false null hypothesis.  Ideally, the power of this test would go to unity, as $n,n' \rightarrow \infty$.  A sufficient condition for power to approach unity is that $g_n$ is a \emph{consistent} classifier.  
+
+
+
+Unfortunately, the rate of convergence of $L_{F}(g_n)$ to $L_{F}(g^*)$ depends on the (unknown) distribution $F=F_{MB}$ \cite{DGL96}. Furthermore, arbitrarily slow convergence theorems regarding the rate of convergence of $L_{F}(g_n)$ to $L_{F}(g^*)$ demonstrate that there is no universal $n,n'$ which will guarantee that the test has power greater than any specified target $\beta > \alpha$ \cite{Devroye83}. For this reason, the test outlined above can provide only a one-sided conclusion: if we reject we can be $100(1-\alpha)$\% confident that $\MeB$ holds, but we can never be confident in its negation; rather, it may be the case that the evidence in favor of $\MeB$ is insufficient for any number of reasons, including that we simply have not yet collected enough data. Thus, without restrictions on $F_{MB}$, arbitrarily slow convergence theorems imply that our theorem of $\varepsilon$-supervenience does not \tr{strictly} satisfy Popper's {\it falsifiability} requirement \cite{Popper}.
+
+Below, we show that under a very general mind-brain model, one can construct a consistent classifier whose power approaches unity with sufficient data.
+
+
+% To ensure consistency and therefore unity power, the classifier $g_n$ must be able to converge to the truth, regardless of the true distribution, $F$.  We therefore make explicit a model for brains, and show that under this very general model, universally consistent classifiers are available.
 
 \begin{thex}
-Let the physical property under consideration be brain connectivity structure (``connectome''), so $b$ is a brain-graph \tr{(or, network)} with vertices representing neurons (or neuroanatomical regions) and edges representing synapses (or white matter tracts). Further let $\mB$, the brain observation space, be the collection of all graphs on a finite number of vertices, and $\mc{M}$, the mental property observation space, be finite. Now, imagine collecting very large amounts of very accurate exchangeable  brain-graph data and the associated mental property indicators. A $k_n$-nearest neighbor classifier using an isomorphism-matching Frobenius norm is universally consistent (see Appendix 2 for proof). Therefore, %Theorem \ref{thm1} applies and 
+Let the physical property under consideration be brain connectivity structure, so $b$ is a brain-graph (``connectome'') with vertices representing neurons (or neuroanatomical regions) and edges representing synapses (or white matter tracts). Further let $\mB$, the brain observation space, be the collection of all graphs on a finite number of vertices, and $\mc{M}$, the mental property observation space, be finite. Now, imagine collecting very large amounts of very accurate exchangeable  brain-graph data and the associated mental property indicators. A $k_n$-nearest neighbor classifier using an isomorphism-matching Frobenius norm is universally consistent (see Appendix 2 for proof sketch). Therefore, %Theorem \ref{thm1} applies and 
 the existence of a universally consistent classifier guarantees that eventually (in $n,n'$) we will be able to conclude $\MeB$ for this mind-brain property pair, if indeed $\varepsilon$-supervenience holds. This logic holds for directed graphs or multigraphs or hypergraphs with discrete edge weights and vertex attributes. Furthermore, Appendix 2 also extends the proof to deal with other matrix norms (which might speed up convergence), and the regression scenario, where $|\mM|$ is infinite.  
 \end{thex}
 
@@ -234,15 +284,7 @@ In conclusion, this \emph{Gedankenexperiment}, together with (i) the formal defi
 
 % \subsection*{Statistical Setting} % (fold)
 
-
-Assuming for the moment that the space of all possible minds is finite, that is, $|\mM| < \infty$, then we call any function, $g: \mc{B} \mapsto \mc{M}$, a \emph{classifier} (this assumption will later be relaxed).  Let $\mh{m}$ denote the output of a classifier, $g(b)=\mh{m}$.  Define misclassification rate as $L_{F}(g) = \PP[g(B) \neq M]$ which denotes the probability that $g$ misclassifies $b$ under distribution $F$. The Bayes optimal classifier $g^*$ minimizes $L_{F}(g)$ over all classifiers, that is:	
-$g^* = \argmin_{g} L_{F}(g)$.
-Thus, the \emph{Bayes error}, or Bayes risk, $L_{F}(g^*)$, is the minimum possible misclassification rate.
-
-Let $\mc{T}_n=\{(m_1,b_1), (m_2,b_2), \ldots, (m_n,b_n)\}$ be a set of random samples taking their values in $\mc{M} \times \mc{B}$, each independently and identically distributed according to $F_{M,B}$.  An \emph{induced} classifier, $g_n:\mB \times (\mc{M} \times \mc{B})^n \mapsto \mM$, takes as input an observed brain $b$ and training data $\mc{T}_n$, and classifies: $g_n(b;\tr{\mc{T}_n})=\mh{m}$.  Misclassification rate for this classifier will be a random variable, because the training data $\mc{T}_n$ are random samples.  The expected misclassification rate for this classifier is therefore approximated by ``hold-out'' error:
-$\hL^{n'}_{F}(g_{\mt{n}}) = \PP[g_{\mt{n}}(B)=M | \mc{T}_{\mt{n}}]$,
-where $\mt{n}=n-n'$, and $n'<n$ is the number of held-out training samples (samples not used to obtain $g_{\mt{n}}$).
-% The approximate  number of misclassified minds therefore has a binomial distribution:  $n' \hL^{n'}_{F}(g_{\mt{n}}) \sim \text{Binomial}(n',L_{F}(g_{\mt{n}}))$.
+% The approximate  number of misclassified minds therefore has a binomial distribution:  $n' \hL^{n'}_{F}(g_{n}) \sim \text{Binomial}(n',L_{F}(g_{n}))$.
 
 
 
