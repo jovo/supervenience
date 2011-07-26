@@ -10,6 +10,11 @@ Haykin, S.
 \newblock {\em {Neural Networks and Learning Machines}}.
 \newblock Prentice Hall, 3rd edition,  (2008).
 
+\bibitem{Ripley2008}
+Ripley, B.~D.
+\newblock {\em {Pattern Recognition and Neural Networks}}.
+\newblock Cambridge University Press,  (2008).
+
 \bibitem{Fodor1998}
 Fodor, J.~A.
 \newblock {\em {Concepts: Where Cognitive Science Went Wrong (Oxford Cognitive
@@ -27,6 +32,12 @@ Kim, J.
 \newblock {\em {Physicalism, or Something Near Enough (Princeton Monographs in
   Philosophy)}}.
 \newblock Princeton University Press,  (2007).
+
+\bibitem{Bickel2000}
+Bickel, P.~J. and Doksum, K.~A.
+\newblock {\em {Mathematical Statistics: Basic Ideas and Selected Topics, Vol I
+  (2nd Edition)}}.
+\newblock Prentice Hall,  (2000).
 
 \bibitem{DGL96}
 Devroye, L., Gy\"{o}rfi, L., and Lugosi, G.
@@ -70,5 +81,15 @@ Johansen-Berg, H. and Behrens, T.~E.
 \newblock {\em {Diffusion MRI: From quantitative measurement to in-vivo
   neuroanatomy}}.
 \newblock Academic Press,  (2009).
+
+\bibitem{Stone1977}
+Stone, C.~J.
+\newblock {\em The Annals of Statistics}{ \bf 5}(4), 595--620 July  (1977).
+
+\bibitem{GareyJohnson79}
+Garey, M.~R. and Johnson, D.~S.
+\newblock {\em {Computers and intractability. A guide to the theory of
+  NP-completeness. A Series of Books in the Mathematical Sciences}}.
+\newblock WH Freeman and Company, San Francisco, Calif,  (1979).
 
 \end{thebibliography}
