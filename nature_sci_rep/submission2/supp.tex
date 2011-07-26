@@ -41,7 +41,7 @@
 \newcommand{\mB}{\mathcal{B}}
 \newcommand{\mD}{\mathcal{D}}
 \newcommand{\mM}{\mathcal{M}}
-\newcommand{\PP}{\mathbb{P}}           % probability
+\newcommand{\PP}{F}           % probability
 \newcommand{\EE}{\mathbb{E}}           % expected value
 \newcommand{\II}{\mathbb{I}}           % expected value
 \newcommand{\Real}{\mathbb{R}}           % expected value
@@ -112,13 +112,19 @@ In this appendix we aim to provide more intuition regarding supervenience by dis
 
 %For instance, it may be the case that minds supervene on brains, but one cannot form an \emph{injective} relation from brains to minds.  
 
-First, a supervenient relation does not imply an injective relation.  An injective relation is any relation that preserves distinctness.  Thus if minds are injective on brains, then $b\neq b' \implies m \neq m'$ (note that the directionality of the implication has been switched relative to supervenience). For instance, it might be the case that a brain could change without the mind changing.  Consider the case that a single subatomic particle shifts its position by a Plank length, changing brain state from $b$ to $b'$; or that a single additional synapse is formed between a pair of neruons.  It is possible (likely?) that the mental state supervening on brain state $b$ remains $m$, even after $b$ changes to $b'$.  In such a scenario, the mind might still supervene on the brain, but the relation from brains to minds is not injective. This argument also shows that supervenience is not necessarily a \emph{symmetric} relation.  Minds supervening on brains does not imply that brains supervene on minds.  
+First, a supervenient relation does not imply an injective relation.  An injective relation is any relation that preserves distinctness.  Thus if minds are injective on brains, then $b\neq b' \implies m \neq m'$ (note that the directionality of the implication has been switched relative to supervenience). However, it might be the case that a brain could change without the mind changing.  Consider the case that a single subatomic particle shifts its position by a Plank length, changing brain state from $b$ to $b'$.  It is possible (likely?) that the mental state supervening on brain state $b$ remains $m$, even after $b$ changes to $b'$.  In such a scenario, the mind might still supervene on the brain, but the relation from brains to minds is not injective. This argument also shows that supervenience is not necessarily a \emph{symmetric} relation.  Minds supervening on brains does not imply that brains supervene on minds.  
 
 
 Second,  supervenience does not imply causality. %it may be the case that minds supervene on brains, but that brains do not cause minds.  
 For instance, consider an analogy where $M$ and $B$ correspond to two coins being flipped, each possibly landing on heads or tails.  Further assume that every time one lands on heads so does the other, and every time one lands on tails, so do the other. This implies that $M$ supervenes on $B$, but assumes nothing about whether $M$ causes $B$, or $B$ causes $M$, or some exogenous force causes both.  
 
-Third, supervenience does not imply identity.  Consider, for example, acceleration and velocity.  Clearly, acceleration supervenes on velocity, as acceleration cannot change without velocity changing (assuming one does not consider gravity as acceleration).  Similarly, velocity supervenes on position, as velocity cannot change without position changing.  Therefore, acceleration supervenes on position, by the transitive property of supervenience, but it is not the case that a change in acceleration is equal to a change in position. In other words, acceleration cannot change without a corresponding change in position, which is the requirement for supervenience. More formally, let $a$ and $a'$ indicate accelerations and $p$ and $p'$ indicate positions, we do not have $\PP[a \neq a' | p \neq p'] = 0$; rather, position can change with constant velocity, meaning without acceleration changing.  Thus, to claim that something supervenes on another is not equivalent to claim that the two are identical.
+Third, supervenience does not imply identity.  The above example with the two coins demonstrates this, as the two coins are not the same thing, even if one has perfect information about one from the other.  
+
+What supervenience does imply, however, is the following.   Imagine finding two different minds.  If $\MsB$, then the brains subvening under those two minds must be different.  In other words, there cannot be two different minds, either of which could supervene on a single brain.  Figure \ref{fig:rel} shows several possible relations between the sets of minds and brains.
+
+
+Note that statistical supervenience is distinct from statistical correlation.  \emph{Statistical correlation} between brain states and mental states is defined as $\rho_{MB}=\EE[(B-\mu_B)(M-\mu_M)]/(\sig_B \sig_M)$, where $\mu_X$ and $\sig_X$ are the mean and variance of $X$, and $\EE[X]$ is the expected value of $X$.  If $\rho_{MB}=1$, then both $\MsB$ and $\mB \overset{S}{{\sim}}_{F} \mM$. Thus, perfect correlation implies supervenience, but supervenience does not imply correlation.  In fact, supervenience may be thought of as a generalization of correlation which can be applied to arbitrary valued random variables (such as mental or brain properties), unlike correlation which is only defined for scalar valued random variables.
+
 
 \begin{figure}[h!tbp]
 	\centering
@@ -128,27 +134,7 @@ Third, supervenience does not imply identity.  Consider, for example, accelerati
 \end{figure}
 % section relations_between_sets (end)
 
-What supervenience does imply, however, is the following.   Imagine finding two different minds.  If $\MeB$, then the brains subvening under those two minds must be different.  In other words, there cannot be two different minds, either of which could supervene on a single brain.  Figure \ref{fig:rel} shows several possible relations between the sets of minds and brains.
 
-
-Note that statistical supervenience is distinct from statistical correlation.  \emph{Statistical correlation} between brain states and mental states is defined as $\rho_{MB}=\EE[(B-\mu_B)(M-\mu_M)]/(\sig_B \sig_M)$, where $\mu_X$ and $\sig_X$ are the mean and variance of $X$, and $\EE[X]$ is the expected value of $X$.  If $\rho_{MB}=1$, then both $\MeB$ and $\mB \overset{\varepsilon}{{\sim}}_{F} \mM$. Thus, perfect correlation implies supervenience, but supervenience does not imply correlation.  In fact, supervenience may be thought of as a generalization of correlation which can be applied to arbitrary valued random variables (such as mental or brain properties), unlike correlation which is only defined for scalar valued random variables.
-
-
-
-\section{$k_n$ nearest neighbor algorithm} % (fold)
-\label{sec:knn}
-
-Consider the following problem setup.  We have a collection of training data, $\mc{T}_n =\{(m_i,b_i)\}_{i=1}^n$, each sampled exchangeably from some unknown joint distribution, $(m_i,b_i)\sim F_{M,B}$, where $m_i$ and $b_i$ are the observed mental and brain properties of experiment $i$, respectively.  A new brain, $b$, called the ``test brain'', is then observed, and one desires to find the most likely class of the new brain, $m$.  It is further assumed that the test mind-brain pair is sampled from the same distribution as the training data, $(m,b)\sim F_{M,B}$, and $m$ is unobserved. Further assume that $m$ can take one of a finite number of possible values, that is, $|\mc{M}|<\infty$, and that  $\mc{B}$ is countable.
-
-The $1$-nearest neighbor ($1$-NN) classifier works as follows.  Compute the distance between the test brain and all the training brains, $d_i=d(b,b_i)$ for all $i \in [n]$, where $[n]=1,2,\ldots, n$.  Then, sort them, $d_{(1)} < d_{(2)} < \ldots < d_{(n)}$, and their corresponding mental properties, , $m_{(1)}, m_{(2)}, \ldots, m_{(n)}$, where parenthetical indices indicate rank order.  %One can then also obtain a rank order for the training minds, $m_{(1)}, m_{(2)}, \ldots, m_{(n)}$, where $m_{(i)}$ is the class of the $i^{th}$ closest training brain to $b$.  
-The $1$-NN algorithm predicts that the unobserved mind is of the same class as the closest brain's class: $\mh{m}=m_{(1)}$.  The $k_n$ nearest neighbor is a straightforward generalization of this approach.  It says that the test mind is in the same class as which ever class is the plurality class of the $k_n$ nearest neighbors, $\mh{m}=\argmax_{m'}\II\{\sum_{i=1}^{k_n} m_{(i)}=m'\}$.  Given a particular choice of $k_n$ (the number of nearest neighbors to consider), and a choice of $d(\cdot,\cdot)$ (the distance metric used to compare the test datum and training data), one then has a relatively simple and intuitive algorithm.  
-
-Unfortunately, no such algorithm is universally consistent.  Let $g_n$ be the $k_n$ nearest neighbor classifier when there are $n$ training samples.  Then, a collection of such algorithms, $\{g_n\}$,  with $k_n$ increasing with $n$, can be universally consistent under certain constraints. In particular, as $n$ increases, $k_n$ must also increase, but not quite as quickly.  Formally, $k_n$ must satisfy: (i) $k_n \conv \infty$ as $n \conv \infty$ and (ii) $k_n/n \conv 0$ as $n\conv\infty$. In Stone's original proof \cite{Stone1977}, $b$ was assumed to be a $d$-dimensional vector, and the $L_2$ norm ($d(b,b')=\sum_{j=1}^d (b_j-b_j')^2$, where $j$ indexes elements of the $d$-dimensional vector) was shown to satisfy the constraints on a distance metric for this collection of classifiers to be universally consistent.  Later, others extended these results to apply to any $L_p$ norm \cite{DGL96}.  When brain-graphs are represented by their adjacency matrices, one can stack the columns of the adjacency matrices, effectively embedding graphs into a vector space, in which case Stone's theorem applies.  Stone's original proof also applied to the scenario when $|\mc{M}|$ was infinite, resulting in a universally consistent regression algorithm as well.
-
-Note that the above extension of Stone's original theorem to the graph domain implicitly assumed that vertices were labeled, such that elements of the adjacency matrices could easily be compared across graphs.  In theory, when vertices are unlabeled, one could first map each graph to a quotient space invariant to isomorphisms, and then proceed as before.  Unfortunately, solving the graph-matching problem is currently NP-Incomplete (meaning it is not known to be either P or NP) \cite{GareyJohnson79}, so in practice, dealing with unlabeled vertices will likely be computationally challenging.
-
-
-% section _k_n_nearest_neighbor_algorithm (end)
 
 \section{Simulation} % (fold)
 \label{sec:sim}
@@ -162,8 +148,8 @@ We consider $k_n$-nearest neighbor classification of labeled multigraphs (direct
 \begin{figure}[!ht]
 \centering 
 \includegraphics[width=.5\linewidth]{Lhatplot}
-\caption{C.~elegans graph classification simulation results.  $\hL^{n'}_{F}(g_{\mt{n}})$  (the misclassification rate estimated upon with $n'=1000$ testing samples) %$\hL^{1000}_{\PP}(g_{\mt{n}})$ 
-is plotted as a function of class-conditional training sample size $n_j=\mt{n}/2$, suggesting that for $\varepsilon=0.1$ we can determine that $\MeB$ holds with $99\%$ confidence with just a few hundred training samples generated from $F_{M,B}$. Each dot depicts an estimate for $\hL^{n'}_{F}(g_{\mt{n}})$; standard errors are $(\hL^{n'}_{F}(g_{\mt{n}}) (1-\hL^{n'}_{F}(g_{\mt{n}}))/n')^{1/2}$; e.g., $n_j = 180$; $k_n = 53$; $\hL^{n'}_{F}(g_{\mt{n}}) = 0.057$; standard error less than 0.01. We reject $H_0: L_{F}(g^*) \geq 0.10$ at $\alpha=0.01$. $L_{F}(g^*) \approx 0$ for this simulation.}
+\caption{C.~elegans graph classification simulation results.  $\hL^{n'}_{F}(g_{n})$  (the misclassification rate estimated  with $n'=1000$ testing samples) %$\hL^{1000}_{\PP}(g_{\mt{n}})$ 
+is plotted as a function of class-conditional training sample size $n_j=n/2$, suggesting that for $\varepsilon=0.1$ we can determine that $\MeB$ holds with $99\%$ confidence with just a few hundred training samples generated from $F_{M,B}$. Each dot depicts an estimate for $\hL^{n'}_{F}(g_n)$; standard errors are $(\hL^{n'}_{F}(g_{n}) (1-\hL^{n'}_{F}(g_{n}))/n')^{1/2}$; e.g., $n_j = 180$; $k_n = 53$; $\hL^{n'}_{F}(g_{n}) = 0.057$; standard error less than 0.01. We reject $H_0: L_{F}(g^*) \geq 0.10$ at $\alpha=0.01$. $L_{F}(g^*) \approx 0$ for this simulation.}
 \label{fig1}
 \end{figure}
 
