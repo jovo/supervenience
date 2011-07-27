@@ -134,12 +134,8 @@ This work does not attempt to resolve any particular mind-brain supervenience de
 \subsection*{Statistical supervenience: a definition} % (fold)
 
 \noindent Let $\mc{M}=\{m_1, m_2, \ldots\}$ be the space of all possible mental properties, including all possible thoughts, memories beliefs, etc.
-% respects (in whatever sense Davidson meant \cite{Davidson70}). 
-%For example, $m$ might indicate a person's intelligence, psychological state, current thought, gender identity, etc.   
 Similarly, let $\mc{B}=\{b_1,b_2,\ldots\}$ be the set of all possible brain properties,
-% physical respects (which we assume to mean all possible brain properties, 
 including the position and momentum of all subatomic particles within the skull.  
-% For example, $b$ might denote the number of cells in a person's brain at some time $t$, or the collection of spike trains of all neurons in the brain during some time period $t$ to $t'$. 
 Given these definitions, Davidson's conjecture may be concisely and formally stated thusly:  $m \neq m' \implies b \neq b'$, where $(m,b), (m',b') \in \mc{M} \times \mc{B}$ are mind-brain pairs.  This mind-brain supervenience relation does not imply an injective relation, a causal relation, or an identity relation (see Appendix 1 for more details and some examples).  To facilitate both statistical analysis and empirical investigation, we convert this supervenience relation from a logical to a probabilistic relation.  
 
 % Let $b$ correspond to an agent's brain, which is a particular element from the set of all possible brains, $\mB$. Similarly, let $m$ correspond to an agent's mind, which is a particular element from the set of all possible minds, $\mM$.  
@@ -182,7 +178,7 @@ $\mM$ is said to \textit{statistically supervene} on $\mB$ for distribution $F=F
 The above argument shows (for the first time to our knowledge) that statistical supervenience and zero Bayes error are equivalent. Statistical supervenience can therefore be thought of as a constraint on the possible distributions on minds and brains.  Specifically, let $\mc{F}$ indicate the set of all possible joint distributions on minds and brains, and let $\mc{F}_s = \{F_{MB} \in \mc{F}: L^*=0\}$ be subset of distributions for which supervenience holds. Theorem \ref{thm1} implies that $\mc{F}_s  \subsetneqq \mc{F}$.
 
 
-\subsection*{Testing for statistical supervenience} % (fold)
+\subsection*{The existence of a consistent statistical test for supervenience} % (fold)
 \label{sub:subsection_name}
 
 % subsection subsection_name (end)
@@ -217,43 +213,38 @@ Given $\varepsilon > 0$, $\mM$ is said to $\varepsilon$-\textit{supervene} on $\
 	H_0^{\eps}: L^* \geq \eps \\
 	H_A^{\eps}: L^* < \eps
 \end{align*}
-Let $\mh{n}= n' \hL^{n'}_{F}(g_n)$ be the test statistic.  The distribution of $\mh{n}$ is available under the least favorable null distribution to the alternate hypothesis.  For the above hypothesis test,  the $p$-value is given by the binomial cumulative distribution function, $\mathbb{B}(\mh{n}; n', \eps)= \sum_{k \in [\mh{n}]_0}$Binomial$(k; n'; \eps)$, where $[\mh{n}]_0=\{0,1,\ldots, \mh{n}\}$.  We therefore reject whenever this $p$-value is less than $\alpha$; rejection implies that we are $100(1-\alpha$)\% confident that $\MeB$.   The definition of $\eps$-supervenience therefore admits, for the first time to our knowledge, a viable statistical test of supervenience, given a specified $\eps$ and $\alpha$. 
+Let $\mh{n}= n' \hL^{n'}_{F}(g_n)$ be the test statistic.  The distribution of $\mh{n}$ is available under the least favorable null distribution to the alternate hypothesis.  For the above hypothesis test,  the $p$-value is given by the binomial cumulative distribution function, $\mathbb{B}(\mh{n}; n', \eps)= \sum_{k \in [\mh{n}]_0}$Binomial$(k; n'; \eps)$, where $[\mh{n}]_0=\{0,1,\ldots, \mh{n}\}$.  We therefore reject whenever this $p$-value is less than $\alpha$; rejection implies that we are $100(1-\alpha$)\% confident that $\MeB$.   
 
+A test is \emph{consistent} whenever its power  (the probability of a rejecting the null when it is indeed false)  goes to unity as $n$ increases. For any statistical test, if the $p$-value converges in distribution to $\delta_0$ (point mass at zero), then whenever $\alpha >0$, power goes to unity.  For the above $\eps$-supervenience statistical test, if $g_n \conv g^*$ as $n \conv \infty$, then $\hL^{n'}_F(g_n) \conv L^*$ as $n,n' \conv \infty$.  Thus, if $L^* < \eps$, the $p$-value converges; that is, $\mathbb{B}(\mh{n}; n', \eps) \conv \delta_0$.
 
-% Because Binomial$(k; n', 0)=1$ for all $n'$, the $p$-value is always equal to unity.    Thus, we can \emph{never} reject the above null hypothesis, no matter how much data we obtain.
+The definition of $\eps$-supervenience therefore admits, for the first time to our knowledge, a viable statistical test of supervenience, given a specified $\eps$ and $\alpha$. Moreover, this test is consistent whenever $g_n$ converges to the Bayes classifier, $g^*$.
 
-% Although the above theorem is of potential theoretical interest, the argument relies on knowing the typically unavailable $L^*$, rendering it useless pragmatically.  However,  $g^*$ could be estimated from data, and its estimate could be utilized to conduct the following statistical test of supervenience:
-% % Let $g_n$ be a classifier induced from some training data, $\mc{T}_n$, 
-% \begin{align*} 
-% 	H_0:& L^* > 0 \\
-% 	H_A:& L^*=0
-% \end{align*}
-
-
-% \subsection*{$\eps$-supervenience admits hypothesis testing} % (fold)
-% \label{sub:hypothesis_testing}
-% 
-% We therefore consider a relaxed notion of supervenience:
-% 
-% 
-% The $p$-value of the above composite alternate hypothesis is given by the binomial distribution under the least favorable distribution, $\mathbb{B}(\mh{n}; n', p_{H_A}=\eps)<1$.  
-
-\subsection*{The power and limits of an ideal test of supervenience} % (fold)
-\label{sub:uc}
-
-Ideally, our test is \emph{consistent}; that is, as $n$ increases, the power of a test (the probability of a rejecting the null when it is indeed false)  goes to unity. For any statistical test, if the $p$-value converges in distribution to $\delta_0$ (point mass at zero), then whenever $\alpha >0$, power goes to unity.  For the above $\eps$-supervenience statistical test, if $g_n \conv g^*$ as $n \conv \infty$, then $\hL^{n'}_F(g_n) \conv L^*$ as $n,n' \conv \infty$.  Thus, if $L^* < \eps$, the $p$-value converges; that is, $\mathbb{B}(\mh{n}; n', \eps) \conv \delta_0$.
 
 Unfortunately, the rate of convergence of $L_{F}(g_n)$ to $L_{F}(g^*)$ depends on the (unknown) distribution $F=F_{MB}$ \cite{DGL96}. Furthermore, arbitrarily slow convergence theorems regarding the rate of convergence of $L_{F}(g_n)$ to $L_{F}(g^*)$ demonstrate that there is no universal $n,n'$ which will guarantee that the test has power greater than any specified target $\beta > \alpha$ \cite{Devroye83}. For this reason, the test outlined above can provide only a one-sided conclusion: if we reject we can be $100(1-\alpha)$\% confident that $\MeB$ holds, but we can never be confident in its negation; rather, it may be the case that the evidence in favor of $\MeB$ is insufficient for any number of reasons, including that we simply have not yet collected enough data. Thus, without restrictions on $F_{MB}$, arbitrarily slow convergence theorems imply that our theorem of $\varepsilon$-supervenience does not \tr{strictly} satisfy Popper's {\it falsifiability} requirement \cite{Popper}.
 
-The above considerations indicate that to construct a statistical test with guaranteed limiting unity power, a universally consistent classifier (one for which $\hL^{n'}_F(g_n) \conv L_F(g^*)$ as $n,n' \conv \infty$) is required. Below, we show that under a very general mind-brain model, a consistent classifier is readily available.
+
+
+\subsection*{The availability of a consistent statistical test for supervenience} % (fold)
+\label{sub:uc}
+
+The above considerations indicate the existence of a consistent test for supervenience whenever the classifier used is consistent.  
+% that to construct a statistical test with guaranteed limiting unity power, a universally consistent classifier (one for which $\hL^{n'}_F(g_n) \conv L_F(g^*)$ as $n,n' \conv \infty$) is required. 
+To actually implement such a test, one must be able to (i) measure mind/brain pairs and (ii) have a consistent classifier $g_n$.  Unfortunately, we do not know how to measure the entirety of one's brain, much less one's mind. Moreover, even if we did, we do not know the joint distribution of mind/brain pairs, $F_{MB}$.  We therefore must restrict our interest to a mental property/brain property pair.  
+A mental property might be a person's intelligence, psychological state, current thought, gender identity, etc.  A brain property might be the number of cells in a person's brain at some time $t$, or the collection of spike trains of all neurons in the brain during some time period $t$ to $t'$.  Regardless of the details of the specifications of the mental property and the brain property, given such specifications, one can assume a model, $\mc{F}$.  We would like a classifier, $g_n$, that is guaranteed to be consistent, no matter which of the possible distributions $F_{MB} \in \mc{F}$ is the true distribution.  A classifier with such a property is called an \emph{universally consistent classifier}.  Below, we show that under a very general mind-brain model $\mc{F}$, an universally consistent classifier is readily available.
 
 
 % To ensure consistency and therefore unity power, the classifier $g_n$ must be able to converge to the truth, regardless of the true distribution, $F$.  We therefore make explicit a model for brains, and show that under this very general model, universally consistent classifiers are available.
 
 \begin{thex}
-Let the physical property under consideration be brain connectivity structure, so $b$ is a brain-graph (``connectome'') with vertices representing neurons (or collections thereof) and edges representing synapses (or collections thereof). Further let $\mB$, the brain observation space, be the collection of all graphs on a finite number of vertices, and $\mc{M}$, the mental property observation space, be finite. Now, imagine collecting very large amounts of very accurate identically and independently sampled  brain-graph data and the associated mental property indicators. A $k_n$-nearest neighbor classifier using a Frobenius norm is universally consistent (see Methods for details). Therefore, %Theorem \ref{thm1} applies and 
+Let the physical property under consideration be brain connectivity structure, so $b$ is a brain-graph (``connectome'') with vertices representing neurons (or collections thereof) and edges representing synapses (or collections thereof). Further let $\mB$, the brain observation space, be the collection of all graphs on a given finite number of vertices, and $\mc{M}$, the mental property observation space, be finite. Now, imagine collecting very large amounts of very accurate identically and independently sampled  brain-graph data and the associated mental property indicators from $F_{MB}$. A $k_n$-nearest neighbor classifier using a Frobenius norm is universally consistent (see Methods for details). Therefore, %Theorem \ref{thm1} applies and 
 the existence of a universally consistent classifier guarantees that eventually (in $n,n'$) we will be able to conclude $\MeB$ for this mind-brain property pair, if indeed $\varepsilon$-supervenience holds. This logic holds for directed graphs or multigraphs or hypergraphs with discrete edge weights and vertex attributes, as well as unlabeled graphs (see \cite{VP11unlabeled} for details). Furthermore, the proof holds for other matrix norms (which might speed up convergence), and the regression scenario, where $|\mM|$ is infinite (again, see Methods for details).  
 \end{thex}
+
+
+% \subsection*{The practicality of a consistent statistical test for supervenience} % (fold)
+
+
+
 
 
 \section*{Discussion}
