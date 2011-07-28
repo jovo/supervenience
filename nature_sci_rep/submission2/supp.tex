@@ -92,23 +92,24 @@
 
 \vspace{5px}
 
-\begin{center}
-{\large		
-Joshua T. Vogelstein$^{1*}$, R. Jacob Vogelstein$^2$, Carey E. Priebe$^1$\\
-	$^1$Department of Applied Mathematics \& Statistics, \\ Johns Hopkins University, Baltimore, MD, 21218,\\ $^2$National Security Technology Department, \\ Johns Hopkins University Applied Physics Laboratory, Laurel, MD 20723}
-	
-\end{center}
-
-\vspace{5px}
-
-
+% \begin{center}
+% {\large		
+% Joshua T. Vogelstein$^{1*}$, R. Jacob Vogelstein$^2$, Carey E. Priebe$^1$\\
+% 	$^1$Department of Applied Mathematics \& Statistics, \\ Johns Hopkins University, Baltimore, MD, 21218,\\ $^2$National Security Technology Department, \\ Johns Hopkins University Applied Physics Laboratory, Laurel, MD 20723}	
+% \end{center}
+% 
+% \vspace{5px}
+% 
 
 
 
-\section{Relations between sets} % (fold)
-\label{sec:relations}
 
-In this appendix we aim to provide more intuition regarding supervenience by discussing the limitations and extent of its implications. 
+% \section{Relations between sets} % (fold)
+% \label{sec:relations}
+
+In this appendix we compare supervenience to several other relations on sets.
+
+% aim to provide more intuition regarding supervenience by discussing the limitations and extent of its implications. 
 
 %For instance, it may be the case that minds supervene on brains, but one cannot form an \emph{injective} relation from brains to minds.  
 
@@ -136,28 +137,12 @@ Note that statistical supervenience is distinct from statistical correlation.  \
 
 
 
-\section{Simulation} % (fold)
-\label{sec:sim}
-
-As an example of a feasible experiment, one may consider a species whose nervous system consists of the same (small) number of labeled neurons for each organism. {\it Caenorhabditis elegans} is believed to be such a species \cite{Durbin87}. The hermaphroditic C.~elegans' somatic nervous system consists of 279 interconnected neurons. Although the graph with these neurons as vertices and edges defined by chemical synapses between neurons is likely not identical across individuals, it appears to be reasonably consistent \cite{Durbin87}. Furthermore, these animals exhibit a rich behavioral repertoire that seemingly depends on circuit properties \cite{deBonoMaricq05}. Thus, one may design an experiment by describing the joint distribution $F_{M,B}$ via class-conditional distributions $F_{B|M=m_j}$ for the C.~elegans brain-graph for two mental properties of interest, $m_0$ and $m_1$, along with the prior probability of class membership $F_{M=m_j}$. Here the mental property corresponds to the C.~elegans exhibiting (or not exhibiting) a particular behavior (e.g., response to an odor).
-
-Simulations suggest that one may build a classifier, practically and with a manageable training sample size $n$, that demonstrates $\varepsilon$-supervenience with reasonable choices for $\varepsilon$ and $\alpha$, and a plausible joint distribution $F_{M,B}$ (Figure \ref{fig1}). To generate the data, let $E_{ij}$ be an integer-valued random variable whose value indicates the number of synapses (edges) between neurons (vertices) $i$ and $j$.  Let the class-conditional random variable $E_{ij} | M=m_0$  be distributed Poisson$(A_{ij}+\eta)$, where $A_{ij}$ is the number of chemical synapses between neuron $i$ and neuron $j$ according to \cite{VarshneyChklovskii09}, with noise parameter $\eta=0.05$.  Let $\mc{E}$ be the set of edges deemed responsible for odor-evoked behavior according to \cite{ChalasaniBargmann07}.  Therefore, the distribution of these edges must differ between the two classes.  The class-conditional random variable $E_{ij} | M=m_1$ is distributed Poisson$(A_{ij}+ \tr{z_{ij}})$, where the signal parameter $z_{ij}=\eta$ for all edges not in $\mc{E}$, and $z_{ij}$ is uniformly sampled from $[-5,5]$ for all edges within $\mc{E}$.
-
-We consider $k_n$-nearest neighbor classification of labeled multigraphs (directed, with loops) on 279 vertices, under Frobenius norm. The $k_n$-nearest neighbor classifier used here satisfies $k_n \rightarrow \infty$ as $n \rightarrow \infty$ and $k_n/n \rightarrow 0$ as $n \rightarrow \infty$, ensuring universal consistency. (Better classifiers can be constructed for the joint distribution $F_{M,B}$ used here; however, we demand universal consistency.)  Figure \ref{fig1} shows that for this simulation, rejecting $\eps=0.1$-supervenience at $\alpha=0.01$ only requires a few hundred training samples.
-
-\begin{figure}[!ht]
-\centering 
-\includegraphics[width=.5\linewidth]{Lhatplot}
-\caption{C.~elegans graph classification simulation results.  $\hL^{n'}_{F}(g_{n})$  (the misclassification rate estimated  with $n'=1000$ testing samples) %$\hL^{1000}_{\PP}(g_{\mt{n}})$ 
-is plotted as a function of class-conditional training sample size $n_j=n/2$, suggesting that for $\varepsilon=0.1$ we can determine that $\MeB$ holds with $99\%$ confidence with just a few hundred training samples generated from $F_{M,B}$. Each dot depicts an estimate for $\hL^{n'}_{F}(g_n)$; standard errors are $(\hL^{n'}_{F}(g_{n}) (1-\hL^{n'}_{F}(g_{n}))/n')^{1/2}$; e.g., $n_j = 180$; $k_n = 53$; $\hL^{n'}_{F}(g_{n}) = 0.057$; standard error less than 0.01. We reject $H_0: L_{F}(g^*) \geq 0.10$ at $\alpha=0.01$. $L_{F}(g^*) \approx 0$ for this simulation.}
-\label{fig1}
-\end{figure}
-
-Importantly, conducting this experiment {\it in actu} is not beyond current technological limitations. 3D superresolution imaging \cite{Vaziri2008} combined with neurite tracing algorithms \cite{Helmstaedter2008,Mishchenko09,LuLichtman09} allow the collection of a C. elegans brain-graph within a day. Genetic manipulations, laser ablations, and training paradigms can each be used to obtain a non-wild type population for use as $M=m_1$ \cite{deBonoMaricq05}, and the class of each organism ($m_0$ vs.~$m_1$) can also be determined automatically \cite{Buckingham2008}.
+% \section{Simulation} % (fold)
+% \label{sec:sim}
 
 
-\bibliography{/Users/jovo/Research/latex/library}
-\bibliographystyle{nature}
+% \bibliography{/Users/jovo/Research/latex/library}
+% \bibliographystyle{nature}
 
 
 
