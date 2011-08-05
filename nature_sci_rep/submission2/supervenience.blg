@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: supervenience.aux
 The style file: nature.bst
 Database file #1: /Users/jovo/Research/latex/library.bib
-Repeated entry---line 22331 of file /Users/jovo/Research/latex/library.bib
+Repeated entry---line 22343 of file /Users/jovo/Research/latex/library.bib
  : @article{GelmanShalizi11
  :                         ,
 I'm skipping whatever remains of this entry
@@ -13,7 +13,6 @@ Warning--empty title in Devroye83
 Warning--empty title in VP11_unlabeled
 Warning--empty title in deBonoMaricq05
 Warning--empty title in GelmanShalizi11
-Warning--there's a number but no volume in GelmanShalizi11
 Warning--empty title in VarshneyChklovskii09
 Warning--empty year in VarshneyChklovskii09
 Warning--empty title in ChalasaniBargmann07
@@ -30,45 +29,45 @@ Warning--empty title in HayworthLichtman06
 Warning--empty title in Bock2011
 Warning--empty title in PalmAmunts10
 Warning--empty title in Stone1977
-You've used 34 entries,
+You've used 33 entries,
             1856 wiz_defined-function locations,
-            685 strings with 9961 characters,
-and the built_in function-call counts, 6990 in all, are:
-= -- 589
-> -- 342
+            677 strings with 9810 characters,
+and the built_in function-call counts, 6833 in all, are:
+= -- 576
+> -- 338
 < -- 1
-+ -- 130
-- -- 96
-* -- 634
-:= -- 1144
-add.period$ -- 83
-call.type$ -- 34
++ -- 128
+- -- 95
+* -- 625
+:= -- 1121
+add.period$ -- 80
+call.type$ -- 33
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 57
-duplicate$ -- 314
-empty$ -- 674
-format.name$ -- 96
-if$ -- 1495
+cite$ -- 55
+duplicate$ -- 304
+empty$ -- 654
+format.name$ -- 95
+if$ -- 1458
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 45
-newline$ -- 154
-num.names$ -- 34
-pop$ -- 135
+int.to.str$ -- 33
+missing$ -- 43
+newline$ -- 149
+num.names$ -- 33
+pop$ -- 128
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 92
+skip$ -- 91
 stack$ -- 0
 substring$ -- 319
-swap$ -- 37
+swap$ -- 36
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 23
-while$ -- 63
-width$ -- 36
-write$ -- 326
+warning$ -- 22
+while$ -- 62
+width$ -- 35
+write$ -- 316
 (There was 1 error message)
