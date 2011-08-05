@@ -250,12 +250,13 @@ we might consider the following hypothesis test: $H_0: L^*>0$ and $H_A: L^*=0$; 
 % because the null hypothesis is not closed, 
 the alternative hypothesis lies on the boundary, so the $p$-value is always equal to unity \cite{Bickel2000}.  From this, Theorem \ref{thm:2} follows immediately:
 \begin{thm} \label{thm:2}
-	There does not exist a viable test of $\MsB$
+	There does not exist a viable test of $\MsB$.
 \end{thm}
 
-In other words, we can \emph{never} reject $L^*>0$ in favor of supervenience, no matter how much data we obtain.  Supervenience therefore does not satisfy Popper's falsifiability criterion \cite{Popper1959}.
+In other words, we can \emph{never} reject $L^*>0$ in favor of supervenience, no matter how much data we obtain.  
+Supervenience therefore does not satisfy Popper's falsifiability criterion \cite{Popper1959}.
 
-\subsection*{The existence of a consistent statistical test for $\eps$-supervenience} % (fold)
+\subsection*{Conditions for a consistent statistical test for $\eps$-supervenience} % (fold)
 
 
 To proceed, therefore, we introduce a relaxed notion of supervenience: 
@@ -291,14 +292,10 @@ power goes to unity.
 The definition of $\eps$-supervenience therefore admits, for the first time to our knowledge, a viable statistical test of supervenience, given a specified $\eps$ and $\alpha$. Moreover, this test is consistent whenever $g_n$ converges to the Bayes classifier $g^*$.
 
 
-Unfortunately, the rate of convergence of $L_{F}(g_n)$ to $L_{F}(g^*)$ depends on the (unknown) distribution $F=F_{MB}$ \cite{DGL96}. Furthermore, arbitrarily slow convergence theorems regarding the rate of convergence of $L_{F}(g_n)$ to $L_{F}(g^*)$ demonstrate that there is no universal $n,n'$ which will guarantee that the test has power greater than any specified target $\beta > \alpha$ \cite{Devroye83}. For this reason, the test outlined above can provide only a one-sided conclusion: if we reject we can be $100(1-\alpha)$\% confident that $\MeB$ holds, but we can never be confident in its negation; rather, it may be the case that the evidence in favor of $\MeB$ is insufficient 
-% for any number of reasons, including that 
-because we simply have not yet collected enough data. 
-% Thus, without restrictions on $F_{MB}$, arbitrarily slow convergence theorems imply that our theorem of $\varepsilon$-supervenience does not \tr{strictly} satisfy Popper's {\it falsifiability} requirement \cite{Popper}.
 
 
 
-\subsection*{The availability of a consistent statistical test for $\eps$-supervenience} % (fold)
+\subsection*{The existence and construction of a consistent statistical test for $\eps$-supervenience} % (fold)
 \label{sub:uc}
 
 The above considerations indicate the existence of a consistent test for $\eps$-supervenience whenever the classifier used is consistent.  
@@ -306,7 +303,7 @@ The above considerations indicate the existence of a consistent test for $\eps$-
 To actually implement such a test, one must be able to (i) measure mind/brain pairs and (ii) have a consistent classifier $g_n$.  Unfortunately, we do not know how to measure the entirety of one's brain, much less one's mind. 
 % Moreover, even if we did, we do not know the joint distribution of mind/brain pairs, $F_{MB}$.  
 We therefore must restrict our interest to a mind/brain \emph{property} pair.  
-A mind (mental) property might be a person's intelligence, psychological state, current thought, gender identity, etc.  A brain property might be the number of cells in a person's brain at some time $t$, or the collection of spike trains of all neurons in the brain during some time period $t$ to $t'$.  Regardless of the details of the specifications of the mental property and the brain property, given such specifications, one can assume a model, $\mc{F}$.  We would like a classifier, $g_n$, that is guaranteed to be consistent, no matter which of the possible distributions $F_{MB} \in \mc{F}$ is the true distribution.  A classifier with such a property is called a \emph{universally consistent classifier}.  
+A mind (mental) property might be a person's intelligence, psychological state, current thought, gender identity, etc.  A brain property might be the number of cells in a person's brain at some time $t$, or the collection of spike trains of all neurons in the brain during some time period $t$ to $t'$.  Regardless of the details of the specifications of the mental property and the brain property, given such specifications, one can assume a model, $\mc{F}$.  We desire a classifier $g_n$ that is guaranteed to be consistent, no matter which of the possible distributions $F_{MB} \in \mc{F}$ is the true distribution.  A classifier with such a property is called a \emph{universally consistent classifier}.  
 Below, under a very general mind-brain model $\mc{F}$, we construct a universally consistent classifier. 
 % is readily available.
 
@@ -318,25 +315,35 @@ Let the physical property under consideration be brain connectivity structure, s
 % Therefore, %Theorem \ref{thm:1} applies and 
 The existence of a universally consistent classifier guarantees that eventually (in $n,n'$) we will be able to conclude $\MeB$ for this mind-brain property pair, if indeed $\varepsilon$-supervenience holds. This logic holds for directed graphs or multigraphs or hypergraphs with discrete edge weights and vertex attributes, as well as unlabeled graphs (see \cite{VP11_unlabeled} for details). Furthermore, the proof holds for other matrix norms (which might speed up convergence and hence reduce the required $n$), and the regression scenario where $|\mM|$ is infinite (again, see Methods for details).  
 \end{thex}
-Thus, under the conditions stated in the above \emph{Gedankenexperiment}, we have:
+Thus, under the conditions stated in the above \emph{Gedankenexperiment}, universal consistency yields:
 \begin{thm} \label{thm:3}
-	$\MeB \implies \beta \conv 1$ as $n,n'\conv \infty$, but there is no universal $n,n'$ that guarantes $\beta=1$.
+	$\MeB \implies \beta \conv 1$ as $n,n'\conv \infty$.
+\end{thm}
+
+
+Unfortunately, the rate of convergence of $L_{F}(g_n)$ to $L_{F}(g^*)$ depends on the (unknown) distribution $F=F_{MB}$ \cite{DGL96}. Furthermore, arbitrarily slow convergence theorems regarding the rate of convergence of $L_{F}(g_n)$ to $L_{F}(g^*)$ demonstrate that there is no universal $n,n'$ which will guarantee that the test has power greater than any specified target $\beta > \alpha$ \cite{Devroye83}. For this reason, the test outlined above can provide only a one-sided conclusion: if we reject we can be $100(1-\alpha)$\% confident that $\MeB$ holds, but we can never be confident in its negation; rather, it may be the case that the evidence in favor of $\MeB$ is insufficient 
+% for any number of reasons, including that 
+because we simply have not yet collected enough data. 
+% Thus, without restrictions on $F_{MB}$, arbitrarily slow convergence theorems imply that our theorem of $\varepsilon$-supervenience does not \tr{strictly} satisfy Popper's {\it falsifiability} requirement \cite{Popper}.
+This leads immediately to the following theorem:
+\begin{thm} \label{thm:4}
+There is no universal $n,n'$ that guarantees $\beta \geq \beta_{min}>\alpha$.
 \end{thm}
 
 
 \subsection*{The feasibility of a consistent statistical test for $\eps$-supervenience} % (fold)
 
 
-Theorem \ref{thm:3} demonstrates the availability of a consistent test under certain restrictions.  The arbitrary slow convergence theorem, however, demonstrates that convergence rates might be unbearably slow.  We therefore provide an illustrative example of the feasibility of such a test on synthetic data.
+Theorem \ref{thm:3} demonstrates the availability of a consistent test under certain restrictions.  Theorem \ref{thm:4}, however, demonstrates that convergence rates might be unbearably slow.  We therefore provide an illustrative example of the feasibility of such a test on synthetic data.
 
 {\it Caenorhabditis elegans} is a species whose nervous system is believed to consist of the same $279$ labeled neurons for each organism \cite{Durbin87}. Moreover, these animals exhibit a rich behavioral repertoire that seemingly depends on circuit properties \cite{deBonoMaricq05}.  These findings motivate the use of C.~elegans for a synthetic data analysis \cite{GelmanShalizi11}.  Conducting such an experiment requires specifying a joint distribution $F_{MB}$ over brain-graphs and behaviors.  The joint distribution decomposes into the product of a class-conditional distribution (likelihood) and a prior, $F_{MB}=F_{B|M}F_M$. The prior  specifies the probability of any particular organism exhibiting the behavior.  The class-conditional distribution specifies the brain-graph distribution given that the organism does (or does not) exhibit the behavior. 
 
-Let $A_{uv}$ be the number of chemical synapses between neuron $u$ and neuron $v$ according to \cite{VarshneyChklovskii09}.  Then, let $\mc{S}$ be the set of edges deemed responsible for odor-evoked behavior according to \cite{ChalasaniBargmann07}.  If odor-evoked behavior is supervenient on this signal subgraph $\mc{S}$, then the distribution of edges in $\mc{S}$ must differ between the two classes of odor evoked behavior \cite{VP11_sigsub}.  Let $E_{uv|j}$ denote the expected number of edges from vertex $v$ to vertex $u$ in class $j$.   For class $m_0$, let $E_{uv|1}=A_{uv}+\eta$,  where $\eta=0.05$ is a small noise parameter  (it is believed that the C.~elegans connectome is similar across organisms \cite{Durbin87}). For class $m_1$, let $E_{uv|1}=A_{uv}+z_{uv}$, where the signal parameter $z_{uv}=\eta$ for all edges not in $\mc{S}$, and $z_{uv}$ is uniformly sampled from $[-5,5]$ for all edges within $\mc{S}$. For both classes, let each edge be Poisson distributed, $F_{A_{uv}|M=m_j}$= Poisson$(E_{uv|j})$.
+Let $A_{uv}$ be the number of chemical synapses between neuron $u$ and neuron $v$ according to \cite{VarshneyChklovskii09}.  Then, let $\mc{S}$ be the set of edges deemed responsible for odor-evoked behavior according to \cite{ChalasaniBargmann07}.  If odor-evoked behavior is supervenient on this signal subgraph $\mc{S}$, then the distribution of edges in $\mc{S}$ must differ between the two classes of odor evoked behavior \cite{VP11_sigsub}.  Let $E_{uv|j}$ denote the expected number of edges from vertex $v$ to vertex $u$ in class $j$.   For class $m_0$, let $E_{uv|0}=A_{uv}+\eta$,  where $\eta=0.05$ is a small noise parameter  (it is believed that the C.~elegans connectome is similar across organisms \cite{Durbin87}). For class $m_1$, let $E_{uv|1}=A_{uv}+z_{uv}$, where the signal parameter $z_{uv}=\eta$ for all edges not in $\mc{S}$, and $z_{uv}$ is uniformly sampled from $[-5,5]$ for all edges within $\mc{S}$. For both classes, let each edge be Poisson distributed, $F_{A_{uv}|M=m_j}$= Poisson$(E_{uv|j})$.
 % Let the mental property correspond to the C.~elegans exhibiting (or not exhibiting) a particular behavior (e.g., response to an odor).  Thus, one can specify $F_{M=m_1}$ and $F_{M=m_0}$, the probability of a C.~elegans exhibiting or not a particular behavior.   The class-conditional distributions $F_{B|M=m_j}$ are therefore the distributions of brain-graphs conditional on whether the C.~elegans exhibits said property.
 
 % Now, to generate the data, let $E_{uv|j}$ be an integer-valued random variable whose value indicates the number of chemical synapses (edges) between neurons (vertices) $u$ and $v$ for class $j$. 
 
-We consider $k_n$-nearest neighbor classification of labeled multigraphs (directed, with loops) on 279 vertices, under Frobenius norm. The $k_n$-nearest neighbor classifier used here satisfies $k_n \rightarrow \infty$ as $n \rightarrow \infty$ and $k_n/n \rightarrow 0$ as $n \rightarrow \infty$, ensuring universal consistency. (Better classifiers can be constructed for the joint distribution $F_{MB}$ used here; however, we demand universal consistency.)  Figure \ref{fig:1} shows that for this simulation, rejecting $(\eps=0.1)$-supervenience at $\alpha=0.01$ only requires a few hundred training samples.
+We consider $k_n$-nearest neighbor classification of labeled multigraphs (directed, with loops) on 279 vertices, under Frobenius norm. The $k_n$-nearest neighbor classifier used here satisfies $k_n \rightarrow \infty$ as $n \rightarrow \infty$ and $k_n/n \rightarrow 0$ as $n \rightarrow \infty$, ensuring universal consistency. (Better classifiers can be constructed for the joint distribution $F_{MB}$ used here; however, we demand universal consistency.)  Figure \ref{fig:1} shows that for this simulation, rejecting $(\eps=0.1)$-supervenience at $\alpha=0.01$ requires only a few hundred training samples.
 
 
 % Simulations suggest that one may build a classifier, practically and with a manageable training sample size $n$, that demonstrates $\varepsilon$-supervenience with reasonable choices for $\varepsilon$ and $\alpha$, and a plausible joint distribution $F_{MB}$ (Figure \ref{fig:1}). 
@@ -347,7 +354,7 @@ We consider $k_n$-nearest neighbor classification of labeled multigraphs (direct
 \centering 
 \includegraphics[width=.5\linewidth]{Lhatplot}
 \caption{C.~elegans graph classification simulation results.  The estimated hold-out misclassification rate $\hL^{n'}_{F}(g_{n})$  (with $n'=1000$ testing samples) %$\hL^{1000}_{\PP}(g_{\mt{n}})$ 
-is plotted as a function of class-conditional training sample size $n_j=n/2$, suggesting that for $\varepsilon=0.1$ we can determine that $\MeB$ holds with $99\%$ confidence with just a few hundred training samples generated from $F_{MB}$. Each dot depicts $\hL^{n'}_{F}(g_n)$ for some $n$; standard errors are $(\hL^{n'}_{F}(g_{n}) (1-\hL^{n'}_{F}(g_{n}))/n')^{1/2}$.  For example, at $n_j = 150$ we have $k_n = \lfloor\sqrt{n}\rfloor=11$ (where $\lfloor\cdot\rfloor$ indicates the floor operator), $\hL^{n'}_{F}(g_{n}) = 0.069$, and standard error less than $0.01$. We reject $H_0^{0.1}: L^* \geq 0.1$ at $\alpha=0.01$. Note that $L^* \approx 0$ for this simulation.}
+is plotted as a function of class-conditional training sample size $n_j=n/2$, suggesting that for $\varepsilon=0.1$ we can determine that $\MeB$ holds with $99\%$ confidence with just a few hundred training samples generated from $F_{MB}$. Each dot depicts $\hL^{n'}_{F}(g_n)$ for some $n$; standard errors are $(\hL^{n'}_{F}(g_{n}) (1-\hL^{n'}_{F}(g_{n}))/n')^{1/2}$.  For example, at $n_j = 180$ we have $k_n = \lfloor\sqrt{8 n}\rfloor=53$ (where $\lfloor\cdot\rfloor$ indicates the floor operator), $\hL^{n'}_{F}(g_{n}) = 0.057$, and standard error less than $0.01$. We reject $H_0^{0.1}: L^* \geq 0.1$ at $\alpha=0.01$. Note that $L^* \approx 0$ for this simulation.}
 \label{fig:1}
 \end{figure}
 
@@ -366,7 +373,7 @@ This work makes the following contributions.  First, we define statistical super
 We then prove that there is no viable test against supervenience, so one can \emph{never} reject a null hypothesis in favor of supervenience, regardless of the amount of data (Theorem \ref{thm:2}).  This motivates the introduction of a relaxed notion called $\eps$-supervenience (Definition \ref{def:2}), against which consistent statistical tests are readily available. Under a very general brain-graph/mental property model (\emph{Gedankenexperiment} \ref{exp:1}),  a consistent statistical test against $\eps$-supervenience is always available no matter the true distribution $F_{MB}$ (Theorem \ref{thm:3}).  
 In other words, the proposed test is guaranteed to reject the null whenever the null is false, given sufficient data, for any possible distribution governing mental property/brain property pairs. 
 
-Alas, arbitrary slow convergence theorems demonstrate that there is no universal $n,n'$ for which convergence is guaranteed.  Thus, a failure to reject is ambiguous: even if the data satisfy the above assumptions, the failure to reject may be due to either (i) an insufficient amount of data or (ii) $\mc{M}$ may not be $\eps$-supervenient on $\mc{B}$.  Moreover, the data will not, in general, satisfy the above assumptions.  In addition to dependence (because each human does not exist in a vacuum), the mental property measurements will often be ``noisy'' (for example, accurately diagnosing psychiatric disorders is a sticky wicket \cite{Kessler2005}). 
+Alas, arbitrary slow convergence theorems demonstrate that there is no universal $n,n'$ for which convergence is guaranteed (Theorem \ref{thm:4}).  Thus, a failure to reject is ambiguous: even if the data satisfy the above assumptions, the failure to reject may be due to either (i) an insufficient amount of data or (ii) $\mc{M}$ may not be $\eps$-supervenient on $\mc{B}$.  Moreover, the data will not, in general, satisfy the above assumptions.  In addition to dependence (because each human does not exist in a vacuum), the mental property measurements will often be ``noisy'' (for example, accurately diagnosing psychiatric disorders is a sticky wicket \cite{Kessler2005}). 
 % has a number of possible explanations.  First, the amount of data might be insufficient; collecting more data or utilizing a more informative distance might resolve this difficulty.  Second, the class labels (mental property indicators) may not be faithful representations of the mental property of interest (mental property observations may be ``noisy'' indicators). 
 % 
 % Second, it may be that the mental property under investigation is supervenient to a different brain property.  
