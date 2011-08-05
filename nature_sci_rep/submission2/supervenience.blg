@@ -3,15 +3,13 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: supervenience.aux
 The style file: nature.bst
 Database file #1: /Users/jovo/Research/latex/library.bib
-Repeated entry---line 36835 of file /Users/jovo/Research/latex/library.bib
+Repeated entry---line 22331 of file /Users/jovo/Research/latex/library.bib
  : @article{GelmanShalizi11
  :                         ,
 I'm skipping whatever remains of this entry
 Warning--can't use both author and editor fields in Davidson70
 Warning--can't use both author and editor fields in Ripley2008
 Warning--empty title in Devroye83
-Warning--empty title in Popper
-Warning--empty journal in Popper
 Warning--empty title in VP11_unlabeled
 Warning--empty title in deBonoMaricq05
 Warning--empty title in GelmanShalizi11
@@ -19,55 +17,58 @@ Warning--there's a number but no volume in GelmanShalizi11
 Warning--empty title in VarshneyChklovskii09
 Warning--empty year in VarshneyChklovskii09
 Warning--empty title in ChalasaniBargmann07
+Warning--empty title in VP11_sigsub
 Warning--empty title in Vaziri2008
 Warning--empty title in Helmstaedter2008
 Warning--empty title in Mishchenko09
 Warning--empty title in LuLichtman09
 Warning--empty title in Buckingham2008
+Warning--empty title in Kessler2005
+Warning--empty title in Lashley50
 Warning--empty title in SpornsKotter05
 Warning--empty title in HayworthLichtman06
 Warning--empty title in Bock2011
 Warning--empty title in PalmAmunts10
 Warning--empty title in Stone1977
-You've used 29 entries,
+You've used 34 entries,
             1856 wiz_defined-function locations,
-            653 strings with 9178 characters,
-and the built_in function-call counts, 6024 in all, are:
-= -- 509
-> -- 296
+            685 strings with 9961 characters,
+and the built_in function-call counts, 6990 in all, are:
+= -- 589
+> -- 342
 < -- 1
-+ -- 112
-- -- 83
-* -- 556
-:= -- 988
-add.period$ -- 70
-call.type$ -- 29
++ -- 130
+- -- 96
+* -- 634
+:= -- 1144
+add.period$ -- 83
+call.type$ -- 34
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 51
-duplicate$ -- 266
-empty$ -- 574
-format.name$ -- 83
-if$ -- 1281
+cite$ -- 57
+duplicate$ -- 314
+empty$ -- 674
+format.name$ -- 96
+if$ -- 1495
 int.to.chr$ -- 0
-int.to.str$ -- 29
-missing$ -- 37
-newline$ -- 131
-num.names$ -- 29
-pop$ -- 112
+int.to.str$ -- 34
+missing$ -- 45
+newline$ -- 154
+num.names$ -- 34
+pop$ -- 135
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 80
+skip$ -- 92
 stack$ -- 0
-substring$ -- 288
-swap$ -- 31
+substring$ -- 319
+swap$ -- 37
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 22
-while$ -- 55
-width$ -- 31
-write$ -- 277
+warning$ -- 23
+while$ -- 63
+width$ -- 36
+write$ -- 326
 (There was 1 error message)

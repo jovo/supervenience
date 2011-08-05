@@ -107,7 +107,7 @@
 % \section{Relations between sets} % (fold)
 % \label{sec:relations}
 
-In this appendix we compare supervenience to several other relations on sets.
+In this appendix we compare supervenience to several other relations on sets (see Figure \ref{fig:rel}).
 
 % aim to provide more intuition regarding supervenience by discussing the limitations and extent of its implications. 
 
@@ -119,18 +119,18 @@ First, a supervenient relation does not imply an injective relation.  An injecti
 Second,  supervenience does not imply causality. %it may be the case that minds supervene on brains, but that brains do not cause minds.  
 For instance, consider an analogy where $M$ and $B$ correspond to two coins being flipped, each possibly landing on heads or tails.  Further assume that every time one lands on heads so does the other, and every time one lands on tails, so do the other. This implies that $M$ supervenes on $B$, but assumes nothing about whether $M$ causes $B$, or $B$ causes $M$, or some exogenous force causes both.  
 
-Third, supervenience does not imply identity.  The above example with the two coins demonstrates this, as the two coins are not the same thing, even if one has perfect information about one from the other.  
+Third, supervenience does not imply identity.  The above example with the two coins demonstrates this, as the two coins are not the same thing, even if one has perfect information about the other.  
 
-What supervenience does imply, however, is the following.   Imagine finding two different minds.  If $\MsB$, then the brains subvening under those two minds must be different.  In other words, there cannot be two different minds, either of which could supervene on a single brain.  Figure \ref{fig:rel} shows several possible relations between the sets of minds and brains.
+What supervenience does imply, however, is the following.   Imagine finding two unequal minds.  If $\MsB$, then the brains on which those two minds supervene must be different.  In other words, there cannot be two unequal minds, either of which could supervene on a single brain.  Figure \ref{fig:rel} shows several possible relations between the sets of minds and brains.
 
 
-Note that statistical supervenience is distinct from statistical correlation.  \emph{Statistical correlation} between brain states and mental states is defined as $\rho_{MB}=\EE[(B-\mu_B)(M-\mu_M)]/(\sig_B \sig_M)$, where $\mu_X$ and $\sig_X$ are the mean and variance of $X$, and $\EE[X]$ is the expected value of $X$.  If $\rho_{MB}=1$, then both $\MsB$ and $\mB \overset{S}{{\sim}}_{F} \mM$. Thus, perfect correlation implies supervenience, but supervenience does not imply correlation.  In fact, supervenience may be thought of as a generalization of correlation which can be applied to arbitrary valued random variables (such as mental or brain properties), unlike correlation which is only defined for scalar valued random variables.
+Note that statistical supervenience is distinct from statistical correlation.  \emph{Statistical correlation} between brain states and mental states is defined as $\rho_{MB}=\EE[(B-\mu_B)(M-\mu_M)]/(\sig_B \sig_M)$, where $\mu_X$ and $\sig_X$ are the mean and variance of $X$, and $\EE[X]$ is the expected value of $X$.  If $\rho_{MB}=1$, then both $\MsB$ and $\mB \overset{S}{{\sim}}_{F} \mM$. Thus, perfect correlation implies supervenience, but supervenience does not imply correlation.  In fact, supervenience may be thought of as a generalization of correlation which incorporates directionality, can be applied to arbitrary valued random variables (such as mental or brain properties), can depend on any moment of a distribution (not just the first two).
 
 
 \begin{figure}[h!tbp]
 	\centering
 		\includegraphics[width=1\linewidth]{supervenience_relations.pdf}
-	\caption{Possible relations between minds and brains.  (A) Minds supervene on brains, and it so happens that there is a bijective relation from brains to minds.  (B) Minds supervene on brains, and it so happens that there is a surjective (a.k.a., onto) relation from brains to minds. (C) Minds are \emph{not} supervenient on brains, because two different minds supervene on the same brain.}
+	\caption{Possible relations between minds and brains.  (A) Minds supervene on brains, and it so happens that there is a bijective relation from brains to minds.  (B) Minds supervene on brains, and it so happens that there is a surjective (a.k.a., onto) relation from brains to minds, but not a bijective one. (C) Minds are \emph{not} supervenient on brains, because two different minds supervene on the same brain.}
 	\label{fig:rel}
 \end{figure}
 % section relations_between_sets (end)
