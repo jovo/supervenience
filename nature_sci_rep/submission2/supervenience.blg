@@ -3,14 +3,14 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: supervenience.aux
 The style file: nature.bst
 Database file #1: /Users/jovo/Research/latex/library.bib
-Repeated entry---line 22343 of file /Users/jovo/Research/latex/library.bib
+Repeated entry---line 36477 of file /Users/jovo/Research/latex/library.bib
  : @article{GelmanShalizi11
  :                         ,
 I'm skipping whatever remains of this entry
 Warning--can't use both author and editor fields in Davidson70
 Warning--can't use both author and editor fields in Ripley2008
-Warning--empty title in Devroye83
 Warning--empty title in VP11_unlabeled
+Warning--empty title in Devroye83
 Warning--empty title in deBonoMaricq05
 Warning--empty title in GelmanShalizi11
 Warning--empty title in VarshneyChklovskii09
@@ -25,49 +25,51 @@ Warning--empty title in Buckingham2008
 Warning--empty title in Kessler2005
 Warning--empty title in Lashley50
 Warning--empty title in SpornsKotter05
+Warning--empty title in Tong2006
+Warning--empty title in Chase2006
 Warning--empty title in HayworthLichtman06
 Warning--empty title in Bock2011
 Warning--empty title in PalmAmunts10
 Warning--empty title in Stone1977
-You've used 33 entries,
+You've used 35 entries,
             1856 wiz_defined-function locations,
-            677 strings with 9810 characters,
-and the built_in function-call counts, 6833 in all, are:
-= -- 576
-> -- 338
+            694 strings with 10224 characters,
+and the built_in function-call counts, 7339 in all, are:
+= -- 624
+> -- 357
 < -- 1
-+ -- 128
-- -- 95
-* -- 625
-:= -- 1121
-add.period$ -- 80
-call.type$ -- 33
++ -- 135
+- -- 100
+* -- 683
+:= -- 1198
+add.period$ -- 84
+call.type$ -- 35
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 55
-duplicate$ -- 304
-empty$ -- 654
-format.name$ -- 95
-if$ -- 1458
+cite$ -- 59
+duplicate$ -- 322
+empty$ -- 702
+format.name$ -- 100
+if$ -- 1564
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 43
-newline$ -- 149
-num.names$ -- 33
-pop$ -- 128
+int.to.str$ -- 35
+missing$ -- 45
+newline$ -- 157
+num.names$ -- 35
+pop$ -- 132
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 91
+skip$ -- 98
 stack$ -- 0
-substring$ -- 319
-swap$ -- 36
+substring$ -- 369
+swap$ -- 38
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 22
-while$ -- 62
-width$ -- 35
-write$ -- 316
+warning$ -- 24
+while$ -- 68
+width$ -- 37
+write$ -- 334
 (There was 1 error message)

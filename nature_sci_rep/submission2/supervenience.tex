@@ -124,6 +124,7 @@ Joshua T. Vogelstein$^{1*}$, R. Jacob Vogelstein$^2$, Carey E. Priebe$^1$\\
 \begin{quotation}
 \noindent [mind-brain] supervenience might be taken to mean that there cannot be two events alike in all physical respects but differing in some mental respect, or that an object cannot alter in some mental respect without altering in some physical respect.
 \end{quotation}
+Colloquially, supervenience means ``there cannot be a mind-difference without a physical-difference.''
 This philosophical conjecture has potentially widespread implications.  
 % We consider a special case of supervenience of considerable interest.  Specifically, this work addresses a version of a local supervenience between mental properties and brain properties, with particular emphasize on brain-graphs (i.e., connectivity structure).  Supervenience questions or assumptions are fundamental to 
 % The determination of supervenience (or lack thereof) of minds on brains has potentially important implications in 
@@ -144,7 +145,7 @@ Yet, to date, relatively scant attention has been paid to what might be empirica
 In this work we attempt to bridge the gap between philosophical conjecture and empirical investigations by casting supervenience in a probabilistic framework amenable to hypothesis testing. 
 We then use the probabilistic theory of pattern recognition to determine
 the limits of what one can and cannot learn about supervenience through data analysis.  
-The implications of this work are varied.  It provides a probabilistic framework for converting philosophical conjectures into statistical hypotheses that are amenable experimental investigation, which  allows the philosopher to gain empirical support for her rational arguments. This leads to the construction of the first explicit proof (to our knowledge) of a universally consistent classifier on graphs, and the first demonstration of the tractability of answering supervenience questions.  Supervenience therefore seems to perhaps be a useful (but under utilized) concept for neuroscientific investigations.  This should provide further motivation for cross-disciplinary efforts across three fields---philosophy, statistics, and neuroscience---with shared goals but mostly disjoint jargon and methods of analysis.
+The implications of this work are varied.  It provides a probabilistic framework for converting philosophical conjectures into statistical hypotheses that are amenable to experimental investigation, which  allows the philosopher to gain empirical support for her rational arguments. This leads to the construction of the first explicit proof (to our knowledge) of a universally consistent classifier on graphs, and the first demonstration of the tractability of answering supervenience questions.  Supervenience therefore seems to perhaps be a useful but under-utilized concept for neuroscientific investigations.  This work should provide further motivation for cross-disciplinary efforts across three fields---philosophy, statistics, and neuroscience---with shared goals but mostly disjoint jargon and methods of analysis.
 
 
 
@@ -162,7 +163,7 @@ The implications of this work are varied.  It provides a probabilistic framework
 \noindent Let $\mc{M}=\{m_1, m_2, \ldots\}$ be the space of all possible minds and
 let $\mc{B}=\{b_1,b_2,\ldots\}$ be the set of all possible brains.  $\mc{M}$ includes a mind for each possible collection of thoughts, memories, beliefs, etc.
 $\mc{B}$ includes a brain for each possible position and momentum of all subatomic particles within the skull.  
-Given these definitions, Davidson's conjecture may be concisely and formally stated thusly:  $m \neq m' \implies b \neq b'$, where $(m,b), (m',b') \in \mc{M} \times \mc{B}$ are mind-brain pairs.  This mind-brain supervenience relation does not imply an injective relation, a causal relation, or an identity relation (see Appendix 1 for more details and some examples).  To facilitate both statistical analysis and empirical investigation, we convert this supervenience relation from a logical to a probabilistic relation.  
+Given these definitions, Davidson's conjecture may be concisely and formally stated thusly:  $m \neq m' \implies b \neq b'$, where $(m,b), (m',b') \in \mc{M} \times \mc{B}$ are mind-brain pairs.  This mind-brain supervenience relation does not imply an injective relation, a causal relation, or an identity relation (see Appendix 1 for more details and some examples).  To facilitate both statistical analysis and empirical investigation, we convert this local supervenience relation from a logical to a probabilistic relation.  
 
 % Let $b$ correspond to an agent's brain, which is a particular element from the set of all possible brains, $\mB$. Similarly, let $m$ correspond to an agent's mind, which is a particular element from the set of all possible minds, $\mM$.  
 Let $F_{MB}$ indicate a joint distribution of minds and brains. Statistical supervenience can then be defined as follows:
@@ -177,10 +178,7 @@ $\mM$ is said to \textit{statistically supervene} on $\mB$ for distribution $F=F
 \subsection*{Statistical supervenience is equivalent to perfect classification accuracy} % (fold)
 \label{sub:theoretical_results}
 
-% Given that 
-If minds statistically supervene on brains, 
-% , $\MsB$, 
-then if two minds differ, there must be some brain-based difference to account for the mental difference.  This means that there must exist a deterministic function $g^*$ mapping each brain to its supervening mind. One could therefore, in principle, know this function. When the space of all possible minds is finite---that is, $|\mM| < \infty$---any function $g\from \mB \to \mM$ mapping from minds to brains is called a \emph{classifier}.  
+If minds statistically supervene on brains, then if two minds differ, there must be some brain-based difference to account for the mental difference.  This means that there must exist a deterministic function $g^*$ mapping each brain to its supervening mind. One could therefore, in principle, know this function. When the space of all possible minds is finite---that is, $|\mM| < \infty$---any function $g\from \mB \to \mM$ mapping from minds to brains is called a \emph{classifier}.  
 % Let $\mh{m}$ denote the output of a classifier, $g(b)=\mh{m}$.  
 Define misclassification rate, the probability that $g$ misclassifies $b$ under distribution $F=F_{MB}$,  as
 \begin{align} \label{eq:1}
@@ -403,7 +401,7 @@ Thus, given measurements of mental and brain properties that we believe reflect 
 Interestingly, much of contemporary research in neuroscience and cognitive science could be cast as mind-brain supervenience investigations.  Specifically, searches for ``engrams'' of  memory traces \cite{Lashley50} or ``neural correlates''  of various behaviors or mental properties (for example, consciousness \cite{Koch2010}), may be more aptly called searches for the ``neural supervenia'' of such properties.
 Letting the brain property be a brain-graph is perhaps especially pertinent in light of the advent of ``connectomics'' \cite{SpornsKotter05,Hagmann05}, a field devoted to estimating whole organism brain-graphs and relating them to function.  Testing supervenience of various mental properties on these brain-graphs will perhaps therefore become increasingly compelling; the framework developed herein could be fundamental to these investigations.  
 For example, questions about whether connectivity structure alone is sufficient to explain a particular mental property is one possible mind-brain $\eps$-supervenience investigation.  The above synthetic data analysis demonstrates the feasibility of $\eps$-supervenience on small brain-graphs.
-Note that $\eps$-supervenience tests need not investigate seemingly intractable problems, like consciousness.  For example, it already seems quite clear that visual perception supervenes on visual cortical activity \cite{??}. Moreover, an inability to reject $\eps$-supervenience for small $\eps$ is also potentially meaningful.  For example, perhaps auditory localization precision supervenes on a rate code only to some $\eps > c$, the rest supervening on a spike timing code \cite{??}. 
+Note that $\eps$-supervenience tests need not investigate seemingly intractable problems, like consciousness.  For example, aspects of visual perception appear to supervene on visual cortical activity (for example, binocular rivalry \cite{Tong2006}). Moreover, an inability to reject $\eps$-supervenience for small $\eps$ is also potentially meaningful.  For example, perhaps auditory localization precision supervenes on a rate code only to some $\eps > c$, the rest supervening on a spike timing code \cite{Chase2006}. 
 Similar supervenience tests on increasingly complex mental properties will potentially benefit from either higher-throughput imaging modalities \cite{HayworthLichtman06, Bock2011}, more coarse brain-graphs \cite{PalmAmunts10,Johansen-Berg2009}, or both.
 
 
@@ -465,7 +463,7 @@ there is no known polynomial time complexity algorithm for graph isomorphism
 
 \section*{Acknowledgments}
 
-The authors would like to acknowledge helpful discussions with J.~Lande, B.~Vogelstein, S.~Seung, and two helpful referees.
+The authors would like to acknowledge helpful discussions with J.~Lande, B.~Vogelstein, S.~Seung, and K.~Kording.
 
 \section*{Author Contributions}
 
