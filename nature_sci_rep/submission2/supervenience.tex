@@ -337,7 +337,7 @@ Theorem \ref{thm:3} demonstrates the availability of a consistent test under cer
 
 {\it Caenorhabditis elegans} is a species whose nervous system is believed to consist of the same $279$ labeled neurons for each organism \cite{Durbin87}. Moreover, these animals exhibit a rich behavioral repertoire that seemingly depends on circuit properties \cite{deBonoMaricq05}.  These findings motivate the use of C.~elegans for a synthetic data analysis \cite{GelmanShalizi11}.  Conducting such an experiment requires specifying a joint distribution $F_{MB}$ over brain-graphs and behaviors.  The joint distribution decomposes into the product of a class-conditional distribution (likelihood) and a prior, $F_{MB}=F_{B|M}F_M$. The prior  specifies the probability of any particular organism exhibiting the behavior.  The class-conditional distribution specifies the brain-graph distribution given that the organism does (or does not) exhibit the behavior. 
 
-Let $A_{uv}$ be the number of chemical synapses between neuron $u$ and neuron $v$ according to \cite{VarshneyChklovskii09}.  Then, let $\mc{S}$ be the set of edges deemed responsible for odor-evoked behavior according to \cite{ChalasaniBargmann07}.  If odor-evoked behavior is supervenient on this signal subgraph $\mc{S}$, then the distribution of edges in $\mc{S}$ must differ between the two classes of odor evoked behavior \cite{VP11_sigsub}.  Let $E_{uv|j}$ denote the expected number of edges from vertex $v$ to vertex $u$ in class $j$.   For class $m_0$, let $E_{uv|0}=A_{uv}+\eta$,  where $\eta=0.05$ is a small noise parameter  (it is believed that the C.~elegans connectome is similar across organisms \cite{Durbin87}). For class $m_1$, let $E_{uv|1}=A_{uv}+z_{uv}$, where the signal parameter $z_{uv}=\eta$ for all edges not in $\mc{S}$, and $z_{uv}$ is uniformly sampled from $[-5,5]$ for all edges within $\mc{S}$. For both classes, let each edge be Poisson distributed, $F_{A_{uv}|M=m_j}$= Poisson$(E_{uv|j})$.
+Let $A_{uv}$ be the number of chemical synapses between neuron $u$ and neuron $v$ according to \cite{Varshney2011}.  Then, let $\mc{S}$ be the set of edges deemed responsible for odor-evoked behavior according to \cite{ChalasaniBargmann07}.  If odor-evoked behavior is supervenient on this signal subgraph $\mc{S}$, then the distribution of edges in $\mc{S}$ must differ between the two classes of odor evoked behavior \cite{VP11_sigsub}.  Let $E_{uv|j}$ denote the expected number of edges from vertex $v$ to vertex $u$ in class $j$.   For class $m_0$, let $E_{uv|0}=A_{uv}+\eta$,  where $\eta=0.05$ is a small noise parameter  (it is believed that the C.~elegans connectome is similar across organisms \cite{Durbin87}). For class $m_1$, let $E_{uv|1}=A_{uv}+z_{uv}$, where the signal parameter $z_{uv}=\eta$ for all edges not in $\mc{S}$, and $z_{uv}$ is uniformly sampled from $[-5,5]$ for all edges within $\mc{S}$. For both classes, let each edge be Poisson distributed, $F_{A_{uv}|M=m_j}$= Poisson$(E_{uv|j})$.
 % Let the mental property correspond to the C.~elegans exhibiting (or not exhibiting) a particular behavior (e.g., response to an odor).  Thus, one can specify $F_{M=m_1}$ and $F_{M=m_0}$, the probability of a C.~elegans exhibiting or not a particular behavior.   The class-conditional distributions $F_{B|M=m_j}$ are therefore the distributions of brain-graphs conditional on whether the C.~elegans exhibits said property.
 
 % Now, to generate the data, let $E_{uv|j}$ be an integer-valued random variable whose value indicates the number of chemical synapses (edges) between neurons (vertices) $u$ and $v$ for class $j$. 
@@ -455,11 +455,11 @@ there is no known polynomial time complexity algorithm for graph isomorphism
 
 \clearpage
 \bibliography{/Users/jovo/Research/latex/library}
-\bibliographystyle{nature}
+\bibliographystyle{naturemag}
 
 \section*{Acknowledgments}
 
-The authors would like to acknowledge helpful discussions with J.~Lande, B.~Vogelstein, S.~Seung, and K.~Kording.
+This work was partially supported by the Research Program in Applied Neuroscience. The authors would like to acknowledge helpful discussions with J.~Lande, B.~Vogelstein, S.~Seung, and K.~Kording.
 
 \section*{Author Contributions}
 
@@ -469,6 +469,19 @@ JTV, RJV, and CEP conceived of the manuscript.  JTV and CEP wrote it.  CEP ran t
 
 The authors have no competing financial interests to declare.
 
+
+\newpage
+\section*{Figure Legends} % (fold)
+\label{sec:section_name}
+
+% section section_name (end)
+\paragraph{Figure 1} % (fold)
+\label{par:figure_1}
+
+% paragraph figure_1 (end)
+
+C.~elegans graph classification simulation results.  The estimated hold-out misclassification rate $\hL^{n'}_{F}(g_{n})$  (with $n'=1000$ testing samples) %$\hL^{1000}_{\PP}(g_{\mt{n}})$ 
+is plotted as a function of class-conditional training sample size $n_j=n/2$, suggesting that for $\varepsilon=0.1$ we can determine that $\MeB$ holds with $99\%$ confidence with just a few hundred training samples generated from $F_{MB}$. Each dot depicts $\hL^{n'}_{F}(g_n)$ for some $n$; standard errors are $(\hL^{n'}_{F}(g_{n}) (1-\hL^{n'}_{F}(g_{n}))/n')^{1/2}$.  For example, at $n_j = 180$ we have $k_n = \lfloor\sqrt{8 n}\rfloor=53$ (where $\lfloor\cdot\rfloor$ indicates the floor operator), $\hL^{n'}_{F}(g_{n}) = 0.057$, and standard error less than $0.01$. We reject $H_0^{0.1}: L^* \geq 0.1$ at $\alpha=0.01$. Note that $L^* \approx 0$ for this simulation.
 
 
 

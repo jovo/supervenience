@@ -1,75 +1,62 @@
 This is BibTeX, Version 0.99d (TeX Live 2010)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: supervenience.aux
-The style file: nature.bst
+The style file: naturemag.bst
 Database file #1: /Users/jovo/Research/latex/library.bib
-Repeated entry---line 36477 of file /Users/jovo/Research/latex/library.bib
+Repeated entry---line 8945 of file /Users/jovo/Research/latex/library.bib
+ : @book{Bickel2000
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 22763 of file /Users/jovo/Research/latex/library.bib
  : @article{GelmanShalizi11
  :                         ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 34678 of file /Users/jovo/Research/latex/library.bib
+ : @book{Popper1959
+ :                 ,
+I'm skipping whatever remains of this entry
 Warning--can't use both author and editor fields in Davidson70
 Warning--can't use both author and editor fields in Ripley2008
-Warning--empty title in VP11_unlabeled
-Warning--empty title in Devroye83
-Warning--empty title in deBonoMaricq05
-Warning--empty title in GelmanShalizi11
-Warning--empty title in VarshneyChklovskii09
-Warning--empty year in VarshneyChklovskii09
-Warning--empty title in ChalasaniBargmann07
-Warning--empty title in VP11_sigsub
-Warning--empty title in Vaziri2008
-Warning--empty title in Helmstaedter2008
-Warning--empty title in Mishchenko09
-Warning--empty title in LuLichtman09
-Warning--empty title in Buckingham2008
-Warning--empty title in Kessler2005
-Warning--empty title in Lashley50
-Warning--empty title in SpornsKotter05
-Warning--empty title in Tong2006
-Warning--empty title in Chase2006
-Warning--empty title in HayworthLichtman06
-Warning--empty title in Bock2011
-Warning--empty title in PalmAmunts10
-Warning--empty title in Stone1977
+Warning--can't use both volume and number fields in Bickel2000
 You've used 35 entries,
-            1856 wiz_defined-function locations,
-            694 strings with 10224 characters,
-and the built_in function-call counts, 7339 in all, are:
-= -- 624
-> -- 357
-< -- 1
-+ -- 135
-- -- 100
-* -- 683
-:= -- 1198
-add.period$ -- 84
+            2348 wiz_defined-function locations,
+            1220 strings with 15355 characters,
+and the built_in function-call counts, 11832 in all, are:
+= -- 789
+> -- 280
+< -- 2
++ -- 140
+- -- 70
+* -- 1415
+:= -- 1299
+add.period$ -- 93
 call.type$ -- 35
-change.case$ -- 1
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 59
-duplicate$ -- 322
-empty$ -- 702
-format.name$ -- 100
-if$ -- 1564
+cite$ -- 38
+duplicate$ -- 1084
+empty$ -- 1208
+format.name$ -- 92
+if$ -- 2415
 int.to.chr$ -- 0
 int.to.str$ -- 35
-missing$ -- 45
-newline$ -- 157
+missing$ -- 262
+newline$ -- 171
 num.names$ -- 35
-pop$ -- 132
+pop$ -- 260
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 98
+skip$ -- 215
 stack$ -- 0
-substring$ -- 369
-swap$ -- 38
-text.length$ -- 1
+substring$ -- 380
+swap$ -- 1024
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 24
+warning$ -- 3
 while$ -- 68
 width$ -- 37
-write$ -- 334
-(There was 1 error message)
+write$ -- 357
+(There were 3 error messages)
